@@ -1,0 +1,85 @@
+.back{
+    background-color: whitesmoke;
+    width:100%;
+}
+.unitimg{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    height:400px;
+     
+}
+.null2{
+    height:200px;
+    position:absolute;
+    left:45%;
+}
+.uniting img{
+   max-height:200px;
+   max-width:200px;
+  
+}
+
+.img1{
+    position: absolute;
+    animation-name: expand1;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+}
+@keyframes expand1{
+    0%{
+       left:45%; 
+    }
+    100%{
+        left:7%;
+    }
+}
+
+
+.img2{
+    position: absolute;
+    animation-name: expand2;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+}
+@keyframes expand2{
+    0%{
+       left:45%; 
+    }
+    100%{
+        left:31%;
+    }
+}
+
+
+.img3{
+    position: absolute;
+    animation-name: expand3;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+}
+@keyframes expand3{
+    0%{
+       left:45%; 
+    }
+    100%{
+        left:56%;
+    }
+}
+
+
+.img4{
+    position: absolute;
+    animation-name: expand4;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+}
+@keyframes expand4{
+    0%{
+        left:45%;
+    }
+    100%{
+        left:80%;
+    }
+}

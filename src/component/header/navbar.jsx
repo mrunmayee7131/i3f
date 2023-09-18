@@ -1,0 +1,83 @@
+import React from "react";
+import "./navbar.css";
+import logo2 from "./assests/logo2.jpg"
+const Navbar = () => {
+
+  return (
+    <div>
+    <nav className="flex basis-5 justify-between h-20 fixed top-0 w-full z-10">
+      <div className="navimg">
+    <img src={logo2} className="image"/>
+    {/* <div className="text"> <p>Innovation Incubation Ideation </p></div> */}
+   
+    </div>
+    <input type="checkbox" id="check" />
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+  {/* <label class="logo">Innovation Incubation and Ideation</label> */}
+
+    
+    <ul >
+
+
+
+    <li className="nvbr"><a className="active" href="#">Home</a></li>
+
+
+
+
+
+      <li className="nvbr">
+        <div className="dropdown"><button class="dropbtn">ABOUT 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      
+      <a href="#">About I3F</a>
+      <a>href="#"Units</a>
+      <a href="#">Our Services/Facilities</a>
+      
+    </div>
+    </div>
+    </li>
+
+
+
+
+    <li className="nvbr">
+        <div className="dropdown"><button class="dropbtn">UNITS 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#" className="sat"> NIIC 
+      <i class="fa fa-caret-down"></i>
+    <div class="dropdown-content-content">
+      <a href="#">Satellite Center</a>
+    </div>
+    </a>
+    <a href="#">R-ABI</a> 
+    <a href="#" > Cisco Thing Qbator</a>
+    <a href="#" > E-cell IIT BHU</a>  
+    </div>
+    </div>
+    </li>
+     
+
+
+    <li className="nvbr"><a href="#">Contact Us</a></li>
+
+
+   
+
+    </ul>
+   
+  </nav>
+  
+  </div>
+
+
+
+)};
+
+export default Navbar;
