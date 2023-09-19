@@ -1,3 +1,13 @@
+/* body {
+    background-image: url("./images/rabi.webp");
+    background-repeat: no-repeat;
+    background-size: 95%;
+  } */
+
+.p111{
+    width:70%;
+}
+
 .img{
     float: left;
     height: 200px;
@@ -183,4 +193,9 @@
     text-align: left;
     margin-left: 40px;
     margin-bottom: 20px;
+}
+.p11 img{
+    float: right;
+    height: 300px;
+    width: 300 px;
 }
