@@ -30,9 +30,9 @@
             <div>
             <div className="ank">
             <div className="container">
-    <img src={ankuran} className="image" />
-    <div className="overlay">
-        <div className="text">
+    <img src={ankuran} className="imager" />
+    <div className="overlayr">
+        <div className="textr">
         <h2>ANKURAN – Pre-Seed Stage</h2><li>2-Months training program for farmers, students and youth having innovative ideas</li>
     <li>Incubation support for product development</li>
     <li>Platform to launch products</li>
@@ -43,9 +43,9 @@
 
             <div className="pras">
             <div className="container">
-    <img src={prasfutan} className="image" />
-    <div className="overlay">
-        <div className="text">
+    <img src={prasfutan} className="imager" />
+    <div className="overlayr">
+        <div className="textr">
         <h2>PRASFUTAN – Seed Stage</h2><li>2-Months residency for start-ups with the minimum viable product (MVP)</li>
     <li>Incubation support for scale-up of operations</li>
     <li>Market and investor linkages</li>
