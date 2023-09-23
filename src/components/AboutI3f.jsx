@@ -1,9 +1,12 @@
 import React from "react";
 import './AboutI3f.css'
-
+import Navbar from "../component/header/navbar"
+import Footer from "../component/footer2/footer"
 function Abti3f(){
     return(
         <div>
+
+            <Navbar />
             <div class="demo-content">
                 {/* <div className="header"> */}
                 <h1 className="h1">ABOUT I3F</h1>
@@ -39,6 +42,8 @@ function Abti3f(){
         <li>g. Networking support</li>
         </div>
         </div>
+
+        <Footer />
         </div>
         
     )

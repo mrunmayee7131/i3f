@@ -26,6 +26,7 @@
     animation-name: expand1;
     animation-duration:2s;
     animation-fill-mode: forwards;
+   
 }
 @keyframes expand1{
     0%{

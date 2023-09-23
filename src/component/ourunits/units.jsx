@@ -17,10 +17,14 @@ function Unit(){
          imagee[7].classList.add("img3");
          imagee[8].classList.add("img4");
       }else{
-        imagee[5].classList.add("null2");
+         imagee[5].classList.add("null2");
+        imagee[5].classList.remove("img1");
         imagee[6].classList.add("null2");
         imagee[7].classList.add("null2");
         imagee[8].classList.add("null2");
+        imagee[6].classList.remove("img2");
+        imagee[7].classList.remove("img3");
+        imagee[8].classList.remove("img4");
       }
     };
 
@@ -28,10 +32,32 @@ function Unit(){
     <div className="back">
         <h1>Our Units</h1>
      <div className="unitimg">
+     <div >
+      <div >
      <img   src={image}/>
-     <img  src={image}/>
-     <img  src={image}/>
-     <img  src={image}/>
+     </div>
+     </div>
+
+     <div>
+      <div>
+     <img   src={image}/>
+     </div>
+     </div>
+
+     <div>
+      <div>
+     <img   src={image}/>
+     </div>
+     </div>
+
+     <div>
+      <div>
+     <img   src={image}/>
+     </div>
+     </div>
+
+
+    
      </div>
     </div>
     )

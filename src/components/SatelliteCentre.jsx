@@ -1,9 +1,11 @@
 import React from "react";
 import './SatelliteCentre.css';
-
+import Navbar from "../component/header/navbar"
+import Footer from "../component/footer2/footer"
 function Sc(){
     return(
-        <div>
+        <div  className="sc">
+            <Navbar />
         <div>
         <h1 className="sch">    
             <div class="arrow">
@@ -36,7 +38,7 @@ function Sc(){
         <li >Establishment of “Food Tech-Park-Training & Development Centre” as Satellite Centre of NIIC at Birkunia village of Singrauli</li>
         <li >Establishment of Drone Manufacturing and Rapid Prototyping Lab under satellite Centre of NIIC at NCL-HQ, Singrauli</li>    
         </div>
-        
+        <Footer />
         </div>
     )
 }

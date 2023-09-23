@@ -20,6 +20,9 @@ function Units(){
         imagee[2].classList.add("null");
         imagee[3].classList.add("null");
         imagee[4].classList.add("null");
+        imagee[2].classList.remove("imgg1");
+        imagee[3].classList.remove("imgg2");
+        imagee[4].classList.remove("imgg3");
       }
     };
 
@@ -33,6 +36,7 @@ function Units(){
             <h1>About I3F</h1>
         </div>
         <div className="flex justify-around h20 mt-20">
+          
           <img  src={image} />
           <img  src={image} />
           <img   src={image} />

@@ -29,8 +29,8 @@
             <h2 className="ki1">R-ABI: Incubation Programs</h2>
             <div>
             <div className="ank">
-            <div className="container">
-    <img src={ankuran} className="image" />
+            <div className="containerr">
+    <img src={ankuran} className="imager" />
     <div className="overlay">
         <div className="text">
         <h2>ANKURAN – Pre-Seed Stage</h2><li>2-Months training program for farmers, students and youth having innovative ideas</li>
@@ -42,8 +42,8 @@
             </div>
 
             <div className="pras">
-            <div className="container">
-    <img src={prasfutan} className="image" />
+            <div className="containerr">
+    <img src={prasfutan} className="imager" />
     <div className="overlay">
         <div className="text">
         <h2>PRASFUTAN – Seed Stage</h2><li>2-Months residency for start-ups with the minimum viable product (MVP)</li>

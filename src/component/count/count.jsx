@@ -31,7 +31,16 @@ function Count(){
                   setCount4((count4) => count4<19?count4+1:count4);
                 
                 }, 10);
-              }});
+              }else{
+                setCount1(0);
+                setCount2(0);
+                setCount3(0);
+                setCount4(0);
+              }
+            
+            
+            
+            });
         
         
         // if (window.scrollY > 1350) {
@@ -66,24 +75,43 @@ function Count(){
     return(
         <div className="countbody">
          <div className="outerdiv">
-            <div className="innerdiv" >
+
+            <div className="innerdiv">
+            <div className="box">
+            <div className="content" >
                 <div className="count"><h2>{count1}</h2></div>
-              
-              <p>Trained Startups</p>
             </div>
-            <div className="innerdiv" >
-            <div className="count"><h2>{count2}</h2></div>
-              <p>Incubated Startups</p>
             </div>
-           
-            <div className="innerdiv" >
-            <div className="count"><h2>{count3}</h2><p></p></div>
-              <p>Lakhs Fund Supported</p>
+            <p>Trained Start ups</p>
             </div>
-            
-            <div className="innerdiv" >  
-            <div className="count"><h2>{count4}</h2></div>
-              <p>Patentable Technologies</p>
+
+
+            <div className="innerdiv">
+            <div className="box">
+            <div className="content" >
+                <div className="count"><h2>{count2}</h2></div>
+            </div>
+            </div>
+            <p>Incubated Start Ups</p>
+            </div>
+
+
+            <div className="innerdiv">
+            <div className="box">
+            <div className="content" >
+                <div className="count"><h2>{count3}</h2></div>
+            </div>
+            </div>
+            <p>Lakhs Fund Supported</p>
+            </div>
+
+            <div className="innerdiv">
+            <div className="box">
+            <div className="content" >
+                <div className="count"><h2>{count4}</h2></div>
+            </div>
+            </div>
+            <p>Patentable technologies</p>
             </div>
          </div>
         </div>

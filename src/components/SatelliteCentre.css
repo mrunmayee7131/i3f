@@ -3,10 +3,13 @@
     color: purple;
     font-weight: 1000;
 }
-
+.sc{
+    background-color: white;
+    padding-top: 80px;
+}
   .arrow {
     position: absolute;
-    top: 3%;
+    top: 15%;
     left: 68%;
     transform: translate(-50%, -50%);
     transform: rotate(270deg);
@@ -48,7 +51,7 @@
 
 .arrow1 {
     position: absolute;
-    top: 3%;
+    top: 15%;
     left: 31.45%;
     transform: translate(-50%, -50%);
     transform: rotate(90deg);

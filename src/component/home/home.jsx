@@ -1,7 +1,7 @@
 import React, { useEffect, useState }  from "react"
 import background from "./assests/Background.jpg"
 import "./home.css";
-import logo from "./assests/logo2.jpg"
+import logo from "./assests/design.png"
 function Home(){
     const [value,setvalue]=useState("Innovation");
     useEffect(() => {
@@ -29,17 +29,16 @@ function Home(){
          <img src={logo} />
         </div>
         
-        <div className="below">
+         <div className="below">
           <p>I3f Foundation</p>
          {/* </div>
          <div className="bbelow"> */}
-          <p>Indian Institute Of Technology</p>
+          <p>Indian Institute Of Technology (BHU) Varanasi</p>
          {/* </div>
          <div className="below"> */}
-          <p>BHU Varanasi</p>
+          {/* <p>BHU Varanasi</p> */}
          </div>
-
-       </div>
+         </div>
 
 
 

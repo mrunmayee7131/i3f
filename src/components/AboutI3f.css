@@ -45,7 +45,9 @@ body{
 
   
   .demo-content {
-    position: relative;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: white;
   }
 
   

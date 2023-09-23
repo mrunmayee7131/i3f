@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import logo2 from "./assests/logo2.jpg"
+import { Link } from 'react-router-dom';
 const Navbar = () => {
 
   return (
@@ -22,7 +23,7 @@ const Navbar = () => {
 
 
 
-    <li className="nvbr"><a className="active" href="#">Home</a></li>
+    <li className="nvbr"><Link className="active" to="/">Home</Link></li>
 
 
 
@@ -34,8 +35,8 @@ const Navbar = () => {
     </button>
     <div class="dropdown-content">
       
-      <a href="#">About I3F</a>
-      <a>href="#"Units</a>
+      <Link to="/about" >About I3F</Link>
+      <a href="#">Units</a>
       <a href="#">Our Services/Facilities</a>
       
     </div>
@@ -53,10 +54,10 @@ const Navbar = () => {
       <a href="#" className="sat"> NIIC 
       <i class="fa fa-caret-down"></i>
     <div class="dropdown-content-content">
-      <a href="#">Satellite Center</a>
+      <Link to="/satellitecenter">Satellite Center</Link>
     </div>
     </a>
-    <a href="#">R-ABI</a> 
+    <Link to="/Rabi">R-ABI</Link> 
     <a href="#" > Cisco Thing Qbator</a>
     <a href="#" > E-cell IIT BHU</a>  
     </div>
