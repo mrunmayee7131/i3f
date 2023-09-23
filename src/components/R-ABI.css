@@ -1,11 +1,13 @@
 /* body {
-    background-image: url("./images/rabi.webp");
-    background-repeat: no-repeat;
-    background-size: 95%;
+    color: black;
   } */
 
 .p111{
-    width:70%;
+    border: 7px solid plum;
+    box-shadow: -25px 25px purple; 
+    border-radius: 5mm;
+    width:60%;
+    line-height: 140%;
 }
 
 .img{
@@ -15,6 +17,7 @@
 }
 
 .ank{
+    
     width:700px;
     height: 240px;
     justify-content: center;
@@ -127,11 +130,12 @@
 }
 
 .p11{
+
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size: 30px;
     font-weight: bolder;
-    margin-left: 50px;
+    margin-left: 80px;
     margin-right: 50px;
 }
 .p12{
@@ -146,6 +150,7 @@
 }
 
 .container {
+
     position: relative;
     width: 500px;
   }
@@ -190,12 +195,15 @@
     font-size: 40px;
     color: purple;
     font-weight: bolder;
-    text-align: left;
+    text-align: center;
     margin-left: 40px;
     margin-bottom: 20px;
 }
 .p11 img{
     float: right;
+    margin-right: 70px;
+
     height: 300px;
     width: 300 px;
 }
+
