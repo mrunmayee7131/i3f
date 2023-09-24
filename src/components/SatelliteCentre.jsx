@@ -21,10 +21,9 @@ function Sc(){
             </div>
         </h1>
         </div>
-        <div className="p1sc">
-        The main establishment of this Centre is at IIT (BHU) and further its Satellite Centres are being developed at Singrauli for extending the benefit of this initiative operational as well as CSR and welfare areas of NCL. As per directive of Ministry of Corporate Affairs, NCL is supporting NIIC under its CSR from last 2 years. 
-        </div><h2 className="ki">The main objectives of this Centre are as follows:</h2>
-        
+        <div className="p1">
+        <p>The main establishment of this Centre is at IIT (BHU) and further its Satellite Centres are being developed at Singrauli for extending the benefit of this initiative operational as well as CSR and welfare areas of NCL. As per directive of Ministry of Corporate Affairs, NCL is supporting NIIC under its CSR from last 2 years. The main objectives of this Centre are as follows:</p>
+        </div>
         <div className="pts1">
         <li>To promote entrepreneurship among students and society</li>
         <li>To create support system for Innovation-based enterprises/start-ups</li>

@@ -36,8 +36,8 @@ const Navbar = () => {
     <div class="dropdown-content">
       
       <Link to="/about" >About I3F</Link>
-      <Link to="/team">About Team</Link>
-      <Link to="/services">Our Services/Facilities</Link>
+      <a href="#">Units</a>
+      <a href="#">Our Services/Facilities</a>
       
     </div>
     </div>
@@ -58,15 +58,15 @@ const Navbar = () => {
     </div>
     </a>
     <Link to="/Rabi">R-ABI</Link> 
-    <Link to="/Cisco" > Cisco Thing Qbator</Link>
-    <Link to="/ecell" > E-cell IIT BHU</Link>  
+    <a href="#" > Cisco Thing Qbator</a>
+    <a href="#" > E-cell IIT BHU</a>  
     </div>
     </div>
     </li>
      
 
 
-    <li className="nvbr"><Link to="contactus">Contact Us</Link></li>
+    <li className="nvbr"><a href="#">Contact Us</a></li>
 
 
    

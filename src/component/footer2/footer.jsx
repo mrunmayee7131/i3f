@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer2.css";
 import i3flogo from "./assests/images/i3flogo.jpg"
-import face from "./assests/images/facebook.png" 
+import face from "./assests/images/facebook.png"
 function footer2(){
     return(
         <div class="pg-footer">
