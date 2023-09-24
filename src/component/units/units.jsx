@@ -13,16 +13,16 @@ function Units(){
     const imagee=document.getElementsByTagName("img");
     const handleScroll = () => {
       if (window.scrollY > 200) {
-         imagee[2].classList.add("imgg1");
-         imagee[3].classList.add("imgg2");
-         imagee[4].classList.add("imgg3");
+         imagee[5].classList.add("imgg1");
+         imagee[6].classList.add("imgg2");
+         imagee[7].classList.add("imgg3");
       }else{
-        imagee[2].classList.add("null");
-        imagee[3].classList.add("null");
-        imagee[4].classList.add("null");
-        imagee[2].classList.remove("imgg1");
-        imagee[3].classList.remove("imgg2");
-        imagee[4].classList.remove("imgg3");
+        imagee[5].classList.add("null");
+        imagee[6].classList.add("null");
+        imagee[7].classList.add("null");
+        imagee[5].classList.remove("imgg1");
+        imagee[6].classList.remove("imgg2");
+        imagee[7].classList.remove("imgg3");
       }
     };
 

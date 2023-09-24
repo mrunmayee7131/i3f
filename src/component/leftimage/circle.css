@@ -42,7 +42,7 @@
     content:'';
     position:absolute;
     inset:6px;
-    background-color: rgb(24, 2, 42);
+    background-color:white;
     z-index: 10;
     border-radius: 50%;
     inset:6px;

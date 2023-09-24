@@ -198,6 +198,7 @@
     mix-blend-mode:normal;
     filter:none;
   }
+ 
   .hidden-link-text {
       position: absolute;
       clip: rect(1px 1px 1px 1px);

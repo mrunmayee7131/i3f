@@ -1,15 +1,19 @@
 import React from "react";
 import "./rotation.css";
+import img1 from "./assests/NCL-IIT-BHU-Incubation-centre-1-e1636435335895.webp"
+import img2 from "./assests/download.jpeg"
+import img3 from "./assests/download.png"
+import img4 from "./assests/cisco.png"
 function Rot(){
     return (
-        <div>
+        <div className="rot">
          <div class="gallery">
-         <img src="https://picsum.photos/id/104/400/400" alt="a dream catcher"/>
-         <img src="https://picsum.photos/id/1082/400/400" alt="a piano"/>
-         <img src="https://picsum.photos/id/158/400/400" alt="a live concert"/>
-         <img src="https://picsum.photos/id/234/400/400" alt="Paris"/>
+         <img src={img1} alt="a dream catcher"/>
+         <img src={img2} alt="a piano"/>
+         <img src={img3} alt="a live concert"/>
+         <img src={img4} alt="Paris"/>
         </div>
-        </div>
+       </div>
     )
 }
 export default Rot;

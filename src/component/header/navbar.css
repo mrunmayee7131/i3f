@@ -33,6 +33,7 @@
 }
 .nvbr:hover {
 	transform: scale(1.2);
+  /* color:purple; */
 	/* border-bottom: 2px solid red; */
 }
   label.logo{
@@ -64,6 +65,13 @@
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+  }
+  
+  /* nav ul li a:hover{
+    color:white;
+  } */
+  .dropdown-content a:hover{
+    color:white;
   }
   /* a.active,a:hover{
     background: rgba(0,0,0,0.3);
@@ -150,7 +158,9 @@
     color:purple;
   }
   
-  
+  .dropdown:hover{
+    color:white;
+  }
   .dropdown .dropbtn {
     font-size: 16px;  
     border: none;
@@ -249,7 +259,7 @@
   margin:0px;
   font-size: 1rem;
   text-transform: none;
-  /* height:60px; */
+  height:40px;
   background-color: whitesmoke;
   /* border-radius: 10px; */
   /* margin-bottom:5px; */

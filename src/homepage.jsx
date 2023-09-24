@@ -36,7 +36,7 @@ function Homepage() {
          <Current />
       <Footer2 />
       {/* <Circle /> */}
-      <Rot />
+      {/* <Rot /> */}
     </div>
    
     </>

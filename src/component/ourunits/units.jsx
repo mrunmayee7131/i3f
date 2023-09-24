@@ -12,19 +12,19 @@ function Unit(){
     const imagee=document.getElementsByTagName("img");
     const handleScroll = () => {
       if (window.scrollY > 1350) {
-         imagee[5].classList.add("img1");
-         imagee[6].classList.add("img2");
-         imagee[7].classList.add("img3");
-         imagee[8].classList.add("img4");
+         imagee[8].classList.add("img1");
+         imagee[9].classList.add("img2");
+         imagee[10].classList.add("img3");
+         imagee[11].classList.add("img4");
       }else{
-         imagee[5].classList.add("null2");
-        imagee[5].classList.remove("img1");
-        imagee[6].classList.add("null2");
-        imagee[7].classList.add("null2");
-        imagee[8].classList.add("null2");
-        imagee[6].classList.remove("img2");
-        imagee[7].classList.remove("img3");
-        imagee[8].classList.remove("img4");
+         imagee[8].classList.add("null2");
+        imagee[8].classList.remove("img1");
+        imagee[9].classList.add("null2");
+        imagee[10].classList.add("null2");
+        imagee[11].classList.add("null2");
+        imagee[9].classList.remove("img2");
+        imagee[10].classList.remove("img3");
+        imagee[11].classList.remove("img4");
       }
     };
 

@@ -57,7 +57,7 @@ const Navbar = () => {
       <Link to="/satellitecenter">Satellite Center</Link>
     </div>
     </a>
-    <Link to="/Rabi">R-ABI</Link> 
+    <a href="#">R-ABI</a> 
     <a href="#" > Cisco Thing Qbator</a>
     <a href="#" > E-cell IIT BHU</a>  
     </div>

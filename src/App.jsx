@@ -12,7 +12,7 @@ import "./App.css";
  import Abt from "./components/AboutI3f"
 import Homepage from "./homepage"
 import Sc from "./components/SatelliteCentre"
-import Rabi from "./components/R-ABI"
+// import Rabi from "./components/R-ABI"
 function App() {
 
  
@@ -44,7 +44,7 @@ function App() {
       <Route path="/" element={<Homepage />} />
       <Route path="about" element={<Abt />} />
       <Route path="satellitecenter" element={<Sc />} />
-      <Route path="/Rabi" element={<Rabi />} />
+      {/* <Route path="/Rabi" element={<Rabi />} /> */}
       </Routes>
   </BrowserRouter>
   )

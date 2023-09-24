@@ -1,7 +1,10 @@
 import React from "react";
 import "./footer2.css";
 import i3flogo from "./assests/images/i3flogo.jpg"
-import face from "./assests/images/facebook.png"
+import face from "./assests/images/face.png"
+import Insta from "./assests/images/insta.png"
+import link from "./assests/images/link.png"
+import tweet from "./assests/images/tweet2.jpg"
 function footer2(){
     return(
         <div class="pg-footer">
@@ -53,20 +56,23 @@ function footer2(){
 
         <div class="footer-content-column">
           <div class="footer-menu">
-            <h2 class="footer-menu-name"> Company</h2>
+            <h2 class="footer-menu-name">Social Media</h2>
             <ul id="menu-company" class="footer-menu-list">
               <li class="menu-item menu-item-type-post_type menu-item-object-page">
                 <a href="#"><img src={face}/></a>
               </li>
               <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
-                <a href="#">News</a>
+                <a href="#"><img src={Insta}/></a>
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#">Careers</a>
+                <a href="#"><img src={link}/></a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a className="tweet" href="#"><img   src={tweet}/></a>
               </li>
             </ul>
           </div>
-          <div class="footer-menu">
+          {/* <div class="footer-menu">
             <h2 class="footer-menu-name"> Legal</h2>
             <ul id="menu-legal" class="footer-menu-list">
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
@@ -76,7 +82,7 @@ function footer2(){
                 <a href="#">Terms of Use</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
 
