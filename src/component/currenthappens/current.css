@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body {
+.currentbody {
   min-height: 100vh;
   display: grid;
   place-items: center;
