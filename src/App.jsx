@@ -9,15 +9,10 @@ import "./App.css";
 // import Unit from "./component/ourunits/units"
 // import Count from "./component/count/count"
 // import Current from "./component/currenthappens/current"
- import Abti3f from "./components/AboutI3f"
+ import Abt from "./components/AboutI3f"
 import Homepage from "./homepage"
 import Sc from "./components/SatelliteCentre"
-import Cisco from "./components/Cisco"
-import Ecell from "./components/ecell"
-import Abtteam1 from "./components/AboutTeam1"
-import Services from "./components/Services"
-import Contact from "./components/Contact"
-// import Rabi from "./components/R-ABI"
+import Rabi from "./components/R-ABI"
 function App() {
 
  
@@ -47,14 +42,9 @@ function App() {
     <BrowserRouter>
       <Routes>
       <Route path="/" element={<Homepage />} />
-      <Route path="about" element={<Abti3f />} />
+      <Route path="about" element={<Abt />} />
       <Route path="satellitecenter" element={<Sc />} />
-      <Route path="Cisco" element={<Cisco />} />
-      <Route path="Ecell" element={<Ecell />} />
-      <Route path="team" element={<Abtteam1 />} />
-      <Route path="services" element={<Services />} />
-      <Route path="contactus" element={<Contact />} />
-
+      <Route path="/Rabi" element={<Rabi />} />
       </Routes>
   </BrowserRouter>
   )

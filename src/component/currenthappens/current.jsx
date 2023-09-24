@@ -2,7 +2,6 @@ import React from "react";
 import "./current.css";
 function Current(){
     return(
-      <div className="currentbody">
         <div className="mb-16">
             <h1>Current Happenings</h1>
             <div class="container">
@@ -41,7 +40,6 @@ October 21,2021
     </div>
   </div>
 </div>
-        </div>
         </div>
     )
 }
