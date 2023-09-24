@@ -1,10 +1,10 @@
-body{
+.i3fbody{
     justify-content: center;
     background-color: white;
     color: black;
     /* font-family: Inter; */
 }
-.h1{
+.h1i3f{
     text-align: center;
     font-size: 80px;
     text-shadow: 4px 4px #FF0000;
@@ -17,16 +17,16 @@ body{
     margin-left: 30px;
     margin-right: 30px;
 }
-.header{
+.headeri3f{
     font-size: 40px;
     justify-content: left;
-    
+    color: black;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 30px;
     margin-right: 30px;
 }
-.content{
+.contenti3f{
     font-size: 25px;
     justify-content: left;
     font-family: 'Inter';font-size: 22px;

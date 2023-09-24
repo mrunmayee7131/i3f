@@ -1,53 +1,51 @@
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     background-color: #fffdfd;
     padding: 10px;
-    gap: 50px;
-    
-    /* margin-left: 400px;
-    margin-right: 400px; */
+    gap: 5px;
+  
   }
   .grid-item {
+    margin-left: 50px;
     background-color:white;
     border: 50px solid white;
     padding: 20px;
-    /* font-size: 30px; */
-    /* text-align: center; */
+
   }
 
+.he{
+  margin-top: 60px;
+}
   @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
 
-body{
+/* .teambody{
   position: relative;
-  /*width: 100%;
-  height: 100vh; */
+
   display: flex; 
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: 'Sarabun', sans-serif;
-}
+} */
 
-.image{
+.imaget{
   width: 100%;
   height: 100%;
-  /* border-radius: 20px; */
  transition: all 0.3s ease-in-out;
    z-index: 20;
 
-  /* box-shadow: 10px 10px 53px 0px rgba(0,0,0,0.49); */
   
 }
 .card-wrapper{
   position: relative;
-  width: 400px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   border-radius: 20px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   &:hover{
-    .image{
+    .imaget{
        filter: blur(1.4px);
        transform: scale(1.5);
        overflow: hidden;
@@ -57,14 +55,13 @@ body{
     .card-bottom{
       transform: translate(0%, -50%);
       transition: all 0.8s ease;
-       background-color:rgba(110, 122, 92, 0.7);
+       background-color:rgba(255, 255, 255, 0.7);
     }
   }
   box-shadow: 10px 10px 53px 0px rgba(0,0,0,0.49);
 }
 
 .card-top{
-    /* float: left; */
   position: relative;
   width: 100%;
   height: 100%;
@@ -78,7 +75,7 @@ body{
   display: nonee;
   top: 50%;
   background-color:rgba(110, 122, 92, 0);
-  padding: 100px 20px;
+  padding: 30px 20px;
   color: #ffffff;
    transform: translate(100%, -50%);
 }
@@ -87,10 +84,95 @@ body{
 font-size: 25px;
 line-height: 40px;
   font-weight: bold;
-  letter-spacing: 1px
+  letter-spacing: 1px;
+  color: purple;
 }
 
 .bottom-text{
  font-size: 15px;
- 
+ color: purple;
+}
+
+.arrowt {
+  position: absolute;
+  top: 85px;
+  left: 1200px;
+  transform: translate(-50%, -50%);
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+
+.arrowt span {
+  display: block;
+  width: 2vw;
+  height: 2vw;
+  border-bottom: 5px solid rgb(0, 0, 0);
+  border-right: 5px solid rgb(0, 0, 0);
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.arrowt span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrowt span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+.arrow1t {
+  position: absolute;
+  top: 85px;
+  left: 470px;
+  transform: translate(-50%, -50%);
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.arrow1t span {
+  display: block;
+  width: 2vw;
+  height: 2vw;
+  border-bottom: 5px solid rgb(0, 0, 0);
+  border-right: 5px solid rgb(0, 0, 0);
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.arrow1t span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow1t span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
+  }
 }
