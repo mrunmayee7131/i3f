@@ -40,13 +40,13 @@
 .logo img{
   height:300px;
 }
-.wrapper .static-txts{
+.wrapper .statictxts{
  color:rgb(214, 150, 214);
  display:flex;
  align-items: center;
  height:128.9px;
 }
-.wrapper .dynamic-txts{
+.wrapper .dynamictxts{
    margin-left: 15px;
    height:130px;
    line-height: 130px;
@@ -78,7 +78,7 @@
 .bbelow p{
   font-size: 30px;
 }
-.dynamic-txts li{
+.dynamictxts li{
   list-style: none;
   position: relative;
   top:0;
@@ -93,11 +93,11 @@
 span{
   color:purple
 }
-.dynamic-txts li span{
+.dynamictxts li span{
   position:relative;
   background:whitesmoke
 }
-.dynamic-txts li span::after{
+.dynamictxts li span::after{
   content:"";
   background:whitesmoke;
   position:absolute;

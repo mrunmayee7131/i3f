@@ -1,6 +1,6 @@
 import React, { useEffect, useState }  from "react"
 // import background from "./assests/Background.jpg"
-import "./home.css";
+import styles from "./home.module.css";
 // import logo from "./assests/design.png";
 import Rot from "../rotation/rotation"
 function Home(){
@@ -14,10 +14,10 @@ function Home(){
    
     return(
 
-        <div className="home">
-         <div className="wrapper">
-        <div className=" static-txts" >Centre for</div>
-        <ul className="dynamic-txts">
+        <div className={styles.home}>
+         <div className={styles.wrapper}>
+        <div className={styles.statictxts} >Centre for</div>
+        <ul className={styles.dynamictxts}>
          <li><span>Innovation</span></li>
          <li><span>Incubation</span></li>
          <li><span>Ideation</span></li>
@@ -26,11 +26,11 @@ function Home(){
         </div>
         
 
-        <div className="logo">
+        <div className={styles.logo}>
          <Rot />
         </div>
         
-         <div className="below">
+         <div className={styles.below}>
           <p>I3f Foundation</p>
          {/* </div>
          <div className="bbelow"> */}

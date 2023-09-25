@@ -1,5 +1,5 @@
 import React from "react";
-import "./navbar.css";
+import styles from "./navbar.module.css";
 import logo2 from "./assets/logo2.jpg"
 import { Link } from 'react-router-dom';
 const Navbar = () => {
@@ -7,14 +7,14 @@ const Navbar = () => {
   return (
     <div>
     <nav className="flex basis-5 justify-between h-20 fixed top-0 w-full z-10">
-      <div className="navimg">
-    <img src={logo2} className="image"/>
+      <div className={styles.navimg}>
+    <img src={logo2} className={styles.image}/>
     {/* <div className="text"> <p>Innovation Incubation Ideation </p></div> */}
    
     </div>
-    <input type="checkbox" id="check" />
-    <label for="check" class="checkbtn">
-      <i class="fas fa-bars"></i>
+    <input type="checkbox" id={styles.check} />
+    <label for="check" className={styles.checkbtn}>
+      <i className="fas fa-bars"></i>
     </label>
   {/* <label class="logo">Innovation Incubation and Ideation</label> */}
 
@@ -23,17 +23,17 @@ const Navbar = () => {
 
 
 
-    <li className="nvbr"><Link className="active" to="/">Home</Link></li>
+    <li className={styles.nvbr}><Link className={styles.active} to="/">Home</Link></li>
 
 
 
 
 
-      <li className="nvbr">
-        <div className="dropdown"><button class="dropbtn">ABOUT 
-      <i class="fa fa-caret-down"></i>
+      <li className={styles.nvbr}>
+        <div className={styles.dropdown}><button className={styles.dropbtn}>ABOUT 
+      <i className="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
+    <div className={styles.dropdowncontent}>
       
       <Link to="/about" >About I3F</Link>
       <Link to="/team">About Team</Link>
@@ -46,14 +46,14 @@ const Navbar = () => {
 
 
 
-    <li className="nvbr">
-        <div className="dropdown"><button class="dropbtn">UNITS 
-      <i class="fa fa-caret-down"></i>
+    <li className={styles.nvbr}>
+        <div className={styles.dropdown}><button className={styles.dropbtn}>UNITS 
+      <i className="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
-      <a href="#" className="sat"> NIIC 
-      <i class="fa fa-caret-down"></i>
-    <div class="dropdown-content-content">
+    <div className={styles.dropdowncontent}>
+      <a href="#" className={styles.sat}> NIIC 
+      <i className="fa fa-caret-down"></i>
+    <div className={styles.dropdowncontentcontent}>
       <Link to="/satellitecenter">Satellite Center</Link>
     </div>
     </a>
@@ -66,7 +66,7 @@ const Navbar = () => {
      
 
 
-    <li className="nvbr"><Link to="/contactus">Contact Us</Link></li>
+    <li className={styles.nvbr}><Link to="/contactus">Contact Us</Link></li>
 
 
    

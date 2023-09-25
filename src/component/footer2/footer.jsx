@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer2.css";
+import styles from "./footer2.module.css";
 // import i3flogo from "./assests/images/i3flogo.jpg"
 
 import face from "./assets/face.png";
@@ -14,16 +14,16 @@ import tweet from "./assets/tweet2.jpg";
 
 function footer2(){
     return(
-        <div class="pg-footer">
-    <footer class="footer">
+        <div className={styles.pgfooter}>
+    <footer className={styles.footer}>
       {/* <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
         <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
       </svg> */}
-      <div class="footer-content">
+      <div className={styles.footercontent}>
 
 
 
-        <div class="footer-content-column">
+        <div className={styles.footercontentcolumn}>
           {/* <div class="footer-logo">
             <img className="img" src={i3flogo} />
             <a class="footer-logo-link" href="#">
@@ -34,10 +34,10 @@ function footer2(){
 
 
 
-          <div class="footer-call-to-action">
-            <h2 class="footer-call-to-action-title"> Let's Chat</h2>
-            <p class="footer-call-to-action-description"> Have a support question?</p>
-            <a class="footer-call-to-action-button button" href="#" target="_self"> Contact Us </a>
+          <div className={styles.footercalltoaction}>
+            <h2 className={styles.footercalltoactiontitle}> Let's Chat</h2>
+            <p className={styles.footercalltoactiondescription}> Have a support question?</p>
+            <a className={`${styles.footercalltoactionbutton} ${styles.button}`}  href="#" target="_self"> Contact Us </a>
           </div>
 
           
@@ -61,21 +61,21 @@ function footer2(){
 
 
 
-        <div class="footer-content-column">
-          <div class="footer-menu">
-            <h2 class="footer-menu-name">Social Media</h2>
-            <ul id="menu-company" class="footer-menu-list">
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+        <div className={styles.footercontentcolumn}>
+          <div className={styles.footermenu}>
+            <h2 className={styles.footermenuname}>Social Media</h2>
+            <ul id={styles.menucompany} className={styles.footermenulist}>
+              <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
                 <a href="#"><img src={face}/></a>
               </li>
-              <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+              <li className={`${styles.menuitem} ${styles.menuitemtypetaxonomy} ${styles.menuitemobjectcategory}`}>
                 <a href="#"><img src={Insta}/></a>
               </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
                 <a href="#"><img src={link}/></a>
               </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a className="tweet" href="#"><img   src={tweet}/></a>
+              <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
+                <a className={styles.tweet} href="#"><img   src={tweet}/></a>
               </li>
             </ul>
           </div>
@@ -98,20 +98,20 @@ function footer2(){
 
 
 
-        <div class="footer-content-column">
-          <div class="footer-menu">
-            <h2 class="footer-menu-name"> Quick Links</h2>
-            <ul id="menu-quick-links" class="footer-menu-list">
-              <li class="menu-item menu-item-type-custom menu-item-object-custom">
+        <div className={styles.footercontentcolumn}>
+          <div className={styles.footermenu}>
+            <h2 className={styles.footermenuname}> Quick Links</h2>
+            <ul id={styles.menuquicklinks} className={styles.footermenulist}>
+              <li className={`${styles.menuitem} ${styles.menuitemtypecustom} ${styles.menuitemobjectcustom}`}>
                 <a target="_blank" rel="noopener noreferrer" href="#">Incubation Policy</a>
               </li>
-              <li class="menu-item menu-item-type-custom menu-item-object-custom">
+              <li className={`${styles.menuitem} ${styles.menuitemtypecustom} ${styles.menuitemobjectcustom}`}>
                 <a target="_blank" rel="noopener noreferrer" href="#">Blogs</a>
               </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
                 <a href="#">Newsletter</a>
               </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
                 <a href="#">Upcoming Events</a>
               </li>
               {/* <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
@@ -128,7 +128,7 @@ function footer2(){
 
 
 
-        <div class="footer-content-column">
+        <div className={styles.footercontentcolumn}>
           {/* <div class="footer-call-to-action">
             <h2 class="footer-call-to-action-title"> Let's Chat</h2>
             <p class="footer-call-to-action-description"> Have a support question?</p>
@@ -139,7 +139,7 @@ function footer2(){
             <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self"> 0124-64XXXX </a></p>
           </div> */}
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d768.3525703248231!2d82.9922069983345!3d25.2604934879394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e339f56f121cf%3A0xd780c7a3972fbb3a!2sTechnology%20Innovation%20%26%20Incubation%20Centre!5e0!3m2!1sen!2sin!4v1692885623650!5m2!1sen!2sin" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          <div className="address"><h3>Address:</h3>
+          <div className={styles.address}><h3>Address:</h3>
           <h4>Ideation Innovation & Incubation (I-3) Foundation</h4>
           Opposite to Proctor Office, IIT (BHU) Varanasi
           Indian Institute of Technology (Banaras Hindu University) Varanasi
