@@ -9,6 +9,12 @@ body{
     font-size: 80px;
     text-shadow: 4px 4px #FF0000;
 }
+.abi3{
+      justify-content: center; 
+     background-color: white; 
+     color: black; 
+     font-family: Inter; 
+}
 .intro{
     text-align: center;
     font-size: 30px;

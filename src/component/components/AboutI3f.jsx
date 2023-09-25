@@ -4,7 +4,7 @@ import Navbar from "../header/navbar"
 import Footer from "../footer2/footer"
 function Abti3f(){
     return(
-        <div>
+        <div className={styles.abi3}>
 
             <Navbar />
             <div className={styles.democontent}>

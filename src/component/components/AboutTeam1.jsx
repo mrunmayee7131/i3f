@@ -6,10 +6,12 @@ import sg from './assets/Dr.-Shishir-Gaur-1.webp';
 import sk from './assets/Dr.-Shyam-Kamal.webp';
 import rs from './assets/Prof.-R.-S.-Singh-1.webp';
 import rt from './assets/rajnesh_tyagi.webp';
-
+import Navbar from "../header/navbar";
+import Footer from "../footer2/footer";
 function Abtteam1(){
     return(
-        <div>
+        <div className={styles.abtt}>
+          <Navbar />
             <h1>Managing Commitee</h1>
             <div  className={styles.gridcontainer}>
   <div  className="grid-item">
@@ -91,6 +93,7 @@ function Abtteam1(){
 </div></div>  
   
 </div>
+         <Footer />
         </div>
 
 
