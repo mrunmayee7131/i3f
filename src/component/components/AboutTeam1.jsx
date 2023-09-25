@@ -1,11 +1,11 @@
 import React from "react";
 import './AboutTeam1.css';
-import pk from './images/director_pkjain.webp';
-import ch from './images/Dr.-P.-Chanak-1.webp';
-import sg from './images/Dr.-Shishir-Gaur-1.webp';
-import sk from './images/Dr.-Shyam-Kamal.webp';
-import rs from './images/Prof.-R.-S.-Singh-1.webp';
-import rt from './images/rajnesh_tyagi.webp';
+import pk from './assets/director_pkjain.webp';
+import ch from './assets/Dr.-P.-Chanak-1.webp';
+import sg from './assets/Dr.-Shishir-Gaur-1.webp';
+import sk from './assets/Dr.-Shyam-Kamal.webp';
+import rs from './assets/Prof.-R.-S.-Singh-1.webp';
+import rt from './assets/rajnesh_tyagi.webp';
 
 function Abtteam1(){
     return(

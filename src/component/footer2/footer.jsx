@@ -9,8 +9,8 @@ import tweet from "./assets/tweet2.jpg";
 
 
 
-import i3flogo from "./assests/images/i3flogo.jpg"
-import face from "./assests/images/facebook.png"
+// import i3flogo from "./assests/images/i3flogo.jpg"
+// import face from "./assests/images/facebook.png"
 
 function footer2(){
     return(

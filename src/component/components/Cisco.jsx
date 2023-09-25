@@ -4,7 +4,7 @@ import cis from './assets/Cisco-logo-1.webp'
 import Navbar from "../header/navbar"
 import Footer from "../footer2/footer"
 
-import cis from './images/Cisco-logo-1.webp'
+// import cis from './images/Cisco-logo-1.webp'
 
 
 function Cisco(){
