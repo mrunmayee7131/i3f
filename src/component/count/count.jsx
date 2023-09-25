@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from "react"
-import "./count.css"
+import styles from "./count.module.css"
 function Count(){
     const[count4,setCount4]=useState(0);
     const[count3,setCount3]=useState(0);
@@ -73,42 +73,42 @@ function Count(){
 
 
     return(
-        <div className="countbody">
-         <div className="outerdiv">
+        <div className={styles.countbody}>
+         <div className={styles.outerdiv}>
 
-            <div className="innerdiv">
-            <div className="box">
-            <div className="content" >
-                <div className="count"><h2>{count1}</h2></div>
+            <div className={styles.innerdiv}>
+            <div className={styles.box}>
+            <div className={styles.content} >
+                <div className={styles.count}><h2>{count1}</h2></div>
             </div>
             </div>
             <p>Trained Start ups</p>
             </div>
 
 
-            <div className="innerdiv">
-            <div className="box">
-            <div className="content" >
-                <div className="count"><h2>{count2}</h2></div>
+            <div className={styles.innerdiv}>
+            <div className={styles.box}>
+            <div className={styles.content} >
+                <div className={styles.count}><h2>{count2}</h2></div>
             </div>
             </div>
             <p>Incubated Start Ups</p>
             </div>
 
 
-            <div className="innerdiv">
-            <div className="box">
-            <div className="content" >
-                <div className="count"><h2>{count3}</h2></div>
+            <div className={styles.innerdiv}>
+            <div className={styles.box}>
+            <div className={styles.content} >
+                <div className={styles.count}><h2>{count3}</h2></div>
             </div>
             </div>
             <p>Lakhs Fund Supported</p>
             </div>
 
-            <div className="innerdiv">
-            <div className="box">
-            <div className="content" >
-                <div className="count"><h2>{count4}</h2></div>
+            <div className={styles.innerdiv}>
+            <div className={styles.box}>
+            <div className={styles.content} >
+                <div className={styles.count}><h2>{count4}</h2></div>
             </div>
             </div>
             <p>Patentable technologies</p>

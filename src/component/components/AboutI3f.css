@@ -1,0 +1,53 @@
+.i3fbody{
+    justify-content: center;
+    background-color: white;
+    color: black;
+    /* font-family: Inter; */
+}
+.h1i3f{
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 4px 4px #FF0000;
+}
+.intro{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.headeri3f{
+    font-size: 40px;
+    justify-content: left;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.contenti3f{
+    font-size: 25px;
+    justify-content: left;
+    font-family: 'Inter';font-size: 22px;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.points{
+    font-size: 20px;
+    justify-content: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+  
+  .demo-content {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: white;
+  }
+
+  

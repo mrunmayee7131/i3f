@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import logo2 from "./assests/logo2.jpg"
+import logo2 from "./assets/logo2.jpg"
 import { Link } from 'react-router-dom';
 const Navbar = () => {
 
@@ -36,8 +36,8 @@ const Navbar = () => {
     <div class="dropdown-content">
       
       <Link to="/about" >About I3F</Link>
-      <a href="#">Units</a>
-      <a href="#">Our Services/Facilities</a>
+      <Link to="/team">About Team</Link>
+      <Link to="/services">Our Services/Facilities</Link>
       
     </div>
     </div>
@@ -57,16 +57,16 @@ const Navbar = () => {
       <Link to="/satellitecenter">Satellite Center</Link>
     </div>
     </a>
-    <a href="#">R-ABI</a> 
-    <a href="#" > Cisco Thing Qbator</a>
-    <a href="#" > E-cell IIT BHU</a>  
+    <Link to="/Rabi">R-ABI</Link> 
+    <Link to="/Cisco" > Cisco Thing Qbator</Link>
+    <Link to="/ecell" > E-cell IIT BHU</Link>  
     </div>
     </div>
     </li>
      
 
 
-    <li className="nvbr"><a href="#">Contact Us</a></li>
+    <li className="nvbr"><Link to="/contactus">Contact Us</Link></li>
 
 
    

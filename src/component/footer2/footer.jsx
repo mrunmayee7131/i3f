@@ -1,10 +1,13 @@
 import React from "react";
 import "./footer2.css";
-import i3flogo from "./assests/images/i3flogo.jpg"
-import face from "./assests/images/face.png"
-import Insta from "./assests/images/insta.png"
-import link from "./assests/images/link.png"
-import tweet from "./assests/images/tweet2.jpg"
+// import i3flogo from "./assests/images/i3flogo.jpg"
+
+import face from "./assets/face.png";
+import Insta from "./assets/insta.png";
+import link from "./assets/link.png";
+import tweet from "./assets/tweet2.jpg";
+
+
 function footer2(){
     return(
         <div class="pg-footer">

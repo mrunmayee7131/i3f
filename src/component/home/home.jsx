@@ -1,7 +1,7 @@
 import React, { useEffect, useState }  from "react"
-import background from "./assests/Background.jpg"
+// import background from "./assests/Background.jpg"
 import "./home.css";
-import logo from "./assests/design.png";
+// import logo from "./assests/design.png";
 import Rot from "../rotation/rotation"
 function Home(){
     const [value,setvalue]=useState("Innovation");

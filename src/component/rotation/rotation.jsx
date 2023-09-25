@@ -1,9 +1,9 @@
 import React from "react";
 import "./rotation.css";
-import img1 from "./assests/NCL-IIT-BHU-Incubation-centre-1-e1636435335895.webp"
-import img2 from "./assests/download.jpeg"
-import img3 from "./assests/download.png"
-import img4 from "./assests/cisco.png"
+import img1 from "./assets/download.png"
+import img2 from "./assets/download.jpeg"
+import img3 from "./assets/cisco.png"
+import img4 from "./assets/NCL-IIT-BHU-Incubation-centre-1-e1636435335895.webp"
 function Rot(){
     return (
         <div className="rot">
