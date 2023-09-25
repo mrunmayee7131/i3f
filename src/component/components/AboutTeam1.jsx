@@ -1,5 +1,5 @@
 import React from "react";
-import './AboutTeam1.css';
+import styles from './AboutTeam1.module.css';
 import pk from './assets/director_pkjain.webp';
 import ch from './assets/Dr.-P.-Chanak-1.webp';
 import sg from './assets/Dr.-Shishir-Gaur-1.webp';
@@ -11,7 +11,7 @@ function Abtteam1(){
     return(
         <div>
             <h1>Managing Commitee</h1>
-            <div  className="grid-container">
+            <div  className={styles.gridcontainer}>
   <div  className="grid-item">
   <div  className="card-wrapper">
   <div  className="card-top">
