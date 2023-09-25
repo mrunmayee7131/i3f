@@ -4,10 +4,12 @@ import cis from './assets/Cisco-logo-1.webp'
 import Navbar from "../header/navbar"
 import Footer from "../footer2/footer"
 
+import cis from './images/Cisco-logo-1.webp'
+
+
 function Cisco(){
     return(
         <div>
-            <Navbar />
         <h1>Cisco thingQbator, IIT (BHU)</h1>
         <img src={cis} />
         <p>Since May 2018, as a part of a CSR initiative, Cisco Systems along with NASSCOM Foundation has established a <a href='https://thingqbator.nasscomfoundation.org/' target="_blank"> Cisco thingQbator</a> at IIT (BHU) Varanasi. This AI and IoT-based makerspace program help to accelerate innovation and entrepreneurship among the student community.
@@ -39,7 +41,7 @@ Till now 5 Hackathons have been successfully organized and the winners were awar
 <li />Sensors & Actuators Components
 <li />3D Printing
 <li />Cisco Sparkboard
-<Footer />
+
         </div>
     )
 }

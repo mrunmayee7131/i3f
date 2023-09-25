@@ -9,7 +9,8 @@ import "./App.css";
 // import Unit from "./component/ourunits/units"
 // import Count from "./component/count/count"
 // import Current from "./component/currenthappens/current"
- import Abti3f from "./component/components/AboutI3f"
+
+//  import Abti3f from "./component/components/AboutI3f"
 import Homepage from "./component/components/homepage"
 import Sc from "./component/components/SatelliteCentre"
 import Abtteam from "./component/components/AboutTeam1"
@@ -21,6 +22,12 @@ import Newsletter from "./component/components/newsletter"
 import Services from "./component/components/Services"
 
 // import Rabi from "./components/R-ABI"
+
+ import Abt from "./components/AboutI3f"
+// import Homepage from "./homepage"
+// import Sc from "./components/SatelliteCentre"
+// import Rabi from "./components/R-ABI"
+
 function App() {
 
  
@@ -50,8 +57,9 @@ function App() {
     <BrowserRouter>
       <Routes>
       <Route path="/" element={<Homepage />} />
-      <Route path="about" element={<Abti3f />} />
+      <Route path="about" element={<Abt />} />
       <Route path="satellitecenter" element={<Sc />} />
+
       <Route path="team" element={<Abtteam />} />
       <Route path="Cisco" element={<Cisco />} />
       <Route path="contactus" element={<Contact />} />
@@ -59,6 +67,7 @@ function App() {
       <Route path="Events" element={<Events />} />
       <Route path="Services" element={<Services />} />
       {/* <Route path="/Rabi" element={<Rabi />} /> */}
+      <Route path="/Rabi" element={<Rabi />} />
       </Routes>
   </BrowserRouter>
   )

@@ -6,10 +6,11 @@ import './Services.css'
 import Navbar from "../header/navbar"
 import Footer from "../footer2/footer"
 
+
+
 function Services(){
     return(
         <div>
-            <Navbar />
         <h1>Our Services/Facilities</h1>
         <p>I3F has collaborated with different organizations to provide following services</p>
         <img src={svs} />
@@ -49,7 +50,7 @@ function Services(){
 <li />Deep Freezer
 <li />Cell sonicator
 <li />Polarizing Microscope
-<Footer />
+
         </div>
 
     )
