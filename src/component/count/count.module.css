@@ -26,6 +26,9 @@ h2{
     text-align: center;
     margin-bottom: 10px;
 }
+.countuptext{
+    font-family: "Montserrat";
+}
 p{
     font-size: 20px;
     font-weight: 600;

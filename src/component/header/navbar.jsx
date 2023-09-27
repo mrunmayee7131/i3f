@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
   return (
-    <div>
+    <div className={styles.navvdivv}>
     <nav className="flex basis-5 justify-between h-20 fixed top-0 w-full z-10">
       <div className={styles.navimg}>
     <img src={logo2} className={styles.image}/>
@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className={styles.dropdown}><button className={styles.dropbtn}>ABOUT 
       <i className="fa fa-caret-down"></i>
     </button>
-    <div className={styles.dropdowncontent}>
+    <div className={`${styles.dropdowncontent} ${styles.dropdowncontenta}`}>
       
       <Link to="/about" >About I3F</Link>
       <Link to="/team">About Team</Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
      
 
 
-    <li className={styles.nvbr}><Link to="/contactus">Contact Us</Link></li>
+    <li className={styles.nvbr}><Link className={styles.con} to="/contactus">Contact Us</Link></li>
 
 
    
