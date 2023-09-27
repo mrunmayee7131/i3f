@@ -12,87 +12,116 @@ function Abtteam1(){
     return(
         <div className={styles.abtt}>
           <Navbar />
-            <h1>Managing Commitee</h1>
-            <div  className={styles.gridcontainer}>
-  <div  className="grid-item">
-  <div  className="card-wrapper">
-  <div  className="card-top">
-    <img  className="image" src={pk} />
-  </div>
-  
-  <div  className="card-bottom">
-    <span  className="top-text">Prof. P. K. Jain</span><br />
-   <span  className="bottom-text">Director, IIT (BHU) Varanasi</span>
-    <br />
-  </div>
-</div>
+            
+          <div class="bg-white-50 dark:bg-white-800 py-20">
+  <div class="container mx-auto px-6 md:px-12 xl:px-32">
+    <div class="mb-16">
+      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-black md:text-4xl">
+        Managing Commitee
+      </h2>
+      <p class="text-gray-600 dark:text-gray-400 lg:mx-auto lg:w-8/12">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus commodi?
+      </p>
+    </div>
+    <div class="grid items-center gap-12 md:grid-cols-3">
+      
+      <div class="space-y-4 text-center">
+        <img
+          class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
+          src={pk}
+          alt="woman"
+          loading="lazy"
+          width="1000"
+          height="667"
+        />
+        <div>
+          <h4 class="text-2xl text-gray-700 dark:text-black">Prof. P. K. Jain</h4>
+          <span class="block text-sm text-gray-500">Director, IIT (BHU)</span>
+        </div>
+      </div>
+      <div class="space-y-4 text-center">
+        <img
+          class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
+          src={rt}
+          alt="woman"
+          loading="lazy"
+          width="1000"
+          height="667"
+        />
+        
+        <div>
+          <h4 class="text-2xl text-gray-700 dark:text-black">Prof. Rajnesh Tyagi</h4>
+          <span class="block text-sm text-gray-500">Director, I3F, IIT (BHU) Varanasi</span>
+        </div>
+      </div>
+      <div class="space-y-4 text-center">
+        <img
+          class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
+          src={rs}
+          alt="woman"
+          loading="lazy"
+          width="1000"
+          height="667"
+        />
+        
+        <div>
+          <h4 class="text-2xl text-gray-700 dark:text-black">Prof. R. S. Singh</h4>
+          <span class="block text-sm text-gray-500">Member</span>
+          <span class="block text-sm text-gray-500">Dept. of Chemical Engineering, IIT (BHU) Varanasi</span>
+        </div>
+      </div>
+      <div class="space-y-4 text-center">
+        <img
+          class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
+          src={sg}
+          alt="woman"
+          loading="lazy"
+          width="1000"
+          height="667"
+        />
+        <div>
+          <h4 class="text-2xl text-gray-700 dark:text-black">Dr. Shishir Gaur</h4>
+          <span class="block text-sm text-gray-500">Member</span>
+          <span class="block text-sm text-gray-500">Dept. of Civil Engineering, IIT (BHU) Varanasi
 
-  </div>
-  <div  className="grid-item">
-  <div  className="card-wrapper">
-  <div  className="card-top">
-    <img  className="image" src={rt} />
-  </div>
-   
-  <div  className="card-bottom">
-    <span  className="top-text">Prof. Rajnesh Tyagi</span><br />
-   <span  className="bottom-text">Director, I3F, IIT (BHU) Varanasi</span>
-    <br />
-  </div>
-</div>
-  </div>
-  <div  className="grid-item">
-  <div  className="card-wrapper">
-  <div  className="card-top">
-    <img  className="image" src={rs} />
-  </div>
-   
-  <div  className="card-bottom">
-    <span  className="top-text">Prof. R. S. Singh</span><br />
-   <span  className="bottom-text"><p>Member</p><p>Dept. of Chemical Engineering, IIT (BHU) Varanasi</p></span>
-    <br />
-  </div>
-</div></div>  
-  <div  className="grid-item">
-  <div  className="card-wrapper">
-  <div  className="card-top">
-    <img  className="image" src={sg} />
-  </div>
-   
-  <div  className="card-bottom">
-    <span  className="top-text">Dr. Shishir Gaur</span><br />
-   <span  className="bottom-text"><p>Member</p><p>Dept. of Civil Engineering, IIT (BHU) Varanasi</p></span>
-    <br />
-  </div>
-</div>
-  </div>
-  <div  className="grid-item">
-  <div  className="card-wrapper">
-  <div  className="card-top">
-    <img  className="image" src={sk} />
-  </div>
-   
-  <div  className="card-bottom">
-    <span  className="top-text">Dr. Shyam Kamal</span><br />
-   <span  className="bottom-text"><p>Member</p><p>Dept. of Electrical Engineering, IIT (BHU) Varanasi</p></span>
-    <br />
+</span>
+        </div>
+      </div>
+      <div class="space-y-4 text-center">
+        <img
+          class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
+          src={sk}
+          alt="woman"
+          loading="lazy"
+          width="1000"
+          height="667"
+        />
+        <div>
+          <h4 class="text-2xl text-gray-700 dark:text-black">Dr. Shyam Kamal</h4>
+          <span class="block text-sm text-gray-500">Member</span>
+          <span class="block text-sm text-gray-500">Dept. of Electrical Engineering, IIT (BHU) Varanasi</span>
+        </div>
+      </div>
+      <div class="space-y-4 text-center">
+        <img
+          class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
+          src={ch}
+          alt="woman"
+          loading="lazy"
+          width="1000"
+          height="667"
+        />
+        <div>
+          <h4 class="text-2xl text-gray-700 dark:text-black">Dr. Prasenjit Chanak</h4>
+          <span class="block text-sm text-gray-500">Member</span>
+          <span class="block text-sm text-gray-500">Dept. of Computer Science & Engineering, IIT (BHU) Varanasi</span>
+        </div>
+      </div>
+      
+    </div>
   </div>
 </div>
-  </div>
-  <div  className="grid-item">
-  <div  className="card-wrapper">
-  <div  className="card-top">
-    <img  className="image" src={ch} />
-  </div>
-   
-  <div  className="card-bottom">
-    <span  className="top-text">Dr. Prasenjit Chanak</span><br />
-   <span  className="bottom-text"><p>Member</p><p>Dept. of Computer Science & Engineering, IIT (BHU) Varanasi</p></span>
-    <br />
-  </div>
-</div></div>  
-  
-</div>
+                                    
          <Footer />
         </div>
 
