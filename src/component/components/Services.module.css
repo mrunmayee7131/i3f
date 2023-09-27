@@ -1,0 +1,18 @@
+.of{
+    float: left;
+    margin-right: 20px;
+    height: 500px;
+    width: 500px;
+}
+
+.off{
+    margin-bottom: 90px;
+}
+
+.sevs{
+    /* text-align: center;  */
+    font-family: 'Sarabun', sans-serif; 
+     /* justify-content: center;  */
+     background-color: white;
+     /* width: 100vw; */
+        }
