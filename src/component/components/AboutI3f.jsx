@@ -2,47 +2,121 @@ import React from "react";
 import styles from './AboutI3f.module.css'
 import Navbar from "../header/navbar"
 import Footer from "../footer2/footer"
+import mis from "../components/assets/mission.png"
+import vis from "../components/assets/vission.png"
+import obj from "../components/assets/objectives.png"
+import ser from "../components/assets/service.png"
+
 function Abti3f(){
     return(
         <div className={styles.abi3}>
 
             <Navbar />
-            <div className={styles.democontent}>
-                {/* <div className="header"> */}
-                <h1 className={styles.h1}>ABOUT I3F</h1>
-                {/* </div> */}
-        <p className={styles.intro}>
-        Ideation Innovation & Incubation (I-3) Foundation (I3F), a section 8 company is an umbrella organization at IIT (BHU), Varanasi for fostering an entrepreneurial ecosystem and nurturing start-ups. It provide ‘Start to Scale’ support for entrepreneurship and facilitates research activities to convert into commercial ventures.</p><br></br>
-        <h2 className={styles.header}>Our Mission:</h2><br></br>
-        <p className={styles.content}>Identifying, exploring, and developing regional competitiveness, enhancing links between universities and research institutions, and contributing to the growth and success of emerging technology businesses.</p><br></br>
-        <h2 className={styles.header}>Our Vision:</h2><br></br>
-        <p className={styles.content}>Contributing to raising the GDP of our National Economy through Entrepreneurship, – initiating start-ups and supporting SMEs in the East UP region.</p><br></br>
-        <h2 className={styles.header}>Our Objectives:</h2><br></br>
-        <p className={styles.content}>I3F has been established with the following objectives-</p><br></br>
-        <div  className={styles.points}>
-        <li>
-        a. To promote entrepreneurship among students and society in the region
-        </li>
-        <li>b. To create a support system for Innovation-based enterprises/start-ups</li>
-        <li>c. To encourage technology transfer and commercialization.</li>
-        <li>d. To sustain job creation and support the “Make in India” Model</li>
-        <li>e. To provide R & D support to SMEs of the region and business incubators</li>
-        <li>f. To forge a close linkage between new business & academia R & D</li>
-        </div>
-        <br></br>
-        <h2 className={styles.header}>Our Services:</h2>
-        <br></br>
-        <div  className={styles.points}>
-        <li>a. Technical due-diligence</li>
-        <li>b. Training Programs</li>
-        <li>c. Mentoring</li>
-        <li>d. Legal advice</li>
-        <li>e. IP Creation & Protection</li>
-        <li>f. Funding Support</li>
-        <li>g. Networking support</li>
-        </div>
+            <br></br>
+<div class="py-16">
+  <div class="xl:container m-auto px-6 text-black-600 dark:text-black-300 md:px-12 xl:px-6">
+    <h2 class="mb-12 text-center text-2xl font-bold text-fuchsia-800 dark:text-fuchsia md:text-4xl">
+      About I3F
+    </h2>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper pb-6">
+        <div class="swiper-slide !bg-transparent">
+          <div class="mx-auto space-y-6 text-center md:w-8/12 lg:w-7/12">
+            <img
+              class="mx-auto !h-16 !w-16 rounded-full"
+              src={mis}
+              alt="user avatar"
+              height="220"
+              width="220"
+              loading="lazy"
+            />
+        <h4 class="text-lg font-semibold leading-none">Our Mission</h4>
+            <p>
+              <span class="font-serif">"</span> Identifying, exploring, and developing regional competitiveness, enhancing links between universities and research institutions, and contributing to the growth and success of emerging technology businesses. <span class="font-serif">"</span>
+            </p>
+            <div>
+            </div>
+          </div>
         </div>
 
+        <div class="swiper-slide !bg-transparent">
+          <div class="mx-auto space-y-6 text-center md:w-8/12 lg:w-7/12">
+            <img
+              class="mx-auto !h-16 !w-16 rounded-full"
+              src={vis}
+              alt="user avatar"
+              height="220"
+              width="220"
+              loading="lazy"
+            />
+        <h4 class="text-lg font-semibold leading-none">Our Vission</h4>
+            <p>
+              <span class="font-serif">"</span> Contributing to raising the GDP of our National Economy through Entrepreneurship, – initiating start-ups and supporting SMEs in the East UP region.<span class="font-serif">"</span>
+            </p>
+            <div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide !bg-transparent">
+          <div class="mx-auto space-y-6 text-center md:w-8/12 lg:w-7/12">
+            <img
+              class="mx-auto !h-16 !w-16 rounded-full"
+              src={obj}
+              alt="user avatar"
+              height="220"
+              width="220"
+              loading="lazy"
+            />
+        <h4 class="text-lg font-semibold leading-none">Our Objectives</h4>
+            <p>
+              <span class="font-serif"></span> I3F has been established with the following objectives-<br></br>
+              <div class="text-center"> 
+a. To promote entrepreneurship among students and society in the region<br></br>
+b. To create a support system for Innovation-based enterprises/start-ups<br></br>
+c. To encourage technology transfer and commercialization.<br></br>
+d. To sustain job creation and support the “Make in India” Model<br></br>
+e. To provide R & D support to SMEs of the region and business incubators<br></br>
+f. To forge a close linkage between new business & academia R & D <br></br>
+</div><span class="font-serif"></span>
+            </p>
+            <div>
+            </div>
+
+            <div class="swiper-slide !bg-transparent">
+          <div class="mx-auto space-y-6 text-center md:w-8/12 lg:w-7/12">
+            <img
+              class="mx-auto !h-16 !w-16 rounded-full"
+              src={ser}
+              alt="user avatar"
+              height="220"
+              width="220"
+              loading="lazy"
+            />
+        <h4 class="text-lg font-semibold leading-none">Our Services</h4>
+            <p>
+              <span class="font-serif"></span>
+              <div class="text-center"> a. Technical due-diligence<br></br>
+b. Training Programs<br></br>
+c. Mentoring<br></br>
+d. Legal advice<br></br>
+e. IP Creation & Protection<br></br>
+f. Funding Support<br></br>
+g. Networking support<br></br></div><span class="font-serif"></span>
+            </p>
+            <div>
+            </div>
+          </div>
+        </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+                                    
         <Footer />
         </div>
         
