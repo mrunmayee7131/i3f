@@ -12,16 +12,37 @@
   }
   body{
     font-family: montserrat;
+    /* background-color: rgb(116, 15, 116); */
+  }
+  .navvdivv{
+    width:100vw;
+   
   }
   nav{
     
     background-color: whitesmoke;
     opacity: 0.7;
     height: 120px;
-    width: 100%;
+    width: 100vw;
 	  align-items: center;
+    border:2px solid black;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right:20px;
+    backdrop-filter: blur(11px) saturate(178%);
+    -webkit-backdrop-filter: blur(11px) saturate(178%);
+    background-color: rgba(17, 25, 40, 0.049);
+
+    border: 2px solid white;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+
+    
   }
-  
+  button{
+    height:60px;
+  }
   .nvbr {
 	margin: 1vh 0.5vw;
 	transition-duration: 0.3s;
@@ -31,11 +52,24 @@
 	font-size: 3vh;
 	color: white;
 }
-.nvbr:hover {
-	transform: scale(1.2);
-  /* color:purple; */
-	/* border-bottom: 2px solid red; */
+.con:hover{
+  color:black;
+  border-bottom: 2px solid black;
 }
+.active:hover{
+  color:black;
+  border-bottom: 2px solid black;
+}
+.dropbtn:hover{
+  color:black;
+}
+
+/* .nvbr:hover {
+	transform: scale(1.2);
+  
+  color:purple;
+	border-bottom: 2px solid red;
+} */
   label.logo{
     color: white;
     font-size: 35px;
@@ -114,10 +148,10 @@
 	  z-index: 2;
 	  
     }
-	.nvbr:hover {
+	/* .nvbr:hover {
 		transform: scale(1);
-		border-bottom: 0px solid red;
-	}
+		color: black;
+	} */
     nav ul li{  
       display: block;
       margin: 50px 0;
@@ -158,8 +192,9 @@
     color:purple;
   }
   
-  .dropdown:hover{
-    color:white;
+  .dropdown .dropbtn:hover{
+    color:black;
+    border-bottom: 2px solid black;
   }
   .dropdown .dropbtn {
     font-size: 16px;  
@@ -171,21 +206,24 @@
     font-family: inherit;
     margin: 0;
   }
-
+  
   .dropdowncontent {
     display: none;
     position: absolute;
     background-color: transparent;
     width:160px;
-   
+    right:180px;
     z-index: 1;
     padding:0px;
-    margin:0px;
+    /* margin-right:20px; */
+    /* padding-right: 300px; */
     height:fit-content;
     border-radius:10px;
     
   }
-  
+  .dropdowncontenta{
+    right:320px;
+  }
   /* .dropdown-content a {
     float: none;
     color: black;
@@ -209,6 +247,10 @@
 
   .dropdown:hover .dropdowncontent {
     display: block;
+    
+  }
+  .dropdown:hover{
+    color:black;
   }
   .dropdowncontentcontent{
     display: none;
