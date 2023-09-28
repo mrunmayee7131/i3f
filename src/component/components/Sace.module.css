@@ -1,0 +1,82 @@
+.sch{
+    font-size: 70px;
+    color: purple;
+    font-weight: 1000;
+}
+.sc{
+    background-color: white;
+    padding-top: 80px;
+}
+
+.p1sc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: left;
+    font-family: montserrat;
+    margin-left: 50px;
+}
+
+.pts1{
+    font-size: 25px;
+    margin-left: 100px;
+    text-align: left;
+    list-style-type: square;
+    margin-bottom: 20px;
+    /* font-weight: bold; */
+}
+
+.pts1 li{
+    list-style-type: disc;
+}
+.ki{
+    font-size: 30px;
+    color: purple;
+    font-weight: 10000;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.sch{
+    font-size: 70px;
+    color: purple;
+    font-weight: 1000;
+}
+.sc{
+    background-color: white;
+    padding-top: 80px;
+}
+
+.p1{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    /* font-weight: bolder; */
+}
+
+.pts1{
+    font-size: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: left;
+    list-style-type: square;
+    margin-bottom: 20px;
+    /* font-weight: bold; */
+}
+
+.pts1 li{
+    list-style-type: disc;
+}
+.ki{
+    font-size: 30px;
+    color: purple;
+    font-weight: 10000;
+    text-align: left;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    margin-right: 250px;
+}
+
