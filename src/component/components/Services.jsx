@@ -69,7 +69,7 @@ function Services(){
     </div>
     <h2 className="mt-7 text-black text-xl">I3F has collaborated with different organizations to provide following services:</h2>
     <div
-      class="mt-10 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-7"
+      class="mt-10 grid divide-x divide-y divide-white-100 dark:divide-white-700 overflow-hidden rounded-3xl  sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-7"
     >
       <div class="group relative bg-white dark:bg-white-800 ">
         <div class="relative space-y-8 py-12 p-8">
