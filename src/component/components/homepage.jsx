@@ -12,6 +12,8 @@ import Current from "../currenthappens/current"
 import Abt from "../components/AboutI3f"
 // import Circle from "./component/leftimage/circle"
 // import Rot from "./component/rotation/rotation"
+import Ca from "./c"
+
 function Homepage() {
 
  
@@ -30,12 +32,16 @@ function Homepage() {
         <h1>Center For <span>{value}</span></h1>
         </div> */}
          <Home />
+         
          <Units />
+         
          <Unit />
          <Count />
-         <Current />
+         {/* <Current /> */}
+         <Ca />
       <Footer2 />
-      {/* <Circle /> */}
+    
+      
       {/* <Rot /> */}
     </div>
    
