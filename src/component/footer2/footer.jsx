@@ -6,6 +6,7 @@ import face from "./assets/face.png";
 import Insta from "./assets/insta.png";
 import link from "./assets/link.png";
 import tweet from "./assets/tweet2.jpg";
+import { Link } from "react-router-dom";
 
 
 
@@ -103,7 +104,7 @@ function footer2(){
             <h2 className={styles.footermenuname}> Quick Links</h2>
             <ul id={styles.menuquicklinks} className={styles.footermenulist}>
               <li className={`${styles.menuitem} ${styles.menuitemtypecustom} ${styles.menuitemobjectcustom}`}>
-                <a target="_blank" rel="noopener noreferrer" href="#">Incubation Policy</a>
+                <Link to ="Ip">Incubation Policy</Link>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypecustom} ${styles.menuitemobjectcustom}`}>
                 <a target="_blank" rel="noopener noreferrer" href="#">Blogs</a>
