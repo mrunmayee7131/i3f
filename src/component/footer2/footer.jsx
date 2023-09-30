@@ -38,7 +38,7 @@ function footer2(){
           <div className={styles.footercalltoaction}>
             <h2 className={styles.footercalltoactiontitle}> Let's Chat</h2>
             <p className={styles.footercalltoactiondescription}> Have a support question?</p>
-            <a className={`${styles.footercalltoactionbutton} ${styles.button}`}  href="#" target="_self"> Contact Us </a>
+            <Link className={`${styles.footercalltoactionbutton} ${styles.button}`}  to="contactus"> Contact Us </Link>
           </div>
 
           
@@ -67,16 +67,16 @@ function footer2(){
             <h2 className={styles.footermenuname}>Social Media</h2>
             <ul id={styles.menucompany} className={styles.footermenulist}>
               <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
-                <a href="#"><img src={face}/></a>
+                <a href="https://www.facebook.com/I3F.IITBHU/" target="_blank"><img src={face}/></a>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypetaxonomy} ${styles.menuitemobjectcategory}`}>
-                <a href="#"><img src={Insta}/></a>
+                <a href="https://www.instagram.com/i3f.iitbhu/" target="_blank"><img src={Insta}/></a>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
-                <a href="#"><img src={link}/></a>
+                <a href="https://www.linkedin.com/in/i3fiitbhu/" target="_blank"><img src={link}/></a>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
-                <a className={styles.tweet} href="#"><img   src={tweet}/></a>
+                <a className={styles.tweet} href="https://twitter.com/I3F_IITBHU" target="_blank"><img   src={tweet}/></a>
               </li>
             </ul>
           </div>

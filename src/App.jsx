@@ -22,7 +22,7 @@ import Newsletter from "./component/components/newsletter"
 import Services from "./component/components/Services"
 import Rabi from "./component/components/R-ABI"
 import Ip from "./component/components/IncubationPolicy"
-
+  
 // import Rabi from "./components/R-ABI"
 
  import Abt from "./component/components/AboutI3f"
