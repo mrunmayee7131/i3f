@@ -20,6 +20,7 @@ import Ecell from "./component/components/ecell"
 import Events from "./component/components/Events"
 import Newsletter from "./component/components/newsletter"
 import Services from "./component/components/Services"
+import Rabi from "./component/components/R-ABI"
 
 // import Rabi from "./components/R-ABI"
 
@@ -59,15 +60,13 @@ function App() {
       <Route path="/" element={<Homepage />} />
       <Route path="about" element={<Abt />} />
       <Route path="satellitecenter" element={<Sc />} />
-
+      <Route path="Rabi" element={<Rabi />} />
       <Route path="team" element={<Abtteam />} />
       <Route path="Cisco" element={<Cisco />} />
       <Route path="contactus" element={<Contact />} />
       <Route path="Ecell" element={<Ecell />} />
       <Route path="Events" element={<Events />} />
       <Route path="Services" element={<Services />} />
-      {/* <Route path="/Rabi" element={<Rabi />} /> */}
-      {/* <Route path="/Rabi" element={<Rabi />} /> */}
       </Routes>
   </BrowserRouter>
   )
