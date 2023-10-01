@@ -6,6 +6,7 @@ import face from "./assets/face.png";
 import Insta from "./assets/insta.png";
 import link from "./assets/link.png";
 import tweet from "./assets/tweet2.jpg";
+import { Link } from "react-router-dom";
 
 
 
@@ -37,7 +38,7 @@ function footer2(){
           <div className={styles.footercalltoaction}>
             <h2 className={styles.footercalltoactiontitle}> Let's Chat</h2>
             <p className={styles.footercalltoactiondescription}> Have a support question?</p>
-            <a className={`${styles.footercalltoactionbutton} ${styles.button}`}  href="#" target="_self"> Contact Us </a>
+            <Link className={`${styles.footercalltoactionbutton} ${styles.button}`}  to="contactus"> Contact Us </Link>
           </div>
 
           
@@ -66,16 +67,16 @@ function footer2(){
             <h2 className={styles.footermenuname}>Social Media</h2>
             <ul id={styles.menucompany} className={styles.footermenulist}>
               <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
-                <a href="#"><img src={face}/></a>
+                <a href="https://www.facebook.com/I3F.IITBHU/" target="_blank"><img src={face}/></a>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypetaxonomy} ${styles.menuitemobjectcategory}`}>
-                <a href="#"><img src={Insta}/></a>
+                <a href="https://www.instagram.com/i3f.iitbhu/" target="_blank"><img src={Insta}/></a>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
-                <a href="#"><img src={link}/></a>
+                <a href="https://www.linkedin.com/in/i3fiitbhu/" target="_blank"><img src={link}/></a>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
-                <a className={styles.tweet} href="#"><img   src={tweet}/></a>
+                <a className={styles.tweet} href="https://twitter.com/I3F_IITBHU" target="_blank"><img   src={tweet}/></a>
               </li>
             </ul>
           </div>
@@ -103,10 +104,10 @@ function footer2(){
             <h2 className={styles.footermenuname}> Quick Links</h2>
             <ul id={styles.menuquicklinks} className={styles.footermenulist}>
               <li className={`${styles.menuitem} ${styles.menuitemtypecustom} ${styles.menuitemobjectcustom}`}>
-                <a target="_blank" rel="noopener noreferrer" href="#">Incubation Policy</a>
+                <Link to ="Ip">Incubation Policy</Link>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypecustom} ${styles.menuitemobjectcustom}`}>
-                <a target="_blank" rel="noopener noreferrer" href="#">Blogs</a>
+                <Link to ="Blog">Blogs</Link>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
                 <a href="#">Newsletter</a>

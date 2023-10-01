@@ -21,6 +21,8 @@ import Events from "./component/components/Events"
 import Newsletter from "./component/components/newsletter"
 import Services from "./component/components/Services"
 import Rabi from "./component/components/R-ABI"
+import Ip from "./component/components/IncubationPolicy"
+import Blog from "./component/components/blog"
 
 // import Rabi from "./components/R-ABI"
 
@@ -67,6 +69,8 @@ function App() {
       <Route path="Ecell" element={<Ecell />} />
       <Route path="Events" element={<Events />} />
       <Route path="Services" element={<Services />} />
+      <Route path="Ip" element={<Ip />} />
+      <Route path="Blog" element={<Blog />} />
       </Routes>
   </BrowserRouter>
   )
