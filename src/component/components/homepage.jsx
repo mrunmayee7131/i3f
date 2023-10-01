@@ -12,7 +12,7 @@ import Current from "../currenthappens/current"
 import Abt from "../components/AboutI3f"
 // import Circle from "./component/leftimage/circle"
 // import Rot from "./component/rotation/rotation"
-import Ca from "./c"
+import Ca from "../carousel/carousel"
 
 function Homepage() {
 
@@ -38,7 +38,10 @@ function Homepage() {
          <Unit />
          <Count />
          {/* <Current /> */}
-         <Ca />
+      
+          <Ca />
+        
+         {/* <Ca /> */}
       <Footer2 />
     
       

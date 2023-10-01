@@ -1,5 +1,5 @@
 import React from "react"
-import Cisco from "./assets/cisco.webp";
+import Cisco from "./assets/Dr.-P.-Chanak-1.webp";
 function Ca (){
   return (
     <div  class="py-12">
