@@ -23,7 +23,7 @@ import Services from "./component/components/Services"
 import Rabi from "./component/components/R-ABI"
 import Ip from "./component/components/IncubationPolicy"
 import Blog from "./component/components/blog"
-
+import NIIC from "./component/components/NIIC"
 // import Rabi from "./components/R-ABI"
 
  import Abt from "./component/components/AboutI3f"
@@ -71,6 +71,7 @@ function App() {
       <Route path="Services" element={<Services />} />
       <Route path="Ip" element={<Ip />} />
       <Route path="Blog" element={<Blog />} />
+      <Route path="NIIC" element={<NIIC />} />
       </Routes>
   </BrowserRouter>
   )

@@ -104,10 +104,10 @@ function footer2(){
             <h2 className={styles.footermenuname}> Quick Links</h2>
             <ul id={styles.menuquicklinks} className={styles.footermenulist}>
               <li className={`${styles.menuitem} ${styles.menuitemtypecustom} ${styles.menuitemobjectcustom}`}>
-                <Link to ="Ip">Incubation Policy</Link>
+                <Link to ="/Ip">Incubation Policy</Link>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypecustom} ${styles.menuitemobjectcustom}`}>
-                <Link to ="Blog">Blogs</Link>
+                <Link to ="/Blog">Blogs</Link>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
                 <a href="#">Newsletter</a>

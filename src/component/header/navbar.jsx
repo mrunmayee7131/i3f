@@ -51,7 +51,7 @@ const Navbar = () => {
       <i className="fa fa-caret-down"></i>
     </button>
     <div className={styles.dropdowncontent}>
-      <a href="#" className={styles.sat}> NIIC 
+      <a href="/NIIC" className={styles.sat}> NIIC 
       <i className="fa fa-caret-down"></i>
     <div className={styles.dropdowncontentcontent}>
       <Link to="/satellitecenter">Satellite Center</Link>
