@@ -22,7 +22,8 @@ import Newsletter from "./component/components/newsletter"
 import Services from "./component/components/Services"
 import Rabi from "./component/components/R-ABI"
 import Ip from "./component/components/IncubationPolicy"
-  
+import Blog from "./component/components/blog"
+
 // import Rabi from "./components/R-ABI"
 
  import Abt from "./component/components/AboutI3f"
@@ -69,6 +70,7 @@ function App() {
       <Route path="Events" element={<Events />} />
       <Route path="Services" element={<Services />} />
       <Route path="Ip" element={<Ip />} />
+      <Route path="Blog" element={<Blog />} />
       </Routes>
   </BrowserRouter>
   )

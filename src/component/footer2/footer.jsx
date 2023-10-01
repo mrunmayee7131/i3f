@@ -107,7 +107,7 @@ function footer2(){
                 <Link to ="Ip">Incubation Policy</Link>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypecustom} ${styles.menuitemobjectcustom}`}>
-                <a target="_blank" rel="noopener noreferrer" href="#">Blogs</a>
+                <Link to ="Blog">Blogs</Link>
               </li>
               <li className={`${styles.menuitem} ${styles.menuitemtypepost_type} ${styles.menuitemobjectpage}`}>
                 <a href="#">Newsletter</a>
