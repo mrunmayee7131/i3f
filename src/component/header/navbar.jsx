@@ -12,7 +12,7 @@ const Navbar = () => {
     {/* <div className="text"> <p>Innovation Incubation Ideation </p></div> */}
    
     </div>
-    <input type="checkbox" id="check" />
+    <input type="checkbox" id="check" className="input"/>
     <label for="check" className={styles.checkbtn}>
       <i className="fas fa-bars"></i>
     </label>

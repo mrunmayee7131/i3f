@@ -149,7 +149,7 @@
   .dropdowncontent a:hover{
     background-color: rgb(54, 23, 54);
    }
-  input{
+  .navvdivv input{
     display:none;
   }
   @media (max-width: 952px){
@@ -173,7 +173,7 @@
     
   }
   @media (max-width: 1093px){
-    input{
+    .navvdivv input{
       display:none;
     }
     .checkbtn{
