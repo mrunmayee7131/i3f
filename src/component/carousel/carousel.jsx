@@ -1,76 +1,63 @@
+// import IMG1 from '../carousel/assets/cisco.webp';
+// import IMG2 from '../carousel/assets/Dhruv.webp';
 import React from 'react'
 import IMG1 from '../carousel/assets/cisco.webp';
 import IMG2 from '../carousel/assets/Dhruv.webp';
-import './carousel.css';
-function carousel() {
+
+
+
+function carousel() {  
     return (
-        <>  
-        <div className='ascar'>
-            <h1>Current Happenings</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, enim esse! Harum dolore ullam iure, eligendi accusamus voluptate, eum, omnis dolorem vero repudiandae minima iusto reiciendis molestias veniam</p>
-<section class="carousel" aria-label="Gallery">
-  <ol class="carousel__viewport">
-    <li id="carousel__slide1"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper">
-        <a href="#carousel__slide4"
-           class="carousel__prev">Go to last slide</a>
-        <a href="#carousel__slide2"
-           class="carousel__next">Go to next slide</a>
+      <div  class="py-12">
+      <div class="xl:container m-auto px-6 text-gray-600 xl:px-1">
+      <div class="mb-12 space-y-2 text-center">
+      <h2 class="text-3xl font-bold text-gray-800 md:text-4xl dark:text-fuchsia-800">Current Happenings</h2>
+      
+    </div>
+        <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+          <div class="group p-6 sm:p-8 rounded-3xl  bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-white-200 ">
+            <div class="relative overflow-hidden rounded-xl">
+              <img src={IMG1}
+              alt="art cover" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
+            </div>
+            <div class="mt-6 relative">
+              <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">
+              Workshop to guide graduate from product MVP to business soft launch
+              </h3>
+              
+            </div>
+            
+          </div>
+          <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none  dark:border-gray-700 dark:bg-white-200 ">
+            <div class="relative overflow-hidden rounded-xl">
+              <img src={IMG2}
+              alt="art cover" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
+            </div>
+            <div class="mt-6 relative">
+              <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">
+              Create successful startups & learn the basics of funding by Dr. Dhruv Nath
+              </h3>
+              
+            </div>
+            
+          </div>
+          <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none  dark:border-gray-700 dark:bg-white-200 ">
+            <div class="relative overflow-hidden rounded-xl">
+              <img src={IMG2}
+              alt="art cover" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
+            </div>
+            <div class="mt-6 relative">
+              <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">
+              Insights of AOP, R-ABI
+              </h3>
+              
+            </div>
+            
+          </div>
+        </div>
       </div>
-    </li>
-    <li id="carousel__slide2"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide1"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide3"
-         class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide3"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide2"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide4"
-         class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide4"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide3"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide1"
-         class="carousel__next">Go to first slide</a>
-    </li>
-  </ol>
-  <aside class="carousel__navigation">
-    <ol class="carousel__navigation-list">
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide1"
-           class="carousel__navigation-button">Go to slide 1</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide2"
-           class="carousel__navigation-button">Go to slide 2</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide3"
-           class="carousel__navigation-button">Go to slide 3</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide4"
-           class="carousel__navigation-button">Go to slide 4</a>
-      </li>
-    </ol>
-  </aside>
-</section>
-</div>
-        </>
+    </div>
+                                        
     )
 }
 

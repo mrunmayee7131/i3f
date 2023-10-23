@@ -12,17 +12,17 @@ function Units(){
       }, []);  
     const imagee=document.getElementsByTagName("img");
     const handleScroll = () => {
-      if (window.scrollY > 200) {
-         imagee[5].classList.add("imgg1");
-         imagee[6].classList.add("imgg2");
-         imagee[7].classList.add("imgg3");
+      if (window.scrollY > 200 && window.screen.width >500) {
+         imagee[6].classList.add("imgg1");
+         imagee[7].classList.add("imgg2");
+         imagee[8].classList.add("imgg3");
       }else{
-        imagee[5].classList.add("null");
         imagee[6].classList.add("null");
         imagee[7].classList.add("null");
-        imagee[5].classList.remove("imgg1");
-        imagee[6].classList.remove("imgg2");
-        imagee[7].classList.remove("imgg3");
+        imagee[8].classList.add("null");
+        imagee[6].classList.remove("imgg1");
+        imagee[7].classList.remove("imgg2");
+        imagee[8].classList.remove("imgg3");
       }
     };
 
@@ -35,11 +35,34 @@ function Units(){
               <div>
             <h1>About I3F</h1>
         </div>
-        <div className="flex justify-around h20 mt-20">
-          
+        <div className="flex justify-around h20 mt-20 md:flex-row flex-col">
+          <div className="textdiv">
           <img  src={image} />
+          <p className="text-centermob">
+                sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus commodi?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus commodi?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus
+            </p>
+            </div>
+            <div className="textdiv">
           <img  src={image} />
-          <img   src={image} />
+          <p className="text-centermob">
+                sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus commodi?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus commodi?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus
+            </p>
+            </div>
+            <div className="textdiv">
+          <img  src={image} />
+          <p className="text-centermob">
+                sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus commodi?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus commodi?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus
+            </p>
+            </div>
+{/*             
+          <img  src={image} />
+          <img   src={image} /> */}
         </div>
            <div className="unittext">
             <p className="text-center">

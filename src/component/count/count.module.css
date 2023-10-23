@@ -111,3 +111,25 @@ p{
 .content:hover button{
     display:block;
 }
+.abc{
+    display:none;
+}
+@media(max-width:500px){
+    .abc{
+        display:block;
+        
+    }
+    .abc h1{
+        font-size: 3rem;
+    }
+.countbody{
+    width:100vw;
+}
+.outerdiv{
+    flex-direction: column;
+    align-items: center;
+}
+.innerdiv{
+    margin:20px;
+}
+}

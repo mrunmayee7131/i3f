@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./current.module.css";
 function Current(){
     return(
+      <div className={styles.maincon}>
         <div className="mb-16">
             <h1>Current Happenings</h1>
             <div className={styles.container}>
@@ -40,6 +41,7 @@ October 21,2021
     </div>
   </div>
 </div>
+        </div>
         </div>
     )
 }

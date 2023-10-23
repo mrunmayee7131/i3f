@@ -8,14 +8,15 @@ const Navbar = () => {
     <div className={styles.navvdivv}>
     <nav className="flex basis-5 justify-between h-20 fixed top-0 w-full z-10">
       <div className={styles.navimg}>
-    <img src={logo2} className={styles.image}/>
+    <Link to="/"><img src={logo2} className={styles.image} /></Link>
     {/* <div className="text"> <p>Innovation Incubation Ideation </p></div> */}
    
     </div>
-    <input type="checkbox" id={styles.check} />
+    <input type="checkbox" id="check" />
     <label for="check" className={styles.checkbtn}>
       <i className="fas fa-bars"></i>
     </label>
+   
   {/* <label class="logo">Innovation Incubation and Ideation</label> */}
 
     
@@ -51,12 +52,12 @@ const Navbar = () => {
       <i className="fa fa-caret-down"></i>
     </button>
     <div className={styles.dropdowncontent}>
-      <a href="/NIIC" className={styles.sat}> NIIC 
+      <Link to="/NIIC" className={styles.sat}> NIIC 
       <i className="fa fa-caret-down"></i>
     <div className={styles.dropdowncontentcontent}>
       <Link to="/satellitecenter">Satellite Center</Link>
     </div>
-    </a>
+    </Link>
     <Link to="/Rabi">R-ABI</Link> 
     <Link to="/Cisco" > Cisco Thing Qbator</Link>
     <Link to="/ecell" > E-cell IIT BHU</Link>  

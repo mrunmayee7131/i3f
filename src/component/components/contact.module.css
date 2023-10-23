@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+  }
+  
+ body {
+    
+  
+    width: 100%;
+    height: 100vhx;
+  }
+  
+  .containercon {
+    background: #9279a3;
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(7, 0, 0);
+    font-weight: 300;
+    margin: 10% auto;
+    padding: 80px 20px;
+    border-radius: 18px;
+    text-align: center;
+    width:350px;
+  }
+  
+  .containercon h1 {
+    font-size: 40px;
+    font-weight: 200;
+  }
+  
+  .containercon input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(14, 14, 14);
+    font-weight: 300;
+  }
+  .query{
+    height:150px;
+    color:black;
+  }
+  .submitcon {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #0c3736;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 18px;
+  }
+.con{
+ text-align:right;
+ padding:20px 0px 0px 0px;
+ 
+}
+.con button{
+    width:75px;
+    height:20px;
+    text-align: center;
+    font-size:15px;
+    padding:0px;
+    color:white;
+}
+/* a:link{
+    color:#0c3736;
+}
+a:visited{
+    color:#0c3736;
+} */

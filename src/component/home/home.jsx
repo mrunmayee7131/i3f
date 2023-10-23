@@ -3,6 +3,7 @@ import React, { useEffect, useState }  from "react"
 import styles from "./home.module.css";
 // import logo from "./assests/design.png";
 import Rot from "../rotation/rotation"
+import img from "../components/assets/I3F Logo-1.png"
 function Home(){
     const [value,setvalue]=useState("Innovation");
     useEffect(() => {
@@ -15,6 +16,8 @@ function Home(){
     return(
 
         <div className={styles.home}>
+
+
          <div className={styles.wrapper}>
         <div className={styles.statictxts} >Centre for</div>
         <ul className={styles.dynamictxts}>
@@ -25,6 +28,12 @@ function Home(){
 
         </div>
         
+        <div className={styles.wrapmob}>
+        <h1>I3F Foundation</h1>
+        <img src={img} />
+        <p>IIT(BHU) Varanasi</p>
+        </div>
+
 
         <div className={styles.logo}>
          <Rot />

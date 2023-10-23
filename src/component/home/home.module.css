@@ -128,4 +128,46 @@ h1{
   .dk{
     width:100vh;
   }
-  
+  .wrapmob{
+    display: none;
+  }
+@media (max-width:500px){
+  .home{
+    width:100vw;
+  }
+  .logo{
+    display:none;
+  }
+  .dynamictxts{
+    animation:none;
+  }
+  .wrapper{
+    display:none;
+  }
+  .wrapmob{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width:100vw;
+    height:600px;
+    /* border:2px solid black; */
+    margin-top: 90px;
+  }
+  .wrapmob h1{
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .wrapmob img{
+    height:300px;
+    width: fit-content;
+    padding-top: 30px;
+  }
+  .wrapmob p{
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .below{
+    display: none;
+  }
+}

@@ -4,6 +4,9 @@ import CountUpWithVisibility from '../components/rvc';
 function Count(){
     return(
         <div className={styles.countbody}>
+         <div className={styles.abc}>
+            <h1>Achievements</h1>
+            </div>
          <div className={styles.outerdiv}>
             <div className={styles.innerdiv}>
             <div className={styles.box}>
