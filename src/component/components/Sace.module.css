@@ -4,9 +4,11 @@
     font-weight: 1000;
 }
 .sc{
-    width: 100vw;
+    /* width: 100vw; */
     background-color: white;
     padding-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .p1sc{

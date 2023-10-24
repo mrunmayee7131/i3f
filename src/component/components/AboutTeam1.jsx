@@ -16,7 +16,7 @@ function Abtteam1(){
           <div class="bg-white-50 dark:bg-white-800 py-20">
   <div class="container mx-auto px-6 md:px-12 xl:px-32">
     <div class="mb-16">
-      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-black md:text-4xl">
+      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-fuchsia-800 md:text-4xl">
         Managing Commitee
       </h2>
       <p class="text-gray-600 dark:text-gray-400 lg:mx-auto lg:w-8/12">
