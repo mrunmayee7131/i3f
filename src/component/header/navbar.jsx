@@ -60,7 +60,7 @@ const Navbar = () => {
     </Link>
     <Link to="/Rabi" target="_parent">R-ABI</Link> 
     <Link to="/Cisco" target="_parent"> Cisco Thing Qbator</Link>
-    <Link to="/ecell" target="_parent"> E-cell IIT BHU</Link>  
+    <Link to="/ecell" target="_parent"> E-Cell IIT BHU</Link>  
     </div>
     </div>
     </li>
