@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './Services.module.css'
+import Classes from './Services.module.css'
 import svs from './assets/TIIC-Facilities.webp';
 import lf from './assets/TIIC-Lab-Facilities.webp';
 import of from './assets/TIIC-Facilities.webp';
@@ -17,53 +17,13 @@ import Footer from "../footer2/footer";
 
 function Services(){
     return(
-        <div className={styles.sevs}>
+        <div className={Classes.sevs}>
             <Navbar></Navbar>
-        {/* <h1>Our Services/Facilities</h1>
-        <p>I3F has collaborated with different organizations to provide following services</p>
-        <img src={svs} />
-        <h2>Office Facilities:</h2>
-        <div className="off">
-        <img src={of} className="of" />
-        <li>Office Space</li>
-<li />Computer Systems
-<li />Printers
-<li />Internet/WiFi
-<li />Photocopier
-<li />Conference Hall
-<li />Training Hall
-<li />Prototype and testing area
-<li />Utilities area
-<li>Power backup using two online UPS (5 & 6 KVA) and 15 KVA DG set</li>
-</div><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-<h2>Lab Facilities</h2>
-
-<img src={lf}  className="of"/>
-<li />Laminar Airflow
-<li />Lyophilizer
-<li />BOD incubator
-<li />CO2 incubator
-<li />Centrifuge
-<li />Spectrophotometer
-<li />Vertical Autoclave
-<li />Orbital Shakers
-<li />Cold room
-<li />Fermenters
-<li />Chemical workstation
-<li />Hot air Oven
-<li />PCR
-<li />Gel doc systems
-<li />Gel Electrophoresis
-<li />RI detector
-<li />Deep Freezer
-<li />Cell sonicator
-<li />Polarizing Microscope */}
-
-
-                                        <div class="py-10">
+        
+  <div class="py-10">
   <div class="xl:container m-auto px-4 text-gray-500 md:px-6">
     <div>
-      <h2 class="mt-10 text-2xl font-bold text-fuchsia-700 dark:text-fuchs   ia md:text-4xl text-center ">
+      <h2 class="mt-16 text-2xl font-bold text-fuchsia-700 dark:text-fuchs   ia md:text-4xl text-center ">
         Our Services/Facilities
       </h2>
     </div>
