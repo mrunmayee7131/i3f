@@ -8,15 +8,15 @@ const CountUpWithVisibility = ({ start, end, duration }) => {
 
    useEffect(() => {
        const options = {
-           root: null, // Use the viewport as the root
-           threshold: 0.5, // Trigger when 50% of the target is visible
+           root: null, 
+           threshold: 0.5, 
        };
 
        const handleVisibilityChange = (entries) => {
            entries.forEach((entry) => {
                if (entry.isIntersecting) {
                    setIsVisible(true);
-                   // Reset the countTriggered state when the div becomes visible
+                  
                    setCountTriggered(false);
                } else {
                    setIsVisible(false);
@@ -31,13 +31,13 @@ const CountUpWithVisibility = ({ start, end, duration }) => {
        }
 
        return () => {
-           // Clean up the observer when the component unmounts
+          
            observer.disconnect();
        };
    }, []);
 
    const handleCountEnd = () => {
-       // Set countTriggered to true when the CountUp animation ends
+     
        setCountTriggered(true);
    };
 
