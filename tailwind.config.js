@@ -8,6 +8,9 @@ module.exports = {
         'custom-gray': '#383838',
         'custom-red': '#ff3d00',
       },
+      margin: {
+        '115': '2px',
+      },
     },
   },
   plugins: [],

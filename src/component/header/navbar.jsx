@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div className={styles.navvdivv}>
-    <nav className="flex basis-5 justify-between h-20 fixed top-0 w-full z-10">
+    <nav className="flex basis-5 justify-between h-20 fixed ml-115 top-0 w-full z-10">
       <div className={styles.navimg}>
     <Link to="/"><img src={logo2} className={styles.image} /></Link>
     {/* <div className="text"> <p>Innovation Incubation Ideation </p></div> */}
