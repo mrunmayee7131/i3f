@@ -38,16 +38,16 @@ function Footer2() {
                 Useful Links
               </h6>
               <p className="pb-4">
-                <Link to="/Ip" className="text-neutral-600 dark:text-neutral-200">Incubation Policy</Link>
+                <Link to="/Ip" className="text-neutral-600 dark:text-neutral-200" target="_parent">Incubation Policy</Link>
               </p>
               <p className="pb-4">
-                <Link to="/" className="text-neutral-600 dark:text-neutral-200">Newsletter</Link>
+                <Link to="/" className="text-neutral-600 dark:text-neutral-200" target="_parent">Newsletter</Link>
               </p>
               <p className="pb-4">
-                <Link to="/Blog" className="text-neutral-600 dark:text-neutral-200">Blogs</Link>
+                <Link to="/Blog" className="text-neutral-600 dark:text-neutral-200" target="_parent">Blogs</Link>
               </p>
               <p>
-                <Link to="/" className="text-neutral-600 dark:text-neutral-200">Upcoming Events</Link>
+                <Link to="/" className="text-neutral-600 dark:text-neutral-200" target="_parent">Upcoming Events</Link>
               </p>
             </div>
             <div className="md:w-1/2 lg:w-auto">

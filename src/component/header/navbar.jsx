@@ -36,9 +36,9 @@ const Navbar = () => {
     </button>
     <div className={`${styles.dropdowncontent} ${styles.dropdowncontenta}`}>
       
-      <Link to="/about" >About I3F</Link>
-      <Link to="/team">About Team</Link>
-      <Link to="/services">Our Services/Facilities</Link>
+      <Link to="/about" target="_parent" >About I3F</Link>
+      <Link to="/team" target="_parent">About Team</Link>
+      <Link to="/services" target="_parent">Our Services/Facilities</Link>
       
     </div>
     </div>
@@ -52,22 +52,22 @@ const Navbar = () => {
       <i className="fa fa-caret-down"></i>
     </button>
     <div className={styles.dropdowncontent}>
-      <Link to="/NIIC" className={styles.sat}> NIIC 
+      <Link to="/NIIC" className={styles.sat} target="_parent"> NIIC 
       <i className="fa fa-caret-down"></i>
     <div className={styles.dropdowncontentcontent}>
-      <Link to="/satellitecenter">Satellite Center</Link>
+      <Link to="/satellitecenter" target="_parent">Satellite Center</Link>
     </div>
     </Link>
-    <Link to="/Rabi">R-ABI</Link> 
-    <Link to="/Cisco" > Cisco Thing Qbator</Link>
-    <Link to="/ecell" > E-cell IIT BHU</Link>  
+    <Link to="/Rabi" target="_parent">R-ABI</Link> 
+    <Link to="/Cisco" target="_parent"> Cisco Thing Qbator</Link>
+    <Link to="/ecell" target="_parent"> E-cell IIT BHU</Link>  
     </div>
     </div>
     </li>
      
 
 
-    <li className={styles.nvbr}><Link className={styles.con} to="/contactus">Contact Us</Link></li>
+    <li className={styles.nvbr}><Link className={styles.con} to="/contactus" target="_parent">Contact Us</Link></li>
 
 
    
