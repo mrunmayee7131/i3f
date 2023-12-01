@@ -10,8 +10,9 @@ import Navbar from "../header/navbar";
 import Footer from "../footer2/footer";
 function Abtteam1(){
     return(
-        <div className={styles.abtt}>
+      <div>
           <Navbar />
+        <div className={styles.abtt}>
             
           <div class="bg-white-50 dark:bg-white-800 py-20">
   <div class="container mx-auto px-6 md:px-12 xl:px-32">
@@ -121,9 +122,9 @@ function Abtteam1(){
   </div>
 </div>
                                     
-         <Footer />
         </div>
-
+        <Footer />
+        </div>
 
 
     )

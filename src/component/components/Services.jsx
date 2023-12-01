@@ -17,8 +17,9 @@ import Footer from "../footer2/footer";
 
 function Services(){
     return(
+      <div>
+                    <Navbar></Navbar>
         <div className={Classes.sevs}>
-            <Navbar></Navbar>
         
   <div class="py-10">
   <div class="xl:container m-auto px-4 text-gray-500 md:px-6">
@@ -256,9 +257,9 @@ Lab Facilities        </h2>
                                     
                                     
                                     
-<Footer></Footer>
         </div>
-
+        <Footer></Footer>
+        </div>
     )
 }
 

@@ -26,8 +26,8 @@ function Cisco(){
   Cisco thingQbator, IIT (BHU)
       </h2>
       <a href="https://thingqbator.nasscomfoundation.org/" target="_blank"><img src={cis} className={styles.cisimg}/></a>
-      <p class="my-10 text-black-600 dark:text-black-300 lg:mx-auto lg:w-8/12">
-      Since May 2018, as a part of a CSR initiative, Cisco Systems along with NASSCOM Foundation has established a <a href="https://thingqbator.nasscomfoundation.org/" target="_blank" className="text">Cisco thingQbator</a> at IIT (BHU) Varanasi. This AI and IoT-based makerspace program help to accelerate innovation and entrepreneurship among the student community.
+      <p class="my-10 font-normal text-black-600 dark:text-black-300 lg:mx-auto lg:w-8/12">
+      Since May 2018, as a part of a CSR initiative, Cisco Systems along with NASSCOM Foundation has established a <a href="https://thingqbator.nasscomfoundation.org/" target="_blank" className="text font-normal">Cisco thingQbator</a> at IIT (BHU) Varanasi. This AI and IoT-based makerspace program help to accelerate innovation and entrepreneurship among the student community.
       </p>
       <h3 class="my-10 text-center text-2xl font-bold text-fuchsia-800 dark:text-black md:text-4xl">
   Focus Areas
@@ -92,7 +92,7 @@ function Cisco(){
           loading="lazy"
         />
         <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">Hackathons</h3>
-        <p>
+        <p className="font-normal">
         Hackathons are 24-hr programs (single sprint) in which students and budding entrepreneurs are given a chance to build software/hardware to showcase their competency on a problem statement to develop a solution that best mitigates a real-world challenge.
 Till now 5 Hackathons have been successfully organized and the winners were awarded.
         </p>
@@ -106,7 +106,7 @@ Till now 5 Hackathons have been successfully organized and the winners were awar
           loading="lazy"
         />
         <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">Workshops</h3>
-        <p>
+        <p className="font-normal">
         Workshops on AI, IoT, ML, Blockchain and other future technologies are conducted from time to time. Industrial and academic experts from these domains are invited and students get hands-on training and mentoring.
 
         </p>
@@ -120,7 +120,7 @@ Till now 5 Hackathons have been successfully organized and the winners were awar
           loading="lazy"
         />
         <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">Webinars</h3>
-        <p>
+        <p className="font-normal">
         Webinars are conducted by IIT-BHU Alums, Technopreneurs, Senior executives of MNCs, Venture capitalists on various technical and business-related sessions.
         </p>
         
@@ -133,7 +133,7 @@ Till now 5 Hackathons have been successfully organized and the winners were awar
           loading="lazy"
         />
         <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">thingQbator Internship Programs</h3>
-        <p>
+        <p className="font-normal">
         It is a virtual creative learning program where university students engage in problem-solving and building solutions. The Design Thinking Process is applied, and the program is broken into three tracks, based on various stages at which students’ projects are. These tracks are Learning Track, Project Track, and Startup Track.
         </p>
         
@@ -142,7 +142,7 @@ Till now 5 Hackathons have been successfully organized and the winners were awar
     <h2 class="my-10 text-center text-2xl font-bold text-fuchsia-800 dark:text-black md:text-4xl">
   Facilities
       </h2>
-    <p class="my-10 text-center text-black-600 dark:text-black-300 lg:mx-auto lg:w-8/12">
+    <p class="my-10 font-normal text-center text-black-600 dark:text-black-300 lg:mx-auto lg:w-8/12">
 <li>Makerspace Network</li>
 <li>Local Server</li>
 <li>Webex Teams</li>

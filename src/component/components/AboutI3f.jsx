@@ -31,8 +31,8 @@ function Abti3f(){
               loading="lazy"
             />
         <h4 class="text-lg font-semibold leading-none">Our Mission</h4>
-            <p>
-              <span class="font-serif">"</span> Identifying, exploring, and developing regional competitiveness, enhancing links between universities and research institutions, and contributing to the growth and success of emerging technology businesses. <span class="font-serif">"</span>
+            <p className="font-normal">
+              <span class="font-serif font-semibold">"</span> Identifying, exploring, and developing regional competitiveness, enhancing links between universities and research institutions, and contributing to the growth and success of emerging technology businesses. <span class="font-serif font-semibold">"</span>
             </p>
             <div>
             </div>
@@ -50,8 +50,8 @@ function Abti3f(){
               loading="lazy"
             />
         <h4 class="text-lg font-semibold leading-none">Our Vission</h4>
-            <p>
-              <span class="font-serif">"</span> Contributing to raising the GDP of our National Economy through Entrepreneurship, – initiating start-ups and supporting SMEs in the East UP region.<span class="font-serif">"</span>
+            <p className="font-normal">
+              <span class="font-serif font-semibold">"</span> Contributing to raising the GDP of our National Economy through Entrepreneurship, – initiating start-ups and supporting SMEs in the East UP region.<span class="font-serif font-semibold">"</span>
             </p>
             <div>
             </div>
@@ -69,7 +69,7 @@ function Abti3f(){
               loading="lazy"
             />
         <h4 class="text-lg font-semibold leading-none">Our Objectives</h4>
-            <p>
+            <p className="font-normal">
               <span class="font-serif"></span> I3F has been established with the following objectives-<br></br>
               <div class="text-center"> 
 a. To promote entrepreneurship among students and society in the region<br></br>
@@ -94,7 +94,7 @@ f. To forge a close linkage between new business & academia R & D <br></br>
               loading="lazy"
             />
         <h4 class="text-lg font-semibold leading-none">Our Services</h4>
-            <p>
+            <p className="font-normal">
               <span class="font-serif"></span>
               <div class="text-center"> a. Technical due-diligence<br></br>
 b. Training Programs<br></br>

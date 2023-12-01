@@ -23,13 +23,13 @@ function Rabi(){
   RKVY-RAFTAAR AGRI BUSINESS INCUBATOR (R-ABI)
       </h2>
       <a href="https://rkvy-raftaariitbhu.org/" target="_blank"><img src={rabi} className={styles.rabiimg}/></a>
-      <p class="my-10 text-black-600 dark:text-black-300 lg:mx-auto lg:w-8/12">
+      <p class="my-10 font-thin text-black-600 dark:text-black-300 lg:mx-auto lg:w-8/12">
       The Rashtriya Krishi Vikas Yojna – Remunerative Approaches for Agriculture and Allied Sector Rejuvenation (RKVY-RAFTAAR) Agripreneurship is a scheme of the Ministry of Agriculture and Farmers’ Welfare (MoA&FW), Govt. of India aimed at strengthening infrastructure in agriculture and allied sector in order to promote agripreneurship and agribusiness by providing financial support and nurturing the incubation ecosystem. Ministry of Agriculture & Farmers’ Welfare, Government of India sanctioned to establish <a href="https://rkvy-raftaariitbhu.org/" target="_blank"> RKVY – RAFTAAR Agri-Business Incubator (R-ABI)</a> at Indian Institute of Technology (BHU) Varanasi in January 2019.
       </p>
       <h3 class="my-10 text-center text-2xl font-bold text-fuchsia-800 dark:text-black md:text-4xl">
       R-ABI: Incubation Programs
       </h3>
-      <p class="my-10 text-black-600 dark:text-black-300 lg:mx-auto lg:w-8/12">RKVY-RAFTAAR Agri-Business Incubator (R-ABI) is established in IIT(BHU) Varanasi in Jan 2019. The R-ABI aims to create a vibrant start-up ecosystem in the Eastern Uttar Pradesh region. The incubator is focusing on spreading awareness in youth, about farming as a fun and profitable business. Also leveraging Agri startups through training, coaching, mentoring & funding through various schemes of Govt of India.</p>
+      <p class="my-10 font-thin text-black-600 dark:text-black-300 lg:mx-auto lg:w-8/12">RKVY-RAFTAAR Agri-Business Incubator (R-ABI) is established in IIT(BHU) Varanasi in Jan 2019. The R-ABI aims to create a vibrant start-up ecosystem in the Eastern Uttar Pradesh region. The incubator is focusing on spreading awareness in youth, about farming as a fun and profitable business. Also leveraging Agri startups through training, coaching, mentoring & funding through various schemes of Govt of India.</p>
 
       
   <div class="container relative m-auto px-40 text-gray-500 md:px-50">
