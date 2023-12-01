@@ -20,8 +20,7 @@ function Abtteam1(){
         Managing Commitee
       </h2>
       <p class="text-gray-600 dark:text-gray-400 lg:mx-auto lg:w-8/12">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus commodi?
-      </p>
+      "Meet our dedicated managing committee, a group of visionary leaders committed to steering our organization towards excellence and innovation."      </p>
     </div>
     <div class="grid items-center gap-12 md:grid-cols-3">
       

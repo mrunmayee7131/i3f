@@ -26,6 +26,7 @@ It is an institute body run by students devoted to acting as a link between budd
     <div class="lg:bg-gray-50 dark:lg:bg-darker lg:p-16 rounded-[4rem] space-y-6 md:flex md:gap-6 justify-center md:space-y-0 lg:items-center">
       <div class="md:5/12 lg:w-1/2">
         <img
+        class="content-center h-96 w-96"
           src={ec}
           alt="image"
           loading="lazy"
