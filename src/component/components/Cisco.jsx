@@ -159,7 +159,7 @@ Till now 5 Hackathons have been successfully organized and the winners were awar
   </div>
 </div>
                                                           
-{/* <Footer></Footer> */}
+<Footer></Footer>
         </div>
     )
 }

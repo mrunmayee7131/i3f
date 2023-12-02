@@ -113,27 +113,27 @@ function Footer2() {
 
           <ul class="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" class="text-gray-700 transition hover:opacity-75">
+              <Link className="text-gray-700 transition hover:opacity-75" target="_parent" to="/Ip">
                 Incubation Policy
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" class="text-gray-700 transition hover:opacity-75">
+              <Link class="text-gray-700 transition hover:opacity-75" target="_parent" to="/Blog">
                 Blogs
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" class="text-gray-700 transition hover:opacity-75">
+              <Link class="text-gray-700 transition hover:opacity-75" target="_parent" to="Nl">
                 Newsletter
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" class="text-gray-700 transition hover:opacity-75">
+              <Link class="text-gray-700 transition hover:opacity-75" target="_parent" to="Ev">
                 Upcoming Events
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
