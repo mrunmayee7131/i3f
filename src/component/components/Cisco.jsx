@@ -92,7 +92,7 @@ function Cisco(){
           loading="lazy"
         />
         <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">Hackathons</h3>
-        <p className="font-normal">
+        <p className="font-normal text-justify">
         Hackathons are 24-hr programs (single sprint) in which students and budding entrepreneurs are given a chance to build software/hardware to showcase their competency on a problem statement to develop a solution that best mitigates a real-world challenge.
 Till now 5 Hackathons have been successfully organized and the winners were awarded.
         </p>
@@ -106,7 +106,7 @@ Till now 5 Hackathons have been successfully organized and the winners were awar
           loading="lazy"
         />
         <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">Workshops</h3>
-        <p className="font-normal">
+        <p className="font-normal text-justify">
         Workshops on AI, IoT, ML, Blockchain and other future technologies are conducted from time to time. Industrial and academic experts from these domains are invited and students get hands-on training and mentoring.
 
         </p>
@@ -120,7 +120,7 @@ Till now 5 Hackathons have been successfully organized and the winners were awar
           loading="lazy"
         />
         <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">Webinars</h3>
-        <p className="font-normal">
+        <p className="font-normal text-justify">
         Webinars are conducted by IIT-BHU Alums, Technopreneurs, Senior executives of MNCs, Venture capitalists on various technical and business-related sessions.
         </p>
         
@@ -133,7 +133,7 @@ Till now 5 Hackathons have been successfully organized and the winners were awar
           loading="lazy"
         />
         <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">thingQbator Internship Programs</h3>
-        <p className="font-normal">
+        <p className="font-normal text-justify">
         It is a virtual creative learning program where university students engage in problem-solving and building solutions. The Design Thinking Process is applied, and the program is broken into three tracks, based on various stages at which students’ projects are. These tracks are Learning Track, Project Track, and Startup Track.
         </p>
         

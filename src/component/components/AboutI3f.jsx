@@ -32,7 +32,7 @@ function Abti3f(){
             />
         <h4 class="text-lg font-semibold leading-none">Our Mission</h4>
             <p className="font-normal">
-              <span class="font-serif font-semibold">"</span> Identifying, exploring, and developing regional competitiveness, enhancing links between universities and research institutions, and contributing to the growth and success of emerging technology businesses. <span class="font-serif font-semibold">"</span>
+              <span class="font-serif font-semibold">"</span> Identifying, exploring, and developing regional competitiveness, enhancing links between universities and research institutions, and contributing to the growth and success of emerging technology businesses.<span class="font-serif font-semibold">"</span>
             </p>
             <div>
             </div>

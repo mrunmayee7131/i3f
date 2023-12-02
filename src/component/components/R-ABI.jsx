@@ -15,7 +15,7 @@ import ecom from "./assets/ecom.gif"
 
 function Rabi(){
     return(
-        <div className="rb">
+        <div>
         <Navbar></Navbar>
         <div class="py-16">
   <div class="container m-auto px-4 text-black-500 md:px-10 xl:px-8">

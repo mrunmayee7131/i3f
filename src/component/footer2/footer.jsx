@@ -23,7 +23,7 @@ function Footer2() {
       <div>
         <p className="ml-5">Follow Us On</p>
       </div>
-        <ul class="mt-8 flex gap-6">
+        <p class="mt-8 flex gap-6">
           <li>
             <a
               href="/"
@@ -102,18 +102,18 @@ function Footer2() {
           </li>
 
           
-        </ul>
+        </p>
       </div>
 
       <div
-        class="grid grid-cols-1 gap-4 sm:grid-cols-1 lg:col-span-2 lg:grid-cols-3"
+        class="grid gap-4 sm:col-span-2 sm:grid-cols-1 lg:col-span-2 lg:grid-cols-3"
       >
         <div>
           <p class="font-medium text-gray-900">Services</p>
 
-          <ul class="mt-6 space-y-4 text-sm">
+          <p class="mt-6 space-y-4 font-normal text-sm">
             <li>
-              <Link className="text-gray-700 transition hover:opacity-75" target="_parent" to="/Ip">
+              <Link className="text-gray-700  transition hover:opacity-75" target="_parent" to="/Ip">
                 Incubation Policy
               </Link>
             </li>
@@ -135,7 +135,7 @@ function Footer2() {
                 Upcoming Events
               </Link>
             </li>
-          </ul>
+          </p>
         </div>
 
         <div>
@@ -143,8 +143,9 @@ function Footer2() {
           <div class="mt-4 space-y-6"> 
             <div className="text-gray-700 transition hover:opacity-75">
                <a class="text-gray-700 transition hover:opacity-75 text-sm ">Ideation Innovation & Incubation (I-3) Foundation</a> 
-               <a class="text-gray-700 transition hover:opacity-75 text-sm">Opposite to Proctor Office, IIT (BHU) Varanasi</a> 
-               <a class="text-gray-700 transition hover:opacity-75 text-sm">Indian Institute of Technology (Banaras Hindu University) Varanasi</a> 
+               <br></br>
+               <a class="text-gray-700 transition hover:opacity-75 text-sm">Opposite to Proctor Office, IIT (BHU) Varanasi</a> <br></br>
+               <a class="text-gray-700 transition hover:opacity-75 text-sm">Indian Institute of Technology (Banaras Hindu University) Varanasi </a> <br></br>
                <a class="text-gray-700 transition hover:opacity-75 text-sm">Varanasi-221005, Uttar Pradesh, India</a> 
               </div>
               </div>

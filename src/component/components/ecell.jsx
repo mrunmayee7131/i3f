@@ -36,7 +36,7 @@ It is an institute body run by students devoted to acting as a link between budd
       </div>
       <div class="md:7/12 lg:w-1/2">
         
-        <p class="my-8 font-normal text-black-600 dark:text-gray-80">
+        <p class="my-8 font-normal text-justify text-black-600 dark:text-gray-80">
         <a href="" target="_blank">E-Cell IIT BHU (The Entrepreneurship Cell)</a> supports entrepreneurship through resources, mentorship, networking, and events like workshops, competitions, and speaker sessions and fosters the overall startup ecosystem in the institute.
 <br></br>
 It is an institute body run by students devoted to acting as a link between budding entrepreneurs and the existing startup ecosystem. It is a hub where all startups can meet, collaborate and innovate.
