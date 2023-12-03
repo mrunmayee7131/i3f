@@ -1,5 +1,5 @@
 .back{
-    background-color: whitesmoke;
+    background-color: white;
     width:100%;
 }
 .unitimg{
@@ -23,9 +23,11 @@
 
 .img1{
     position: absolute;
-    animation-name: expand1;
+    left:3%;
+    height:200px;
+    /* animation-name: expand1;
     animation-duration:2s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
    
 }
 @keyframes expand1{
@@ -33,16 +35,18 @@
        left:45%; 
     }
     100%{
-        left:7%;
+        left:3%;
     }
 }
 
 
 .img2{
     position: absolute;
-    animation-name: expand2;
+    left:31%;
+    height:200px;
+    /* animation-name: expand2;
     animation-duration:2s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 @keyframes expand2{
     0%{
@@ -56,9 +60,11 @@
 
 .img3{
     position: absolute;
-    animation-name: expand3;
+    left:56%;
+    height:200px;
+    /* animation-name: expand3;
     animation-duration:2s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 @keyframes expand3{
     0%{
@@ -74,9 +80,11 @@
 }
 .img4{
     position: absolute;
-    animation-name: expand4;
+    left:80%;
+    height:200px;
+    /* animation-name: expand4;
     animation-duration:2s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 @keyframes expand4{
     0%{

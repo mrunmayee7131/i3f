@@ -1,10 +1,10 @@
 .countbody{
-    background-color: whitesmoke;
+    background-color: white;
 }
 .outerdiv{
 display:flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: center;
 }
 .innerdiv{
 display:flex;
@@ -17,7 +17,7 @@ h2{
     color:white;
 }
 .count{
-    background-color: #b768a2;
+    /* background-color: #b768a2; */
     width:200px;
     height:200px;
     padding-top: 20px;
@@ -28,10 +28,20 @@ h2{
 }
 .countuptext{
     font-family: "Montserrat";
+    width:300px;
+    height:100px;
+    border-right:2px solid black;
+}
+.countuptext1{
+    font-family: "Montserrat";
+    height:100px;
+   
 }
 p{
     font-size: 20px;
     font-weight: 600;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 .box{
     height:250px;

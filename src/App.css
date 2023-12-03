@@ -30,7 +30,7 @@ body{
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
@@ -48,15 +48,15 @@ body{
 section{
   height:100px;
 }
-.dululu{
+/* .dululu{
   height:400px;
   width:100%;
   background-color: white;
-}
+} */
 h1{
   text-align: center;
   font-size:3rem;
-  font-family:cursive;
+ 
 }
 span{
   color:rgb(73, 6, 73)

@@ -38,9 +38,13 @@ function Contact() {
        <Navbar></Navbar>
 
 <div className="mt-32 justify-center items-center w-screen bg-white">
-  <div className="container mx-auto my-12 px-4 lg:px-20">
-    <form onSubmit={handleSubmit(handleSendEmail)}>
-      <div className="mt-2 w-full p-10 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-xl">
+<h1>Contact Us</h1>
+  <div className="container mx-auto my-12 px-4 lg:px-20 flex">
+ 
+    <form onSubmit={handleSubmit(handleSendEmail)} className="w-full">
+      <div className="-mt-16  p-10 md:px-12  lg:pl-20 w-full lg:pr-40 mr-auto rounded-2xl shadow-xl">
+      
+
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:mt-5">
         <Controller
             name="firstname"
@@ -107,13 +111,16 @@ function Contact() {
             )}
           />
         </div>
-        <div className="my-2 md:w-1/2 lg:w-1/4">
-        <button type="submit"  class="uppercase text-sm font-bold tracking-wide bg-blue-900 text-gray-100 p-3 rounded-lg w-full 
+        <div className="flex justify-center">
+        <button type="submit"  class="uppercase w-1/3 text-sm font-bold tracking-wide bg-gray-900 text-gray-100 p-3 rounded-lg  hover:bg-gray-600
                       focus:outline-none focus:shadow-outline">Submit</button>
         </div>
+
+
+
       </div>
     </form>
-    <div className="w-full lg:-mt-96 lg:w-2/6 px-8 py-12 ml-auto bg-fuchsia-900 rounded-2xl">
+    {/* <div className="w-full  lg:w-2/6 px-8 py-12 ml-auto bg-fuchsia-900 rounded-2xl">
       <div className="flex flex-col text-white">
         <h1 className="font-bold uppercase text-4xl text-white my-4">Contact Us</h1>
         <p className="text-gray-400">
@@ -133,7 +140,7 @@ function Contact() {
           ></iframe>
         </div>
       </div>
-    </div>
+    </div> */}
   </div>
 </div>
 <Footer></Footer>

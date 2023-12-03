@@ -1,7 +1,7 @@
 .body{
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
+    background-color: white;
    
 }
 .unittext{
@@ -14,9 +14,16 @@
     margin-bottom: 50px;
 }
 .unittext p{
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    padding-top: 0px;
     font-size: 18px;
     text-align: justify;
+}
+.h3{
+    
+    animation-name: expand1;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
 }
 img{
     
@@ -26,13 +33,22 @@ img{
                 max-height:300px;
                 max-width: 300px; */
     
+    
 }
+.textdiv img:hover{
+   height:320px;
+}
+
 h1{
     color:purple
 }
 .null{
     height:0px;
-
+    font-size: 0px;
+}
+.nullt{
+   
+    font-size: 0px;
 }
 .imgg1{
     height:300px;
@@ -42,13 +58,20 @@ h1{
 }
 @keyframes expand11{
     0%{
-       height:0px;
+        height:150px;
     }
     100%{
         height:200px;
     }
 }
-
+@keyframes expand1{
+    0%{
+       font-size:0px;
+    }
+    100%{
+        font-size:18px;
+    }
+}
 
 .imgg2{
    
@@ -58,7 +81,7 @@ h1{
 }
 @keyframes expandd2{
     0%{
-        height:0px;
+        height:150px;
     }
     100%{
         height:200px;
@@ -74,7 +97,7 @@ h1{
 }
 @keyframes expandd3{
     0%{
-        height:0px;
+        height:150px;
     }
     100%{
         height:200px;

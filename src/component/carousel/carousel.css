@@ -153,7 +153,13 @@
    
     scroll-snap-align: center;
   }
-  
+  .caanchor{
+    color:blue;
+    font-size: 18px;
+  }
+  a:active{
+   color:black;
+  }
   @media (hover: hover) {
     .carousel__snapper {
       animation-name: tonext, snap;
