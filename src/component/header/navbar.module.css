@@ -155,6 +155,7 @@
     }
     nav ul li a{
       font-size: 14px;
+      margin-left: 5px;
     }
     .dropdown .dropbtn {
       font-size: 16px;  

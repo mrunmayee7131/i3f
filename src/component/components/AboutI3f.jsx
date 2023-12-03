@@ -2,10 +2,10 @@ import React from "react";
 import styles from './AboutI3f.module.css'
 import Navbar from "../header/navbar"
 import Footer from "../footer2/footer"
-import mis from "../components/assets/mission.png"
-import vis from "../components/assets/vission.png"
-import obj from "../components/assets/objectives.png"
-import ser from "../components/assets/service.png"
+import mis from "../components/assets/vision.gif"
+import vis from "../components/assets/vis.gif"
+import obj from "../components/assets/objectives.gif"
+import ser from "../components/assets/services.gif"
 
 function Abti3f(){
     return(
@@ -23,16 +23,16 @@ function Abti3f(){
         <div class="swiper-slide !bg-transparent">
           <div class="mx-auto space-y-6 text-center md:w-8/12 lg:w-7/12">
             <img
-              class="mx-auto !h-16 !w-16 rounded-full"
+              class="mx-auto h-28 w-28 "
               src={mis}
               alt="user avatar"
-              height="220"
-              width="220"
+              height="400"
+              width="400"
               loading="lazy"
             />
         <h4 class="text-lg font-semibold leading-none">Our Mission</h4>
-            <p>
-              <span class="font-serif">"</span> Identifying, exploring, and developing regional competitiveness, enhancing links between universities and research institutions, and contributing to the growth and success of emerging technology businesses. <span class="font-serif">"</span>
+            <p className="font-normal">
+              <span class="font-serif font-semibold">"</span> Identifying, exploring, and developing regional competitiveness, enhancing links between universities and research institutions, and contributing to the growth and success of emerging technology businesses.<span class="font-serif font-semibold">"</span>
             </p>
             <div>
             </div>
@@ -42,7 +42,7 @@ function Abti3f(){
         <div class="swiper-slide !bg-transparent">
           <div class="mx-auto space-y-6 text-center md:w-8/12 lg:w-7/12">
             <img
-              class="mx-auto !h-16 !w-16 rounded-full"
+              class="mx-auto h-28 w-28 "
               src={vis}
               alt="user avatar"
               height="220"
@@ -50,8 +50,8 @@ function Abti3f(){
               loading="lazy"
             />
         <h4 class="text-lg font-semibold leading-none">Our Vission</h4>
-            <p>
-              <span class="font-serif">"</span> Contributing to raising the GDP of our National Economy through Entrepreneurship, – initiating start-ups and supporting SMEs in the East UP region.<span class="font-serif">"</span>
+            <p className="font-normal">
+              <span class="font-serif font-semibold">"</span> Contributing to raising the GDP of our National Economy through Entrepreneurship, – initiating start-ups and supporting SMEs in the East UP region.<span class="font-serif font-semibold">"</span>
             </p>
             <div>
             </div>
@@ -61,7 +61,7 @@ function Abti3f(){
         <div class="swiper-slide !bg-transparent">
           <div class="mx-auto space-y-6 text-center md:w-8/12 lg:w-7/12">
             <img
-              class="mx-auto !h-16 !w-16 rounded-full"
+              class="mx-auto h-28 w-28 "
               src={obj}
               alt="user avatar"
               height="220"
@@ -69,7 +69,7 @@ function Abti3f(){
               loading="lazy"
             />
         <h4 class="text-lg font-semibold leading-none">Our Objectives</h4>
-            <p>
+            <p className="font-normal">
               <span class="font-serif"></span> I3F has been established with the following objectives-<br></br>
               <div class="text-center"> 
 a. To promote entrepreneurship among students and society in the region<br></br>
@@ -86,7 +86,7 @@ f. To forge a close linkage between new business & academia R & D <br></br>
             <div class="swiper-slide !bg-transparent">
           <div class="mx-auto space-y-6 text-center md:w-8/12 lg:w-7/12">
             <img
-              class="mx-auto !h-16 !w-16 rounded-full"
+              class="mx-auto h-28 w-28 "
               src={ser}
               alt="user avatar"
               height="220"
@@ -94,7 +94,7 @@ f. To forge a close linkage between new business & academia R & D <br></br>
               loading="lazy"
             />
         <h4 class="text-lg font-semibold leading-none">Our Services</h4>
-            <p>
+            <p className="font-normal">
               <span class="font-serif"></span>
               <div class="text-center"> a. Technical due-diligence<br></br>
 b. Training Programs<br></br>
