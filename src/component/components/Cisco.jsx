@@ -32,7 +32,7 @@ function Cisco(){
       <h3 class="my-10 text-center text-2xl font-bold text-fuchsia-800 dark:text-black md:text-4xl">
   Focus Areas
       </h3>
-    <div class="mx-auto grid gap-5 md:w-3/4 lg:w-full lg:grid-cols-3">
+    <div class="z-10 mx-auto grid gap-5 md:w-3/4 lg:w-full lg:grid-cols-3">
       <div class="border border-white-100 dark:border-white-700 rounded-3xl bg-white dark:bg-white-800 px-8 pt-12 shadow-2xl shadow-gray-600/10 dark:shadow-none sm:px-12 lg:px-25">
         <div class="mb-2 space-y-2">
           <h3 class="text-2xl text-center  font-semibold text-gray-800 dark:text-black">AI & IoT</h3>

@@ -31,6 +31,7 @@ h2{
     width:300px;
     height:100px;
     border-right:2px solid black;
+  
 }
 .countuptext1{
     font-family: "Montserrat";
@@ -129,11 +130,12 @@ p{
         display:block;
         
     }
-    .abc h1{
-        font-size: 3rem;
-    }
+   
 .countbody{
     width:100vw;
+}
+.countuptext{
+    border:none;
 }
 .outerdiv{
     flex-direction: column;

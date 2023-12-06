@@ -3,6 +3,9 @@ body{
     /* background-color: white; */
     /* color: black; */
     /* font-family: Inter; */
+    width:100%;
+    margin:0px;
+    padding:0px;
 }
 .h1{
     text-align: center;
@@ -10,10 +13,11 @@ body{
     text-shadow: 4px 4px #FF0000;
 }
 .abi3{
-      justify-content: center; 
+     
      background-color: white; 
      color: black; 
      font-family: Inter; 
+     
 }
 .intro{
     text-align: center;

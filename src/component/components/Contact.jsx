@@ -34,14 +34,14 @@ function Contact() {
   };
 
   return (
-    <div>
-       <Navbar></Navbar>
+    <>
+       <Navbar/>
 
-<div className="mt-32 justify-center items-center w-screen bg-white">
+<div className=" container mt-32 justify-center items-center bg-white  mx-auto">
 <h1>Contact Us</h1>
-  <div className="container mx-auto my-12 px-4 lg:px-20 flex">
+  <div className="mx-auto my-12 px-4 lg:px-20 flex w-full">
  
-    <form onSubmit={handleSubmit(handleSendEmail)} className="w-full">
+    <form onSubmit={handleSubmit(handleSendEmail)} className="w-screen">
       <div className="-mt-16  p-10 md:px-12  lg:pl-20 w-full lg:pr-40 mr-auto rounded-2xl shadow-xl">
       
 
@@ -144,7 +144,7 @@ function Contact() {
   </div>
 </div>
 <Footer></Footer>
-    </div>
+    </>
   );
 }
 

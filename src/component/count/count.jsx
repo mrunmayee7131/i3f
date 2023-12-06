@@ -5,7 +5,7 @@ function Count(){
     return(
         <div className={styles.countbody}>
          <div className={styles.abc}>
-            <h1 >Achievements</h1>
+            <h1 className="text-4xl pt-16 pb-16" >Achievements</h1>
             </div>
          <div className={styles.outerdiv}>
             <div >
@@ -14,7 +14,7 @@ function Count(){
                 <div ><h1  className={styles.countuptext}>  <CountUpWithVisibility start={0} end={130} duration={3} /></h1></div>
             </div>
             </div>
-            <p className="text-xl font-semibold text-gray-500   ">Trained Start ups</p>
+            <p className="text-xl font-semibold text-gray-500">Trained Start ups</p>
             </div>
 
 

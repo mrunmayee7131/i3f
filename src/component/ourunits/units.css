@@ -1,14 +1,16 @@
 .back{
     background-color: white;
-    width:100%;
+    max-width:100%;
+
 }
 .unitimg{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-around;
     padding-top: 50px;
     height:400px;
-     
+    
+   
 }
 .null2{
     height:200px;
@@ -22,13 +24,13 @@
 }
 
 .img1{
-    position: absolute;
-    left:3%;
+    
+    padding: 0px;
+    margin: 0px;
     height:200px;
     /* animation-name: expand1;
     animation-duration:2s;
     animation-fill-mode: forwards; */
-   
 }
 @keyframes expand1{
     0%{
@@ -41,8 +43,8 @@
 
 
 .img2{
-    position: absolute;
-    left:31%;
+  
+    
     height:200px;
     /* animation-name: expand2;
     animation-duration:2s;
@@ -59,8 +61,8 @@
 
 
 .img3{
-    position: absolute;
-    left:56%;
+   
+    
     height:200px;
     /* animation-name: expand3;
     animation-duration:2s;
@@ -79,8 +81,7 @@
     display:none;
 }
 .img4{
-    position: absolute;
-    left:80%;
+   
     height:200px;
     /* animation-name: expand4;
     animation-duration:2s;
@@ -103,10 +104,7 @@
     .back{
         display: none;
     }
-    .back2 img{
-      
-       
-    }
+   
     .grid2{
         width:50vw;
         height:fit-content;
@@ -147,8 +145,6 @@
         align-items: center;
         
     }
-    .back2 h1{
-        font-size: 3rem;
-    }
+   
     
 }

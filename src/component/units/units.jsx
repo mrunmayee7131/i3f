@@ -17,16 +17,16 @@ function Units(){
     const text=document.getElementsByTagName("h3");
     const handleScroll = () => {
       if (window.scrollY > 100 && window.screen.width >300) {
-         imagee[2].classList.add("imgg1");
-         imagee[3].classList.add("imgg2");
-         imagee[4].classList.add("imgg3");
+         imagee[5].classList.add("imgg1");
+         imagee[6].classList.add("imgg2");
+         imagee[7].classList.add("imgg3");
         //  text[0].classList.add("h3");
         //  text[1].classList.add("h3");
         //  text[2].classList.add("h3");
       }else{
-        imagee[2].classList.add("null");
-        imagee[3].classList.add("null");
-        imagee[4].classList.add("null");
+        imagee[5].classList.add("null");
+        imagee[6].classList.add("null");
+        imagee[7].classList.add("null");
         // text[0].classList.add("null");
         // text[0].classList.remove("h3");
         // text[1].classList.add("null");
@@ -42,39 +42,48 @@ function Units(){
     return(
         <div className="body">
               <div>
-            <h1 className="text-6xl">About I3F</h1>
+            <h1 className="text-6xl custom:text-4xl">About I3F</h1>
         </div>
-        <div className="flex justify-around h20 mt-20 md:flex-row flex-col pl-36 pr-36">
+        <div className="flex justify-around h20 mt-20 md:flex-row flex-col lg:pl-36 lg:pr-36">
           <div className="textdiv">
-          <img  src={image1}/>
-          <h3 className="pl-16" >Training</h3>
-          <p className="text-centermob">
+          <img  src={image1} />
+          <h3 className="" >Training</h3>
+          <p className="text-justify ml-6 mr-6">
           The Ideation Innovation & Incubation (I-3) Foundation, known as I3F, operates as a significant Section 8 company functioning as an umbrella organization within IIT (BHU) in Varanasi. Its primary mission revolves around cultivating an entrepreneurial ecosystem and nurturing fledgling startups.
             </p>
             </div>
             <div className="textdiv">
           <img  src={image2} />
-          <h3 className="pl-14">Incubation</h3>
-          <p className="text-centermob">
-                sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus commodi?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus commodi?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus
+          <h3 className="">Incubation</h3>
+          <p className="text-justify ml-6 mr-6">
+          I3F serves as a comprehensive support system, offering what it terms as 'Start to Scale' assistance for budding entrepreneurs.
             </p>
             </div>
             <div className="textdiv">
           <img  src={image3}/>
-          <h3 className="pl-8">Financial Support</h3>
-          <p className="text-centermob">
-                sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus commodi?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus commodi?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti labore sint fugiat repellendus, quas veniam suscipit cumque saepe similique quis accusantium tempore ex nihil quaerat rerum quasi delectus
+          <h3 className="">Financial Support</h3>
+          <p className="text-justify ml-6 mr-6">
+          From ideation to scaling operations, the foundation provides an extensive array of resources and guidance crucial for entrepreneurial success.
             </p>
             </div>
-{/*             
-          <img  src={image} />
-          <img   src={image} /> */}
-        </div>
+            </div>
+         
+         <div className="unitimages">
+            <div className="flex flex-col justify-center align-center">
+          <img  src={image1} />
+          <h3 className="pl-16" >Training</h3>
+          </div>
+          <div className="flex flex-col justify-center align-center">
+          <img  src={image2} />
+          <h3 className="pl-14" >Incubation</h3>
+          </div>
+          <div className="flex flex-col justify-center align-center ">
+          <img  src={image3} />
+          <h3 className="pl-8" >Financial support</h3>
+          </div>
+          </div>
            <div className="unittext">
+          
             <p className="text-center text-xl font-semibold text-gray-500">
             The Ideation Innovation & Incubation (I-3) Foundation, known as I3F, operates as a significant Section 8 company functioning as an umbrella organization within IIT (BHU) in Varanasi. Its primary mission revolves around cultivating an entrepreneurial ecosystem and nurturing fledgling startups.
             </p>

@@ -10,12 +10,12 @@ import Navbar from "../header/navbar";
 import Footer from "../footer2/footer";
 function Abtteam1(){
     return(
-      <div>
+      <div >
           <Navbar />
         <div className={styles.abtt}>
             
-          <div class="bg-white-50 dark:bg-white-800 py-20">
-  <div class="container mx-auto px-6 md:px-12 xl:px-32">
+          <div class="bg-white-50 dark:bg-white-800 py-20 ">
+  <div class="container mx-auto px-6 md:px-12 xl:px-32 w-screen">
     <div class="mb-16">
       <h2 class="mt-8 mb-4 text-center text-2xl font-bold text-gray-800 dark:text-fuchsia-800 md:text-4xl">
         Managing Commitee

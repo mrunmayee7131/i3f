@@ -43,7 +43,7 @@ function Unit(){
     <div className="back">
         <h1>Our Units</h1>
      <div className="unitimg">
-     <div >
+     <div className="">
       <div >
       <Link target="_parent" to="/Cisco"><img   src={image1} className="img1"/></Link>
      </div>
@@ -74,7 +74,7 @@ function Unit(){
 
 
 <div className="back2">
-  <h1>Our Units</h1>
+  <h1 className="text-4xl">Our Units</h1>
 <Link target="_parent" to="/Cisco"> <img  className="grid1" src={grid1}/></Link>
 <Link target="_parent" to="/NIIC"><img   className="grid2" src={grid4}/></Link>
 <Link target="_parent" to="/Rabi"><img   className="grid3" src={grid3}/></Link>

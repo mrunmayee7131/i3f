@@ -36,7 +36,12 @@ body{
 .App-link {
   color: #61dafb;
 }
-
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+  /* Add more variables as needed */
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
