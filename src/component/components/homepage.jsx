@@ -26,7 +26,7 @@ function Homepage() {
   return (
     <>
     <div className="app">
-      <Navbar />
+    <Navbar />
      
         {/* <div className="dululu">
         <h1>Center For <span>{value}</span></h1>
@@ -46,6 +46,7 @@ function Homepage() {
     
       
       {/* <Rot /> */}
+     
     </div>
    
     </>

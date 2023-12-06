@@ -103,10 +103,7 @@
     .back{
         display: none;
     }
-    .back2 img{
-      
-       
-    }
+   
     .grid2{
         width:50vw;
         height:fit-content;
@@ -147,8 +144,6 @@
         align-items: center;
         
     }
-    .back2 h1{
-        font-size: 3rem;
-    }
+   
     
 }

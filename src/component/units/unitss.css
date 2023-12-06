@@ -35,9 +35,10 @@ img{
     
     
 }
-.textdiv img:hover{
-   height:320px;
+.textdiv{
+    display:none;
 }
+
 
 h1{
     color:purple
@@ -106,6 +107,12 @@ h1{
 .text-centermob{
     display:none;
 }
+.unitimages{
+    display:flex;
+    justify-content:space-evenly;
+
+    flex-direction: row;
+}
 @media(max-width:500px){
    .body{
     width:100vw;
@@ -116,9 +123,7 @@ h1{
     justify-content: center;
     /* align-items: center; */
    }
-   .body h1{
-    font-size: 5rem;
-   }
+   
    .imgg1 .imgg2 .imgg3{
     animation-name: none;
    }
@@ -130,16 +135,24 @@ h1{
    .text-centermob{
     display: block;
     /* text-align: center; */
+    margin:0px;
     text-align: justify;
-    margin:40px;
+   
    }
    .textdiv{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:100%;
+   }
+   .textdiv img{
+    height:150px;
    }
    .unittext{
     display: none;
+   }
+   .unitimages{
+    display:none;
    }
 }

@@ -55,9 +55,9 @@ import img from "../components/assets/I3F Logo-1.png"
 // export default Home;
 function Home(){
 return(
-<section class="bg-white  mt:36 h-1200">
+<section class="bg-white  mt:36 h-1200 custom:h-350">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-36 lg:grid-cols-12">
-        <div class="mr-auto place-self-center lg:col-span-7 mt-24">
+        <div class="mr-auto place-self-center lg:col-span-7 ">
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-black ">Innovation Incubation and Ideation Center</h1>
             <p class="max-w-2xl mb-6 ml-12 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"> I3f Foundation , Indian Institute of Technology (BHU) Varanasi</p>
             <a href="#" class="inline-flex ml-12 items-center justify-center px-5 py-3 mr-3 text-base border bg-gray-400 font-medium text-center text-black rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
@@ -69,7 +69,7 @@ return(
             </a> 
         </div>
         <div class="hidden lg:mt-0 lg:col-span-3 lg:flex ">
-            <img src={img} alt="mockup" className="ml-32 mt-24"/>
+            <img src={img} alt="mockup" className="ml-32"/>
             
         </div>    
                 

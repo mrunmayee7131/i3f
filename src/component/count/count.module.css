@@ -129,11 +129,12 @@ p{
         display:block;
         
     }
-    .abc h1{
-        font-size: 3rem;
-    }
+   
 .countbody{
     width:100vw;
+}
+.countuptext{
+    border:none;
 }
 .outerdiv{
     flex-direction: column;

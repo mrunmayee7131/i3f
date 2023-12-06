@@ -24,7 +24,7 @@ function Footer2() {
         <p className="ml-5">Follow Us On</p>
       </div>
         <p class="mt-8 flex gap-6">
-          <li>
+          <li className="list-none">
             <a
               href="/"
               rel="noreferrer"
@@ -48,7 +48,7 @@ function Footer2() {
             </a>
           </li>
 
-          <li>
+          <li className="list-none">
             <a
               href="/"
               rel="noreferrer"
@@ -72,7 +72,7 @@ function Footer2() {
             </a>
           </li>
 
-          <li>
+          <li className="list-none">
             <a
               href="/"
               rel="noreferrer"
@@ -94,7 +94,7 @@ function Footer2() {
             </a>
           </li>
 
-          <li>
+          <li className="list-none">
           <a href="https://www.linkedin.com/in/i3fiitbhu/" className="pr-6 text-neutral-600 brightness-100" target="_blank">
                 <img src={link} alt="LinkedIn" className="h-6 w-6" />
               </a>
@@ -112,25 +112,25 @@ function Footer2() {
           <p class="font-medium text-gray-900">Services</p>
 
           <p class="mt-6 space-y-4 font-normal text-sm">
-            <li>
+            <li className="list-none">
               <Link className="text-gray-700  transition hover:opacity-75" target="_parent" to="/Ip">
                 Incubation Policy
               </Link>
             </li>
 
-            <li>
+            <li className="list-none">
               <Link class="text-gray-700 transition hover:opacity-75" target="_parent" to="/Blog">
                 Blogs
               </Link>
             </li>
 
-            <li>
+            <li className="list-none">
               <Link class="text-gray-700 transition hover:opacity-75" target="_parent" to="Nl">
                 Newsletter
               </Link>
             </li>
 
-            <li>
+            <li className="list-none">
               <Link class="text-gray-700 transition hover:opacity-75" target="_parent" to="Ev">
                 Upcoming Events
               </Link>
