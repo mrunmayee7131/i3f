@@ -41,7 +41,7 @@ function Unit(){
     <div className="back">
         <h1>Our Units</h1>
      <div className="unitimg">
-     <div >
+     <div className="">
       <div >
      <img   src={image1} className="img1"/>
      </div>
