@@ -5,11 +5,9 @@ import logo2 from "./assets/logo2.jpg"
 function Navbar (){
 
 return(
-        <>
-        
-
-<nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 lg:rounded-full lg:mt-4 ">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
+        <div className="sticky top-5">
+<nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 lg:rounded-full lg:mt-4 sticky">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
     <Link to="/"><img src={logo2} className="h-16" /></Link>
 
@@ -136,7 +134,7 @@ return(
   </div>
 </nav>
 
-        </>
+        </div>
     )
 }
 export default Navbar;
