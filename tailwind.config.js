@@ -20,7 +20,10 @@ module.exports = {
       },
       width:{
          '600':'600px'
-      }
+      },
+      screens: {
+        'custom': {'max': '499px'},
+      },
     },
    
   },
