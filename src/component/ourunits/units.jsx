@@ -8,6 +8,8 @@ import image1 from "./assests/Cisco logo.png"
 import image4 from "../components/assets/E-Cell-IIT-BHU-Logo.webp"
 import image2 from "../components/assets/NCL_-IIT__BHU__INCUBATION_CENTRE_1_-removebg-preview-removebg-preview.png"
 import image3 from "./assests/LOGO.png"
+import { Link } from 'react-router-dom';
+
 function Unit(){
 
     // useEffect(() => {
@@ -43,25 +45,25 @@ function Unit(){
      <div className="unitimg">
      <div >
       <div >
-     <img   src={image1} className="img1"/>
+      <Link target="_parent" to="/Cisco"><img   src={image1} className="img1"/></Link>
      </div>
      </div>
 
      <div>
       <div>
-     <img   src={image2} className="img2"/>
+      <Link target="_parent" to="/NIIC"><img   src={image2} className="img2"/></Link>
      </div>
      </div>
 
      <div>
       <div>
-     <img   src={image3} className="img3"/>
+      <Link target="_parent" to="/Rabi"><img   src={image3} className="img3"/></Link>
      </div>
      </div>
 
      <div>
       <div>
-     <img   src={image4} className="img4"/>
+      <Link target="_parent" to="/ecell"><img   src={image4} className="img4"/></Link>
      </div>
      </div>
 
@@ -73,10 +75,10 @@ function Unit(){
 
 <div className="back2">
   <h1>Our Units</h1>
-<img  className="grid1" src={grid1}/>
-<img   className="grid2" src={grid4}/>
-<img   className="grid3" src={grid3}/>
-<img   className="grid4"  src={grid2}/>
+<Link target="_parent" to="/Cisco"> <img  className="grid1" src={grid1}/></Link>
+<Link target="_parent" to="/NIIC"><img   className="grid2" src={grid4}/></Link>
+<Link target="_parent" to="/Rabi"><img   className="grid3" src={grid3}/></Link>
+<Link target="_parent" to="/ecell"><img   className="grid4"  src={grid2}/></Link>
 
 </div>
 </>

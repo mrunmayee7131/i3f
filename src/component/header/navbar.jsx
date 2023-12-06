@@ -36,7 +36,8 @@ const Navbar = () => {
         <div className={styles.dropdown}><button className={styles.dropbtn}>ABOUT 
       <i className="fa fa-caret-down"></i>
     </button>
-    <div className={`${styles.dropdowncontent} ${styles.dropdowncontenta}`}>
+    <div className={styles.dropdowncontent}>
+     {/* ${styles.dropdowncontenta}}> */}
       
       <Link to="/about" target="_parent" >About I3F</Link>
       <Link to="/team" target="_parent">About Team</Link>
