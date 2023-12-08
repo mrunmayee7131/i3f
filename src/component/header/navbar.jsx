@@ -6,7 +6,7 @@ function Navbar (){
 
 return(
         <div className="sticky top-5">
-<nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 lg:rounded-full lg:mt-4 sticky">
+<nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 lg:rounded-full lg:mt-4 sticky opacity-1     ">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
     <Link to="/"><img src={logo2} className="h-16" /></Link>
