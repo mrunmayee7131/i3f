@@ -34,10 +34,10 @@ function Contact() {
   };
 
   return (
-    <>
+    <div>
        <Navbar/>
 
-<div className=" container mt-32 justify-center items-center bg-white  mx-auto">
+<div className=" container mt-20 justify-center items-center bg-white  mx-auto">
 <h1>Contact Us</h1>
   <div className="mx-auto my-12 px-4 lg:px-20 flex w-full">
  
@@ -144,7 +144,7 @@ function Contact() {
   </div>
 </div>
 <Footer></Footer>
-    </>
+    </div>
   );
 }
 

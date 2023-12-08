@@ -15,7 +15,7 @@ function Blog(){
     return(
 <div>
     <Navbar></Navbar>
-<div class="py-20">
+<div class="mb-10">
 <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
 <div class="mb-12 space-y-2 text-center">
 <h2 class="mt-10 text-3xl font-bold text-fuchsia-800 md:text-4xl dark:text-fuchsia">BLOGS</h2>
