@@ -21,10 +21,10 @@ function Services(){
                     <Navbar></Navbar>
         <div className={Classes.sevs}>
         
-  <div class="py-10">
+  <div class="mb-10">
   <div class="xl:container m-auto px-4 text-gray-500 md:px-6">
     <div>
-      <h2 class="mt-16 text-2xl font-bold text-fuchsia-700 dark:text-fuchs   ia md:text-4xl text-center ">
+      <h2 class="mt-2 text-2xl font-bold text-fuchsia-700 dark:text-fuchs   ia md:text-4xl text-center ">
         Our Services/Facilities
       </h2>
     </div>
@@ -180,7 +180,7 @@ function Services(){
     <div class="lg:bg-gray-50 dark:lg:bg-darker lg:p-16 rounded-[4rem] space-y-6 md:flex md:gap-6 justify-center md:space-y-0 lg:items-center">
       <div class="md:5/12 lg:w-1/2">
         <img
-        className="h-96 w-96"
+        className="h-96 w-96 mx-auto"
           src={of}
           alt="image"
           loading="lazy"
@@ -192,7 +192,7 @@ function Services(){
         <h2 class="text-3xl text-center font-bold text-black-900 md:text-4xl dark:text-black">
           Office Facilities
         </h2>
-        <p class="my-8 text-center text-black-600 dark:text-black-300">
+        <p class="my-8 mx-auto text-center text-black-600 dark:text-black-300">
         <li>Office Space</li>
         <li>Computer Systems</li>
         <li>Printers</li>
@@ -220,13 +220,13 @@ function Services(){
       <div class="md:5/12 lg:w-1/2">
         <img
           src={lf}
-          className="object-cover h-96 w-96"
+          className="object-cover h-96 w-96 mx-auto"
         />
       </div>
       <div class="md:7/12 lg:w-1/2">
         <h2 class="text-3xl text-center font-bold text-gray-900 md:text-4xl dark:text-black">
 Lab Facilities        </h2>
-        <p class="my-8 text-center text-gray-600 dark:text-black-300">
+        <p class="my-8 mx-auto text-center text-gray-600 dark:text-black-300">
        <li> Laminar Airflow</li>
        <li>Lyophilizer</li>
        <li>BOD incubator</li>

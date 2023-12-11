@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 function Footer2() {
   return (
     <>
-      <footer class="bg-white">
+      <footer class="mx-auto bg-white">
         <hr />
   <div
     class="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-4"
@@ -21,9 +21,9 @@ function Footer2() {
         <div>
       </div>
       <div>
-        <p className="ml-5">Follow Us On</p>
+        <p className="mx-auto">Follow Us On</p>
       </div>
-        <p class="mt-8 flex gap-6">
+        <p class="mx-auto flex gap-6">
           <li className="list-none">
             <a
               href="/"
@@ -34,7 +34,7 @@ function Footer2() {
               <span class="sr-only">Facebook</span>
 
               <svg
-                class="h-6 w-6"
+                class="  w-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -58,7 +58,7 @@ function Footer2() {
               <span class="sr-only">Instagram</span>
 
               <svg
-                class="h-6 w-6"
+                class="  w-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -82,7 +82,7 @@ function Footer2() {
               <span class="sr-only">Twitter</span>
 
               <svg
-                class="h-6 w-6"
+                class="  w-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -96,7 +96,7 @@ function Footer2() {
 
           <li className="list-none">
           <a href="https://www.linkedin.com/in/i3fiitbhu/" className="pr-6 text-neutral-600 brightness-100" target="_blank">
-                <img src={link} alt="LinkedIn" className="h-6 w-6" />
+                <img src={link} alt="LinkedIn" className="  w-6" />
               </a>
               
           </li>
@@ -109,9 +109,9 @@ function Footer2() {
         class="grid gap-4 sm:col-span-2 sm:grid-cols-1 lg:col-span-2 lg:grid-cols-3"
       >
         <div>
-          <p class="font-medium text-gray-900">Services</p>
+          <p class="font-medium mx-auto text-gray-900">Services</p>
 
-          <p class="mt-6 space-y-4 font-normal text-sm">
+          <p class="mx-auto space-y-4 font-normal text-sm">
             <li className="list-none">
               <Link className="text-gray-700  transition hover:opacity-75" target="_parent" to="/Ip">
                 Incubation Policy
@@ -139,13 +139,13 @@ function Footer2() {
         </div>
 
         <div>
-          <p class="font-medium text-gray-900">Address</p>
-          <div class="mt-4 space-y-6"> 
-            <div className="text-gray-700 transition hover:opacity-75">
-               <a class="text-gray-700 transition hover:opacity-75 text-sm ">Ideation Innovation & Incubation (I-3) Foundation</a> 
+          <p class="font-medium mx-auto text-gray-900">Address</p>
+          <div class=""> 
+            <div className="text-gray-700 mx-auto text-justify transition hover:opacity-75">
+               <a class="text-gray-700 text-sm ">Ideation Innovation & Incubation (I-3) Foundation</a> 
                <br></br>
-               <a class="text-gray-700 transition hover:opacity-75 text-sm">Opposite to Proctor Office, IIT (BHU) Varanasi</a> <br></br>
-               <a class="text-gray-700 transition hover:opacity-75 text-sm">Indian Institute of Technology (Banaras Hindu University) Varanasi </a> <br></br>
+               <a class="text-gray-700 text-sm">Opposite to Proctor Office, IIT (BHU) Varanasi</a> <br></br>
+               <a class="text-gray-700 text-sm">Indian Institute of Technology (Banaras Hindu University) Varanasi </a> <br></br>
                <a class="text-gray-700 transition hover:opacity-75 text-sm">Varanasi-221005, Uttar Pradesh, India</a> 
               </div>
               </div>
@@ -160,6 +160,7 @@ function Footer2() {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                className="mx-auto"
               ></iframe>
         </div>
       </div>

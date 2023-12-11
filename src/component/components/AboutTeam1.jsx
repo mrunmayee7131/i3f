@@ -14,13 +14,13 @@ function Abtteam1(){
           <Navbar />
         <div className={styles.abtt}>
             
-          <div class="bg-white-50 dark:bg-white-800 py-20 ">
+          <div class="bg-white-50 dark:bg-white-800 mb-10 ">
   <div class="container mx-auto px-6 md:px-12 xl:px-32 w-screen">
     <div class="mb-16">
       <h2 class="mt-8 mb-4 text-center text-2xl font-bold text-gray-800 dark:text-fuchsia-800 md:text-4xl">
         Managing Commitee
       </h2>
-      <p class="text-gray-600 dark:text-gray-400 lg:mx-auto lg:w-8/12">
+      <p class="text-gray-600 mx-auto dark:text-gray-400 lg:mx-auto lg:w-8/12">
       "Meet our dedicated managing committee, a group of visionary leaders committed to steering our organization towards excellence and innovation."      </p>
     </div>
     <div class="grid items-center gap-12 md:grid-cols-3">

@@ -6,11 +6,11 @@ function Sc(){
     return(
         <div >
             <Navbar />
-            <div class="py-16">
+            <div class="mb-10">
   <div class="container m-auto px-4 text-white-500 md:px-10 xl:px-8">
   <h2 class="my-10 text-center text-2xl font-bold text-fuchsia-800 dark:text-fuchsia md:text-4xl">
 Satellite Centre      </h2>
-      <p class="my-10 font-normal text-black-600 dark:text-black-300 lg:mx-auto lg:w-8/12">
+      <p class="my-10 mx-auto font-normal text-black-600 dark:text-black-300 lg:mx-auto lg:w-8/12">
       The main establishment of this Centre is at IIT (BHU) and further its Satellite Centres are being developed at Singrauli for extending the benefit of this initiative operational as well as CSR and welfare areas of NCL. As per directive of Ministry of Corporate Affairs, NCL is supporting NIIC under its CSR from last 2 years. The main objectives of this Centre are as follows:<br></br><br></br>
       <li>1.To promote entrepreneurship among students and society</li>
 <li>2.To create support system for Innovation-based enterprises/start-ups</li>

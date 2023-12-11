@@ -4,12 +4,18 @@ import Footer from "../footer2/footer";
 import b1 from "./assets/blog1.webp"
 import b2 from "./assets/blog2.webp"
 import b3 from "./assets/blog3.webp"
+import {
+    Popover,
+    PopoverHandler,
+    PopoverContent,
+    Button,
+  } from "@material-tailwind/react";
 
 function Blog(){
     return(
 <div>
     <Navbar></Navbar>
-<div class="py-20">
+<div class="mb-10">
 <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
 <div class="mb-12 space-y-2 text-center">
 <h2 class="mt-10 text-3xl font-bold text-fuchsia-800 md:text-4xl dark:text-fuchsia">BLOGS</h2>
@@ -37,9 +43,14 @@ Cisco thingQbator is organizing a workshop for the startups by Mr. Rohaan Goswam
 </p>
 
 <div class="flex gap-4">
-<a href="#" class="px-3 py-1 rounded-full border border-gray-100 text-sm font-medium text-primary transition duration-300 hover:border-black hover:bg-black hover:text-white dark:border-gray-700 dark:text-gray-800">
-Click for the Highlights
-</a>
+<Popover>
+      <PopoverHandler>
+        <Button>Click for Highlights</Button>
+      </PopoverHandler>
+      <PopoverContent>
+        <p className="font-normal text-center text-justify ">Content goes here..</p>
+      </PopoverContent>
+    </Popover>
 
 </div>
 </div>
@@ -65,9 +76,14 @@ Create successful startups & learn the basics of funding by Dr. Dhruv Nath</h3>
 To run a successful start-up, the financial aspect plays a major role. Dr. Dhruv Nath, Director, Lead angle network and co-author of “Funding your start-up: And other nightmares” took the session on “Create successful startups & learn the basics of funding”.</p>
 
 <div class="flex gap-4">
-<a href="#" class="px-3 py-1 rounded-full border border-gray-100 text-sm font-medium text-primary transition duration-300 hover:border-black hover:bg-black hover:text-white dark:border-gray-700 dark:text-gray-800">
-Click for the Highlights
-</a>
+<Popover>
+      <PopoverHandler>
+        <Button>Click for Highlights</Button>
+      </PopoverHandler>
+      <PopoverContent>
+        <p className="font-normal text-center text-justify ">Content goes here..</p>
+      </PopoverContent>
+    </Popover>
 
 </div>
 </div>
@@ -93,9 +109,14 @@ Insights of AOP, R-ABI</h3>
 Agirpreneurship Orientation Program of start-ups selected under COHORT-4 has been started from 27-09-2021. This training session covers technical and business aspects to run a start-up.</p>
 
 <div class="flex gap-4">
-<a href="#" class="px-3 py-1 rounded-full border border-gray-100 text-sm font-medium text-primary transition duration-300 hover:border-black hover:bg-black hover:text-white dark:border-gray-700 dark:text-gray-800">
-Click for the Highlights
-</a>
+<Popover>
+      <PopoverHandler>
+        <Button>Click for Highlights</Button>
+      </PopoverHandler>
+      <PopoverContent>
+        <p className="font-normal text-center text-justify ">Content goes here..</p>
+      </PopoverContent>
+    </Popover>
 
 </div>
 </div>

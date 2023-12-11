@@ -3,6 +3,7 @@
 import React from 'react'
 import IMG1 from '../carousel/assets/cisco.webp';
 import IMG2 from '../carousel/assets/Dhruv.webp';
+import { Link } from 'react-router-dom';
 
 
 
@@ -88,7 +89,7 @@ function carousel() {
     </div>
     <div className="mt-6 relative">
       <h3 className="text-xl font-semibold text-gray-500 dark:gray-900 pb-8">
-        {element.Details}<a href="" className='text-lg font-medium text-blue-500 hover:text-blue-900'>Read more</a>
+        {element.Details}<Link className='text-lg font-medium text-blue-500 hover:text-blue-900'target='_parent' to='/Blog'>Read more</Link>
       </h3>
     </div>
   </div>
