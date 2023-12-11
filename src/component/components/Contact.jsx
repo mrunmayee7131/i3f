@@ -52,7 +52,7 @@ function Contact() {
             render={({ field }) => (
               <input
                 {...field}
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline border-none"
                 type="text"
                 placeholder="firstname*"
               />
@@ -65,7 +65,7 @@ function Contact() {
             render={({ field }) => (
               <input
                 {...field}
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline border-none"
                 type="text"
                 placeholder="lastname*"
               />
@@ -77,7 +77,7 @@ function Contact() {
             render={({ field }) => (
               <input
                 {...field}
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline border-none"
                 type="text"
                 placeholder="email*"
               />
@@ -90,7 +90,7 @@ function Contact() {
             render={({ field }) => (
               <input
                 {...field}
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline border-none"
                 type="text"
                 placeholder="subject*"
               />
@@ -106,7 +106,7 @@ function Contact() {
               <textarea
                 {...field}
                 placeholder="Type Your Query Here"
-                className="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline border-none"
               ></textarea>
             )}
           />
