@@ -1,8 +1,10 @@
 .back{
-    background-color: white;
+    background-color:  rgb(242, 242, 242);
     max-width:100%;
-
+    padding-top: 40px;
 }
+
+
 .unitimg{
     display:flex;
     flex-direction: row;
