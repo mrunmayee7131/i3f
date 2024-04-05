@@ -21,7 +21,7 @@ function Rabi(){
   <div class="container m-auto px-4 text-white-500 md:px-10 xl:px-8">
   <h2 class="my-10 text-center text-2xl font-bold text-fuchsia-800 dark:text-fuchsia md:text-4xl">
   RKVY-RAFTAAR AGRI BUSINESS INCUBATOR (R-ABI)      </h2>
-      <a href="https://rkvy-raftaariitbhu.org/" target="_blank"><img src={rabi} className={styles.rabiimg}/></a>
+     <img src={rabi} className={styles.rabiimg}/>
       <p class="my-10 mx-auto text-justify font-normal text-black-600 dark:text-black-300 lg:mx-auto lg:w-8/12">
       The Rashtriya Krishi Vikas Yojna – Remunerative Approaches for Agriculture and Allied Sector Rejuvenation (RKVY-RAFTAAR) Agripreneurship is a scheme of the Ministry of Agriculture and Farmers’ Welfare (MoA&FW), Govt. of India aimed at strengthening infrastructure in agriculture and allied sector in order to promote agripreneurship and agribusiness by providing financial support and nurturing the incubation ecosystem. Ministry of Agriculture & Farmers’ Welfare, Government of India sanctioned to establish RKVY – RAFTAAR Agri-Business Incubator (R-ABI) at Indian Institute of Technology (BHU) Varanasi in January 2019.
       </p>

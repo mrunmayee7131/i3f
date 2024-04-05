@@ -16,3 +16,19 @@
      background-color: white;
      /* width: 100vw; */
         }
+
+        .my {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px; /* Adjust the gap between columns */
+            list-style-type: square;
+        }
+
+        @media(max-width: 600px) {
+            .my {
+                margin-left: 25px;
+                grid-template-columns: repeat(1, minmax(0, 1fr));
+                list-style-type: square;
+               
+            }
+        }

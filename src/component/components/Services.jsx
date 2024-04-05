@@ -24,7 +24,7 @@ function Services(){
   <div class="mb-10">
   <div class="xl:container m-auto px-4 text-gray-500 md:px-6">
     <div>
-      <h2 class="mt-2 text-2xl font-bold text-fuchsia-700 dark:text-fuchs   ia md:text-4xl text-center ">
+      <h2 class="mt-6 text-2xl font-bold text-fuchsia-700 dark:text-fuchs   ia md:text-4xl text-center ">
         Our Services/Facilities
       </h2>
     </div>
@@ -33,27 +33,27 @@ function Services(){
       class="mt-10 grid divide-x divide-y divide-white-100 dark:divide-white-700 overflow-hidden rounded-3xl  sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-7"
     >
       <div class="group relative bg-white dark:bg-white-800 ">
-        <div class="relative space-y-8 py-12 p-8">
-          <img
-            src={tdd}
-            class="w-12"
-            width="512"
-            height="512"
-            alt="burger illustration"
-          />
+      <div class="relative space-y-8 py-12 p-8 flex flex-col items-center"> 
+  <img
+    src={tdd}
+    class="w-12"
+    width="512"
+    height="512"
+    alt="burger illustration"
+  />
 
-          <div class="space-y-2">
-            <h5
-              class="text-xl font-medium text-black-700 dark:text-black transition group-hover:text-primary"
-            >
-              Technical Due-Diligence
-            </h5>
-          </div>
-          
-        </div>
+  <div class="space-y-2">
+    <h5
+      class="text-xl font-medium text-black-700 dark:text-black transition group-hover:text-primary"
+    >
+      Technical Due-Diligence
+    </h5>
+  </div>
+</div>
+
       </div>
       <div class="group relative bg-white dark:bg-white-800 ">
-        <div class="relative space-y-8 py-12 p-8">
+        <div class="relative space-y-8 py-12 p-8 flex flex-col items-center">
           <img
             src={tp}
             class="w-12"
@@ -73,7 +73,7 @@ function Services(){
         </div>
       </div>
       <div class="group relative bg-white dark:bg-white-800 ">
-        <div class="relative space-y-8 py-12 p-8">
+        <div class="relative space-y-8 py-12 p-8 flex flex-col items-center">
           <img
             src={ment}
             class="w-12"
@@ -93,7 +93,7 @@ function Services(){
         </div>
       </div>
       <div class="group relative bg-white dark:bg-white-800 ">
-        <div class="relative space-y-8 py-12 p-8">
+        <div class="relative space-y-8 py-12 p-8 flex flex-col items-center">
           <img
             src={la}
             class="w-12"
@@ -113,7 +113,7 @@ function Services(){
         </div>
       </div>
       <div class="group relative bg-white dark:bg-white-800 ">
-        <div class="relative space-y-8 py-12 p-8">
+        <div class="relative space-y-8 py-12 p-8 flex flex-col items-center">
           <img
             src={ip}
             class="w-12"
@@ -132,7 +132,7 @@ function Services(){
           
         </div>
       </div><div class="group relative bg-white dark:bg-white-800 ">
-        <div class="relative space-y-8 py-12 p-8">
+        <div class="relative space-y-8 py-12 p-8 flex flex-col items-center">
           <img
             src={fund}
             class="w-12"
@@ -151,7 +151,7 @@ function Services(){
           
         </div>
       </div><div class="group relative bg-white dark:bg-white-800 ">
-        <div class="relative space-y-8 py-12 p-8">
+        <div class="relative space-y-8 py-12 p-8 flex flex-col items-center">
           <img
             src={net}
             class="w-12"
@@ -192,7 +192,7 @@ function Services(){
         <h2 class="text-3xl text-center font-bold text-black-900 md:text-4xl dark:text-black">
           Office Facilities
         </h2>
-        <p class="my-8 mx-auto text-center text-black-600 dark:text-black-300">
+        <p class="my-8 mx-auto text-justify text-black-600 dark:text-black-300">
         <li>Office Space</li>
         <li>Computer Systems</li>
         <li>Printers</li>
@@ -224,9 +224,10 @@ function Services(){
         />
       </div>
       <div class="md:7/12 lg:w-1/2">
-        <h2 class="text-3xl text-center font-bold text-gray-900 md:text-4xl dark:text-black">
+        <h2 class="text-3xl font-bold text-gray-900 md:text-4xl text-center dark:text-black">
 Lab Facilities        </h2>
-        <p class="my-8 mx-auto text-center text-gray-600 dark:text-black-300">
+        <p class="my-8 mx-auto text-justify text-gray-600 dark:text-black-300">
+        <ul className={Classes.my}>
        <li> Laminar Airflow</li>
        <li>Lyophilizer</li>
        <li>BOD incubator</li>
@@ -247,7 +248,7 @@ Lab Facilities        </h2>
        <li>Cell sonicator</li>
        <li>Polarizing Microscope</li>
 
-
+</ul>
         </p>
         
           </div> 

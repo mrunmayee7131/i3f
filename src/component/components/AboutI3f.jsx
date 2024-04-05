@@ -11,7 +11,7 @@ function Abti3f(){
     return(
         
 <div>
-            <Navbar />
+            <Navbar />    
             <div className={styles.res}>
             <br></br>
 <div class="mb-10">
@@ -32,7 +32,7 @@ function Abti3f(){
               loading="lazy"
             />
         <h4 class="text-lg font-semibold leading-none">Our Mission</h4>
-            <p className="font-normal mx-auto">
+            <p className="font-normal mx-auto text-justify">
               <span class="font-serif font-semibold">"</span> Identifying, exploring, and developing regional competitiveness, enhancing links between universities and research institutions, and contributing to the growth and success of emerging technology businesses.<span class="font-serif font-semibold">"</span>
             </p>
             <div>
@@ -51,7 +51,7 @@ function Abti3f(){
               loading="lazy"
             />
         <h4 class="text-lg font-semibold leading-none">Our Vission</h4>
-            <p className="font-normal mx-auto">
+            <p className="font-normal mx-auto text-justify">
               <span class="font-serif font-semibold">"</span> Contributing to raising the GDP of our National Economy through Entrepreneurship, – initiating start-ups and supporting SMEs in the East UP region.<span class="font-serif font-semibold">"</span>
             </p>
             <div>
@@ -71,14 +71,14 @@ function Abti3f(){
             />
         <h4 class="text-lg font-semibold leading-none">Our Objectives</h4>
             <p className="font-normal mx-auto">
-              <span class="font-serif"></span> I3F has been established with the following objectives-<br></br>
-              <div class="text-center"> 
-a. To promote entrepreneurship among students and society in the region<br></br>
-b. To create a support system for Innovation-based enterprises/start-ups<br></br>
-c. To encourage technology transfer and commercialization.<br></br>
-d. To sustain job creation and support the “Make in India” Model<br></br>
-e. To provide R & D support to SMEs of the region and business incubators<br></br>
-f. To forge a close linkage between new business & academia R & D <br></br>
+              <span class="font-serif"></span> I3F has been established with the following objectives-
+              <div class="lg:ml-20 text-left"> 
+              <li>To promote entrepreneurship among students and society in the region</li>
+              <li>To create a support system for Innovation-based enterprises/start-ups</li>
+              <li>To encourage technology transfer and commercialization.</li>
+              <li>To sustain job creation and support the “Make in India” Model</li>
+              <li>To provide R & D support to SMEs of the region and business incubators</li>
+              <li>To forge a close linkage between new business & academia R & D </li>
 </div><span class="font-serif"></span>
             </p>
             <div>
@@ -97,13 +97,13 @@ f. To forge a close linkage between new business & academia R & D <br></br>
         <h4 class="text-lg font-semibold leading-none">Our Services</h4>
             <p className="font-normal mx-auto">
               <span class="font-serif"></span>
-              <div class="text-center"> a. Technical due-diligence<br></br>
-b. Training Programs<br></br>
-c. Mentoring<br></br>
-d. Legal advice<br></br>
-e. IP Creation & Protection<br></br>
-f. Funding Support<br></br>
-g. Networking support<br></br></div><span class="font-serif"></span>
+              <div className="lg:ml-28 text-justify "> <li>Technical due-diligence</li>
+              <li>Training Programs</li>
+              <li>Mentoring</li>
+              <li>Legal advice</li>
+              <li>IP Creation & Protection</li>
+              <li>Funding Support</li>
+              <li>Networking support</li></div><span class="font-serif"></span>
             </p>
             <div>
             </div>
