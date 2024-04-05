@@ -139,23 +139,27 @@ Till now 5 Hackathons have been successfully organized and the winners were awar
         
       </div>
     </div>
+    
     <h2 class="my-10 text-center text-2xl font-bold text-fuchsia-800 dark:text-black md:text-4xl">
   Facilities
       </h2>
-    <p class="my-10 mx-auto font-normal text-center text-black-600 dark:text-black-300 lg:mx-auto lg:w-8/12">
-<li>Makerspace Network</li>
-<li>Local Server</li>
-<li>Webex Teams</li>
-<li>Edge Teams</li>
-<li>Edge Routers</li>
-<li>IoT Platforms</li>
-<li>Cloud infra</li>
-<li>Development Boards</li>
-<li>Sensors & Actuators Components</li>
-<li>3D Printing</li>
-<li>Cisco Sparkboard</li>
 
-      </p>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+  <ul className={`${styles.live} ${styles.type2}`} style={{ fontFamily: 'sans-serif', fontSize: '22px' }}>
+    <li>Makerspace Network</li>
+    <li>Local Server</li>
+    <li>Webex Teams</li>
+    <li>Edge Teams</li>
+    <li>Edge Routers</li>
+    <li>IoT Platforms</li>
+    <li>Cloud infra</li>
+    <li>Development Boards</li>
+    <li>Sensors & Actuators Components</li>
+    <li>3D Printing</li>
+    <li>Cisco Sparkboard</li>
+  </ul>
+</div>
+
   </div>
 </div>
                                                           
