@@ -14,16 +14,16 @@ function Footer2() {
       <footer class="mx-auto bg-white">
         <hr />
   <div
-    class="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-4"
+    class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-4"
   >
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-1 lg:grid-cols-3">
+    <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3">
       <div>
         <div>
       </div>
       <div>
-        <p className="mx-auto">Follow Us On</p>
+        <div className="mx-auto mb-10 text-xl">Follow Us On</div>
       </div>
-        <p class="mx-auto flex gap-6">
+        <div class="mx-auto flex gap-6">
           <li className="list-none">
             <a
               href="/"
@@ -102,14 +102,14 @@ function Footer2() {
           </li>
 
           
-        </p>
+        </div>
       </div>
 
       <div
         class="grid gap-4 sm:col-span-2 sm:grid-cols-1 lg:col-span-2 lg:grid-cols-3"
       >
         <div>
-          <p class="font-medium mx-auto text-gray-900">Services</p>
+          <div class="font-medium mx-auto mb-4 text-xl text-gray-900">Services</div>
 
           <p class="mx-auto space-y-4 font-normal text-sm">
             <li className="list-none">
@@ -139,19 +139,19 @@ function Footer2() {
         </div>
 
         <div>
-          <p class="font-medium mx-auto text-gray-900">Address</p>
-          <div class=""> 
+          <div class="font-medium mx-auto mb-4 text-xl text-gray-900">Address</div>
+          {/* <div class="">  */}
             <div className="text-gray-700 mx-auto text-justify transition hover:opacity-75">
                <a class="text-gray-700 text-sm ">Ideation Innovation & Incubation (I-3) Foundation</a> 
                <br></br>
                <a class="text-gray-700 text-sm">Opposite to Proctor Office, IIT (BHU) Varanasi</a> <br></br>
                <a class="text-gray-700 text-sm">Indian Institute of Technology (Banaras Hindu University) Varanasi </a> <br></br>
                <a class="text-gray-700 transition hover:opacity-75 text-sm">Varanasi-221005, Uttar Pradesh, India</a> 
-              </div>
+              {/* </div> */}
               </div>
         </div>
 
-        <div>
+        <div className="lg:ml-10">
         <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d768.3525703248231!2d82.9922069983345!3d25.2604934879394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e339f56f121cf%3A0xd780c7a3972fbb3a!2sTechnology%20Innovation%20%26%20Incubation%20Centre!5e0!3m2!1sen!2sin!4v1692885623650!5m2!1sen!2sin"
                 width="100%"
