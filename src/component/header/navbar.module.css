@@ -227,9 +227,9 @@ nav ul li{
   display:flex;
   justify-content: center;
 }
-  a:hover,a.active{
+  Link.hover,Link.active{
     background: none;
-    color: red;
+    color: black;
   }
   .dropdowncontenta{
     right:0px;

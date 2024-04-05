@@ -12,7 +12,7 @@ import "./App.css";
 
 //  import Abti3f from "./component/components/AboutI3f"
 import Homepage from "./component/components/homepage"
-import Sc from "./component/components/SatelliteCentre"
+
 import Abtteam from "./component/components/AboutTeam1"
 import Cisco from "./component/components/Cisco"
 import Contact from "./component/components/Contact"
@@ -61,7 +61,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Homepage />} />
       <Route path="about" element={<Abt />} />
-      <Route path="satellitecenter" element={<Sc />} />
+     
       <Route path="Rabi" element={<Rabi />} />
       <Route path="team" element={<Abtteam />} />
       <Route path="Cisco" element={<Cisco />} />
