@@ -193,6 +193,8 @@ function Services(){
           Office Facilities
         </h2>
         <p class="my-8 mx-auto text-justify text-black-600 dark:text-black-300">
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+  <ul className={`${Classes.live} ${Classes.type2}`} style={{ fontFamily: 'sans-serif', fontSize: '22px' }}>
         <li>Office Space</li>
         <li>Computer Systems</li>
         <li>Printers</li>
@@ -203,6 +205,7 @@ function Services(){
         <li>Prototype and testing area</li>
         <li>Utilities area</li>
         <li>Power backup using two online UPS (5 & 6 KVA) and 15 KVA DG set</li>
+        </ul></div>
 
         </p>
         
@@ -227,7 +230,8 @@ function Services(){
         <h2 class="text-3xl font-bold text-gray-900 md:text-4xl text-center dark:text-black">
 Lab Facilities        </h2>
         <p class="my-8 mx-auto text-justify text-gray-600 dark:text-black-300">
-        <ul className={Classes.my}>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+  <ul className={`${Classes.live} ${Classes.type2} ${Classes.my}`} style={{ fontFamily: 'sans-serif', fontSize: '22px' }}>
        <li> Laminar Airflow</li>
        <li>Lyophilizer</li>
        <li>BOD incubator</li>
@@ -249,6 +253,7 @@ Lab Facilities        </h2>
        <li>Polarizing Microscope</li>
 
 </ul>
+</div>
         </p>
         
           </div> 
