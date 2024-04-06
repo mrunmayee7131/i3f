@@ -42,21 +42,21 @@ function Units(){
     return(
         <div className="body">
               <div>
-            <h1 className="text-6xl custom:text-4xl">About I3F</h1>
+            <h1 className="text-6xl custom:text-4xl">About I-3F</h1>
         </div>
         <div className="flex justify-around h20 mt-20 md:flex-row flex-col lg:pl-36 lg:pr-36">
           <div className="textdiv">
           <img  src={image1} />
           <h3 className="" >Training</h3>
           <p className="text-justify ml-6 mr-6">
-          The Ideation Innovation & Incubation (I-3) Foundation, known as I3F, operates as a significant Section 8 company functioning as an umbrella organization within IIT (BHU) in Varanasi. Its primary mission revolves around cultivating an entrepreneurial ecosystem and nurturing fledgling startups.
+          The Ideation Innovation & Incubation (I-3) Foundation, known as I-3F, operates as a significant Section 8 company functioning as an umbrella organization within IIT (BHU) in Varanasi. Its primary mission revolves around cultivating an entrepreneurial ecosystem and nurturing fledgling startups.
             </p>
             </div>
             <div className="textdiv">
           <img  src={image2} />
           <h3 className="">Incubation</h3>
           <p className="text-justify ml-6 mr-6">
-          I3F serves as a comprehensive support system, offering what it terms as 'Start to Scale' assistance for budding entrepreneurs.
+          I-3F serves as a comprehensive support system, offering what it terms as 'Start to Scale' assistance for budding entrepreneurs.
             </p>
             </div>
             <div className="textdiv">
@@ -85,10 +85,10 @@ function Units(){
            <div className="unittext">
           
             <p className="text-center text-xl font-semibold text-gray-500">
-            The Ideation Innovation & Incubation (I-3) Foundation, known as I3F, operates as a significant Section 8 company functioning as an umbrella organization within IIT (BHU) in Varanasi. Its primary mission revolves around cultivating an entrepreneurial ecosystem and nurturing fledgling startups.
+            The Ideation Innovation & Incubation (I-3) Foundation, known as I-3F, operates as a significant Section 8 company functioning as an umbrella organization within IIT (BHU) in Varanasi. Its primary mission revolves around cultivating an entrepreneurial ecosystem and nurturing fledgling startups.
             </p>
             <p className="text-center text-xl font-semibold text-gray-500">
-            I3F serves as a comprehensive support system, offering what it terms as 'Start to Scale' assistance for budding entrepreneurs. From ideation to scaling operations, the foundation provides an extensive array of resources and guidance crucial for entrepreneurial success.
+            I-3F serves as a comprehensive support system, offering what it terms as 'Start to Scale' assistance for budding entrepreneurs. From ideation to scaling operations, the foundation provides an extensive array of resources and guidance crucial for entrepreneurial success.
             </p>
           
            </div>

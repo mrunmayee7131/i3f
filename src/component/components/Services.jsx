@@ -28,7 +28,7 @@ function Services(){
         Our Services/Facilities
       </h2>
     </div>
-    <h2 className="mt-7 text-center  text-black text-xl">I3F has collaborated with different organizations to provide following services:</h2>
+    <h2 className="mt-7 text-center  text-black text-xl">I-3F has collaborated with different organizations to provide following services:</h2>
     <div
       class="mt-10 grid divide-x divide-y divide-white-100 dark:divide-white-700 overflow-hidden rounded-3xl  sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-7"
     >

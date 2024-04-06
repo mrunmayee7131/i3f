@@ -17,7 +17,7 @@ function Abti3f(){
 <div class="mb-10">
   <div class="xl:container m-auto px-6 text-black-600 dark:text-black-300 md:px-12 xl:px-6">
     <h2 class="mb-12 text-center text-2xl font-bold text-fuchsia-800 dark:text-fuchsia md:text-4xl">
-      About I3F
+      About I-3F
     </h2>
     <div class="swiper mySwiper">
       <div class="swiper-wrapper pb-6">
@@ -71,7 +71,7 @@ function Abti3f(){
             />
         <h4 class="text-lg font-semibold leading-none">Our Objectives</h4>
             <p className="font-normal mx-auto">
-              <span class="font-serif"></span> I3F has been established with the following objectives-
+              <span class="font-serif"></span> I-3F has been established with the following objectives-
               <div class="lg:ml-20 text-left"> 
               <li>To promote entrepreneurship among students and society in the region</li>
               <li>To create a support system for Innovation-based enterprises/start-ups</li>
