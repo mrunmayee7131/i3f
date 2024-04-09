@@ -22,21 +22,17 @@ function Homepage() {
     <>
     <div className="app">
     <Navbar />
-     
-        {/* <div className="dululu">
-        <h1>Center For <span>{value}</span></h1>
-        </div> */}
-         <Home />
+         {/* <Home /> */}
          
          <Units />
          
          <Unit />
-         <Count />
+         {/* <Count /> */}
          {/* <Current /> */}
       
-          <Ca />
+          {/* <Ca /> */}
         
-         {/* <Ca /> */}
+         <Ca />
       <Footer2 />
     
       
@@ -49,3 +45,4 @@ function Homepage() {
 }
 
 export default Homepage;
+
