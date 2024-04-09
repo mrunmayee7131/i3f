@@ -8,7 +8,7 @@ import Home from "../home/home";
 import Units from "../units/units"
 import Unit from "../ourunits/units"
 import Count from "../count/count"
-import Current from "../currenthappens/current"
+
 import Abt from "../components/AboutI3f"
 // import Circle from "./component/leftimage/circle"
 // import Rot from "./component/rotation/rotation"
@@ -27,11 +27,10 @@ function Homepage() {
          <Units />
          
          <Unit />
-         {/* <Count /> */}
+         <Count />
          {/* <Current /> */}
       
           {/* <Ca /> */}
-        
          <Ca />
       <Footer2 />
     
