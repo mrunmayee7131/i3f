@@ -169,3 +169,12 @@ h1{
     display: none;
   }
 }
+.particleapp{
+  text-align: center;
+}
+#particles canvas {
+  z-index:-5;
+  height:100%;
+  width:100%;
+  
+}

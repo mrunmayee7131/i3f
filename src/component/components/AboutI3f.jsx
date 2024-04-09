@@ -8,6 +8,7 @@ import obj from "../components/assets/objectives.gif"
 import ser from "../components/assets/services.gif"
 
 function Abti3f(){
+  console.log("page rendered");
     return(
         
 <div>

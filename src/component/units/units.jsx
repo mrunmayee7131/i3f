@@ -20,25 +20,18 @@ function Units(){
          imagee[5].classList.add("imgg1");
          imagee[6].classList.add("imgg2");
          imagee[7].classList.add("imgg3");
-        //  text[0].classList.add("h3");
-        //  text[1].classList.add("h3");
-        //  text[2].classList.add("h3");
+        
       }else{
         imagee[5].classList.add("null");
         imagee[6].classList.add("null");
         imagee[7].classList.add("null");
-        // text[0].classList.add("null");
-        // text[0].classList.remove("h3");
-        // text[1].classList.add("null");
-        // text[2].classList.remove("h3");
-        // text[2].classList.add("null");
-        // text[1].classList.remove("h3");
+        
         imagee[2].classList.remove("imgg1");
         imagee[3].classList.remove("imgg2");
         imagee[4].classList.remove("imgg3");
       }
     };
-
+ 
     return(
         <div className="body">
               <div>

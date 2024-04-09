@@ -11,33 +11,7 @@ import image3 from "./assests/LOGO.png"
 import { Link } from 'react-router-dom';
 
 function Unit(){
-
-    // useEffect(() => {
-    //     window.addEventListener('scroll', handleScroll);
-    //     return () => {
-    //       window.removeEventListener('scroll', handleScroll);
-    //     };
-    //   }, []);  
-    // const imagee=document.getElementsByTagName("img");
-    // const handleScroll = () => {
-    //   if (window.scrollY > 1350 ) {
-    //      imagee[5].classList.add("img1");
-    //      imagee[6].classList.add("img2");
-    //      imagee[7].classList.add("img3");
-    //      imagee[8].classList.add("img4");
-    //   }
-    //   else{
-    //     imagee[5].classList.add("null2");
-    //     imagee[5].classList.remove("img1");
-    //     imagee[6].classList.add("null2");
-    //     imagee[6].classList.remove("img2");
-    //     imagee[7].classList.remove("img3");
-    //     imagee[7].classList.add("null2");
-    //     imagee[8].classList.remove("img4");
-    //     imagee[8].classList.add("null2");
-    //    }
-    // };
-
+  console.log("component 3 rendered");
     return(
       <>
     <div className="back">
