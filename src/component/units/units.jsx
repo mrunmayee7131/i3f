@@ -34,7 +34,7 @@ function Units(){
  
     return(
         <div className="body">
-          <div className="h-[2px] w-screen bg-gray-200"/>
+          <div className="h-[2px] w-[100%] bg-gray-200"/>
               <div>
             <h1 className="text-6xl custom:text-4xl">About I-3F</h1>
         </div>
