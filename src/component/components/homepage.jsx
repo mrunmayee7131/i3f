@@ -17,12 +17,7 @@ import Ca from "../carousel/carousel"
 function Homepage() {
 
  
-  const [value,setvalue]=useState("Innovation");
-  useEffect(() => {
-    setTimeout(() => {
-     (value==="Innovation"?setvalue("Incubation"):(value==="Incubation"?setvalue("Ideation"):setvalue("Innovation")))
-    }, 1500);
-  });
+
   return (
     <>
     <div className="app">
