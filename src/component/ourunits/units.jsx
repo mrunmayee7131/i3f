@@ -49,10 +49,10 @@ function Unit(){
 
 <div className="back2">
   <h1 className="text-4xl">Our Units</h1>
-<Link target="_parent" to="/Cisco"> <img  className="grid1" src={grid1}/></Link>
-<Link target="_parent" to="/NIIC"><img   className="grid2" src={grid4}/></Link>
-<Link target="_parent" to="/Rabi"><img   className="grid3" src={grid3}/></Link>
-<Link target="_parent" to="/ecell"><img   className="grid4"  src={grid2}/></Link>
+<Link target="_parent" to="/NIIC"> <img  className="grid1" src={grid1}/></Link>
+<Link target="_parent" to="/Rabi"><img   className="grid2" src={grid4}/></Link>
+<Link target="_parent" to="/ecell"><img   className="grid3" src={grid3}/></Link>
+<Link target="_parent" to="/Cisco"><img   className="grid4"  src={grid2}/></Link>
 
 </div>
 </>
