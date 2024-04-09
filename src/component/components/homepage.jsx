@@ -8,7 +8,7 @@ import Home from "../home/home";
 import Units from "../units/units"
 import Unit from "../ourunits/units"
 import Count from "../count/count"
-import Current from "../currenthappens/current"
+
 import Abt from "../components/AboutI3f"
 // import Circle from "./component/leftimage/circle"
 // import Rot from "./component/rotation/rotation"
@@ -22,10 +22,6 @@ function Homepage() {
     <>
     <div className="app">
     <Navbar />
-     
-        {/* <div className="dululu">
-        <h1>Center For <span>{value}</span></h1>
-        </div> */}
          <Home />
          
          <Units />
@@ -34,9 +30,8 @@ function Homepage() {
          <Count />
          {/* <Current /> */}
       
-          <Ca />
-        
-         {/* <Ca /> */}
+          {/* <Ca /> */}
+         <Ca />
       <Footer2 />
     
       
@@ -49,3 +44,4 @@ function Homepage() {
 }
 
 export default Homepage;
+

@@ -17,18 +17,18 @@ function Units(){
     const text=document.getElementsByTagName("h3");
     const handleScroll = () => {
       if (window.scrollY > 100 && window.screen.width >300) {
-         imagee[5].classList.add("imgg1");
-         imagee[6].classList.add("imgg2");
-         imagee[7].classList.add("imgg3");
+         imagee[4].classList.add("imgg1");
+         imagee[5].classList.add("imgg2");
+         imagee[6].classList.add("imgg3");
         
       }else{
+        imagee[4].classList.add("null");
         imagee[5].classList.add("null");
         imagee[6].classList.add("null");
-        imagee[7].classList.add("null");
         
-        imagee[2].classList.remove("imgg1");
-        imagee[3].classList.remove("imgg2");
-        imagee[4].classList.remove("imgg3");
+        imagee[1].classList.remove("imgg1");
+        imagee[2].classList.remove("imgg2");
+        imagee[3].classList.remove("imgg3");
       }
     };
  
