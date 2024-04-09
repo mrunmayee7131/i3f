@@ -187,6 +187,179 @@ function Rabi(){
   </div>
 </div>
 
+
+
+
+  <div class="xl:container m-auto px-6 py-20 md:px-12 lg:px-20">
+  <div class="m-auto text-center lg:w-7/12">
+      <h2 class="text-2xl font-bold text-gray-800 dark:text-black md:text-4xl">
+        R-ABI : IMPACT
+      </h2>
+    </div>
+
+    <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4 lg:justify-center">
+      <div class="group relative md:w-full ">
+        
+        <div aria-hidden="true" class="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-white-800 shadow-2xl shadow-white-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+        <div class="relative space-y-8 p-8">
+        
+          <h3 class="text-center text-2xl font-semibold text-gray-700 dark:text-gray">Trained Start-ups</h3>
+          <div class="relative flex justify-center">
+            <div class="flex">
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">159</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative md:w-full ">
+        <div aria-hidden="true" class="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-white-800 shadow-2xl shadow-white-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+        <div class="relative space-y-8 p-8">
+          <h3 class="text-center text-2xl font-semibold text-gray-700 dark:text-gray">Incubated Start-ups</h3>
+          <div class="relative flex justify-center">
+            <div class="flex">
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">53</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative md:w-full ">
+        <div aria-hidden="true" class="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-white-800 shadow-2xl shadow-white-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+        <div class="relative space-y-8 p-8">
+          <h3 class="text-center text-2xl font-semibold text-gray-700 dark:text-gray">Recommended
+  Grant-in-Aid Support
+  </h3>
+          <div class="relative flex justify-center">
+            <div class="flex">
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">597 L</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative md:w-full ">
+        <div aria-hidden="true" class="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-white-800 shadow-2xl shadow-white-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+        <div class="relative space-y-8 p-8">
+          <h3 class="text-center text-2xl font-semibold text-gray-700 dark:text-gray">Disbursed
+  Grant-in-Aid Support
+  </h3>
+          <div class="relative flex justify-center">
+            <div class="flex">
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">299.2 L</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative md:w-full ">
+        <div aria-hidden="true" class="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-white-800 shadow-2xl shadow-white-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+        <div class="relative space-y-8 p-8">
+          <h3 class="text-center text-2xl font-semibold text-gray-700 dark:text-gray">Patentable Technologies
+  </h3>
+          <div class="relative flex justify-center">
+            <div class="flex">
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">23</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative md:w-full ">
+        <div aria-hidden="true" class="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-white-800 shadow-2xl shadow-white-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+        <div class="relative space-y-8 p-8">
+          <h3 class="text-center text-2xl font-semibold text-gray-700 dark:text-gray">DPIIT Registrations
+  </h3>
+          <div class="relative flex justify-center">
+            <div class="flex">
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">43</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative md:w-full ">
+        <div aria-hidden="true" class="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-white-800 shadow-2xl shadow-white-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+        <div class="relative space-y-8 p-8">
+          <h3 class="text-center text-2xl font-semibold text-gray-700 dark:text-gray">Rural Entrepreneurs
+  </h3>
+          <div class="relative flex justify-center">
+            <div class="flex">
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">6</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative md:w-full ">
+        <div aria-hidden="true" class="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-white-800 shadow-2xl shadow-white-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+        <div class="relative space-y-8 p-8">
+          <h3 class="text-center text-2xl font-semibold text-gray-700 dark:text-gray">Women Entrepreneurs
+  </h3>
+          <div class="relative flex justify-center">
+            <div class="flex">
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">14</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative md:w-full ">
+        <div aria-hidden="true" class="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-white-800 shadow-2xl shadow-white-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+        <div class="relative space-y-8 p-8">
+          <h3 class="text-center text-2xl font-semibold text-gray-700 dark:text-gray">Launched
+  Innovative Products 
+  </h3>
+          <div class="relative flex justify-center">
+            <div class="flex">
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">136</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative md:w-full ">
+        <div aria-hidden="true" class="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-white-800 shadow-2xl shadow-white-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+        <div class="relative space-y-8 p-8">
+          <h3 class="text-center text-2xl font-semibold text-gray-700 dark:text-gray">Generated Revenue
+  </h3>
+          <div class="relative flex justify-center">
+            <div class="flex">
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">285 L</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative md:w-full ">
+        <div aria-hidden="true" class="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-white-800 shadow-2xl shadow-white-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+        <div class="relative space-y-8 p-8">
+          <h3 class="text-center text-2xl font-semibold text-gray-700 dark:text-gray">Direct Employment
+  </h3>
+          <div class="relative flex justify-center">
+            <div class="flex">
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">243</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative md:w-full ">
+        <div aria-hidden="true" class="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-white-800 shadow-2xl shadow-white-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
+        <div class="relative space-y-8 p-8">
+          <h3 class="text-center text-2xl font-semibold text-gray-700 dark:text-gray">Awards
+  </h3>
+          <div class="relative flex justify-center">
+            <div class="flex">
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">12</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 <div class="mb-16 flex items-center justify-center">
   <a
     href="https://rkvy-raftaariitbhu.org/"
@@ -195,8 +368,7 @@ function Rabi(){
   >
     <span class="relative flex items-center justify-center text-base font-semibold text-sky-600 dark:text-white">Explore more </span>
   </a>
-</div>
-
+</div>                         
       <Footer></Footer>
 </div>
       )
