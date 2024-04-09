@@ -22,7 +22,7 @@ function Homepage() {
     <>
     <div className="app">
     <Navbar />
-         {/* <Home /> */}
+         <Home />
          
          <Units />
          
