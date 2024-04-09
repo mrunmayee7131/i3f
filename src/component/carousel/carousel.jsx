@@ -41,7 +41,7 @@ function Carousel() {
   }
 
   return (
-    <div className="py-12 bg-gray-200">
+    <div className="py-12 bg-gray-50">
       <div className="xl:container m-auto px-6 text-gray-600 xl:px-1">
         <div className="mb-12 space-y-2 text-center">
           <h2 className="text-3xl font-bold text-gray-800 md:text-4xl dark:text-fuchsia-800">Current Happenings</h2>

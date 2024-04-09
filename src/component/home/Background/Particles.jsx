@@ -37,7 +37,7 @@ const ParticlesComponent = (props) => {
         autoPlay:true,
       background: {
         color: {
-          value: "#CBC3E3",
+          value: "#fff",
         },
       },
       fpsLimit: 120,
