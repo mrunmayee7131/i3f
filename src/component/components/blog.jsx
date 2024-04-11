@@ -4,6 +4,7 @@ import Footer from "../footer2/footer";
 import b1 from "./assets/blog1.webp"
 import b2 from "./assets/blog2.webp"
 import b3 from "./assets/blog3.webp"
+import styles from './blog.module.css';
 import {
     Popover,
     PopoverHandler,
@@ -23,23 +24,23 @@ function Blog(){
 
 <div class="lg:w-3/4 xl:w-2/4 lg:mx-auto">
 <div class="group relative -mx-4 sm:-mx-8 p-6 sm:p-8 rounded-3xl bg-white dark:bg-transparent border border-gray-400 dark:shadow-none shadow-2xl shadow-transparent  sm:gap-8 sm:flex transition duration-300 ">
-<div class="sm:w-2/6 rounded-3xl overflow-hidden ">
-<img
-src={b1}
-alt="art cover"
-loading="lazy"
-width="1000"
-height="667"
-class="h-56 sm:h-full w-full object-cover object-top transition duration-500"
-/>
+<div class="sm:w-2/6 overflow-hidden flex justify-center items-center">
+    <img
+        src={b1}
+        alt="art cover"
+        loading="lazy"
+        className="w-full object-cover object-top transition duration-500"
+    />
 </div>
 
+
+
 <div class="sm:p-2 sm:pl-0 sm:w-4/6">
-<span class="mt-4 mb-2 inline-block font-medium text-gray-700 dark:text-gray-800 sm:mt-0">Posted on October 21, 2021 by i3f</span>
+<span class="mt-4 mb-2 inline-block font-medium text-gray-700 dark:text-gray-800 sm:mt-0">Posted on February 15, 2024</span>
 <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">
-Workshop to guide graduate from product MVP to business soft launch</h3>
+CIC meeting of COHORT-6 startups</h3>
 <p class="my-6 text-base text-gray-600 dark:text-gray-700">
-Cisco thingQbator is organizing a workshop for the startups by Mr. Rohaan Goswami, Young entrepreneur, Humanitarian Engineer, TEDx Speaker, COO & Director of Product at Ycenter, on the 21st & 22nd of October, 2021. 
+The online CIC meeting of COHORT-6 startups was held on 6th February 2024. All the13 startups presented their last 3 months progress report along with the financial details of the company. Based on their progress and revenue, the committee recommended 9 startups for the final funding.
 </p>
 
 <div class="flex gap-4">
@@ -48,7 +49,9 @@ Cisco thingQbator is organizing a workshop for the startups by Mr. Rohaan Goswam
         <Button>Click for Highlights</Button>
       </PopoverHandler>
       <PopoverContent>
-        <p className="font-normal text-center text-justify ">Content goes here..</p>
+        <p className="font-normal text-center text-justify ">The online CIC meeting of COHORT-6 startups was held on 6th February 2024. All the13 startups presented their last 3 months progress report along with the financial details of the company. Based on their progress and revenue, the committee recommended 9 startups for the final funding.
+
+</p>
       </PopoverContent>
     </Popover>
 
@@ -57,23 +60,21 @@ Cisco thingQbator is organizing a workshop for the startups by Mr. Rohaan Goswam
 </div>
 <br></br>
 <div class="group relative -mx-4 sm:-mx-8 p-6 sm:p-8 rounded-3xl bg-white dark:bg-transparent border border-gray-400 dark:shadow-none shadow-2xl shadow-transparent  sm:gap-8 sm:flex transition duration-300 ">
-<div class="sm:w-2/6 rounded-3xl overflow-hidden ">
-<img
-src={b2}
-alt="art cover"
-loading="lazy"
-width="1000"
-height="667"
-class="h-56 sm:h-full w-full object-cover object-top transition duration-500"
-/>
+<div class="sm:w-2/6 overflow-hidden flex justify-center items-center">
+    <img
+        src={b2}
+        alt="art cover"
+        loading="lazy"
+        className="w-full object-cover object-top transition duration-500"
+    />
 </div>
 
 <div class="sm:p-2 sm:pl-0 sm:w-4/6">
-<span class="mt-4 mb-2 inline-block font-medium text-gray-700 dark:text-gray-800 sm:mt-0">Posted on October 21, 2021by i3f</span>
+<span class="mt-4 mb-2 inline-block font-medium text-gray-700 dark:text-gray-800 sm:mt-0">Posted on February 15, 2024</span>
 <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">
-Create successful startups & learn the basics of funding by Dr. Dhruv Nath</h3>
+2nd RIC of COHORT-6 and progress review of 4 startups of previous COHORTs</h3>
 <p class="my-6 text-base text-gray-600 dark:text-gray-700">
-To run a successful start-up, the financial aspect plays a major role. Dr. Dhruv Nath, Director, Lead angle network and co-author of “Funding your start-up: And other nightmares” took the session on “Create successful startups & learn the basics of funding”.</p>
+The virtually 2nd RIC meeting of COHORT-6 startups was organized on 23rd January 2024. The startups presented their progress that they had done after 1st RIC. The committee members examined their progress and based on that they shortlisted 13 startups for CIC. The progress review meeting of 4 startups of previous COHORTs was also organized.</p>
 
 <div class="flex gap-4">
 <Popover>
@@ -81,7 +82,9 @@ To run a successful start-up, the financial aspect plays a major role. Dr. Dhruv
         <Button>Click for Highlights</Button>
       </PopoverHandler>
       <PopoverContent>
-        <p className="font-normal text-center text-justify ">Content goes here..</p>
+        <p className="font-normal text-center text-justify w-[300px]">The virtually 2nd RIC meeting of COHORT-6 startups was organized on 23rd January 2024. The startups presented their progress that they had done after 1st RIC. The committee members examined their progress and based on that they shortlisted 13 startups for CIC.The progress review meeting of 4 startups of previous COHORTs was also organized on the same day. All the 4 startups presented their progress report along with Utilization Certificate of last tranche. The committee members recommended the next tranche with certain conditions.
+
+</p>
       </PopoverContent>
     </Popover>
 
@@ -90,23 +93,21 @@ To run a successful start-up, the financial aspect plays a major role. Dr. Dhruv
 </div>
 <br></br>
 <div class="group relative -mx-4 sm:-mx-8 p-6 sm:p-8 rounded-3xl bg-white dark:bg-transparent border border-gray-400 dark:shadow-none shadow-2xl shadow-transparent  sm:gap-8 sm:flex transition duration-300 ">
-<div class="sm:w-2/6 rounded-3xl overflow-hidden ">
-<img
-src={b3}
-alt="art cover"
-loading="lazy"
-width="1000"
-height="667"
-class="h-56 sm:h-full w-full object-cover object-top transition duration-500"
-/>
+<div class="sm:w-2/6 overflow-hidden flex justify-center items-center">
+    <img
+        src={b3}
+        alt="art cover"
+        loading="lazy"
+        className="w-full object-cover object-top transition duration-500"
+    />
 </div>
 
 <div class="sm:p-2 sm:pl-0 sm:w-4/6">
-<span class="mt-4 mb-2 inline-block font-medium text-gray-700 dark:text-gray-800 sm:mt-0">Posted on October 21, 2021 by i3f</span>
+<span class="mt-4 mb-2 inline-block font-medium text-gray-700 dark:text-gray-800 sm:mt-0">Posted on February 15, 2024</span>
 <h3 class="text-2xl font-semibold text-gray-800 dark:text-black">
-Insights of AOP, R-ABI</h3>
+Agripreneurship Orientation Programme (AOP) for COHORT-6</h3>
 <p class="my-6 text-base text-gray-600 dark:text-gray-700">
-Agirpreneurship Orientation Program of start-ups selected under COHORT-4 has been started from 27-09-2021. This training session covers technical and business aspects to run a start-up.</p>
+It is a great pleasure to inform that RKVY-RAFTAAR Agribusiness Incubator, IIT BHU, Varanasi is launching the virtual Agripreneurship Orientation Program (AOP) from Monday, 4th December, 2023 to Friday, 12th January, 2024 for the shortlisted startups of COHORT-6.</p>
 
 <div class="flex gap-4">
 <Popover>
@@ -114,7 +115,7 @@ Agirpreneurship Orientation Program of start-ups selected under COHORT-4 has bee
         <Button>Click for Highlights</Button>
       </PopoverHandler>
       <PopoverContent>
-        <p className="font-normal text-center text-justify ">Content goes here..</p>
+        <p className="font-normal text-center text-justify ">It is a great pleasure to inform that RKVY-RAFTAAR Agribusiness Incubator, IIT BHU, Varanasi is launching the virtual Agripreneurship Orientation Program (AOP) from Monday, 4th December, 2023 to Friday, 12th January, 2024 for the shortlisted startups of COHORT-6.The sessions will power packed by knowledge and insights of the Industry Experts and Business Mentors from various domains. Wishing a very happy learning season to our startups!</p>
       </PopoverContent>
     </Popover>
 

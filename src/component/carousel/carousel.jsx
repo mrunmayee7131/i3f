@@ -9,17 +9,17 @@ function Carousel() {
     {
       IMGUrl: IMG1,
       Details:
-        'Workshop to guide graduate from product MVP to business soft launch.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip lorem ipsum nisi ut.',
+        'The online CIC meeting of COHORT-6 startups was held on 6th February 2024. All the13 startups presented their last 3 months progress report along with the financial details of the company. Based on their progress and revenue, the committee recommended 9 startups for the final funding.',
     },
     {
       IMGUrl: IMG2,
       Details:
-        'Workshop to guide graduate from product MVP to business soft launch.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip lorem ipsum nisi ut.',
+        'The virtually 2nd RIC meeting of COHORT-6 startups was organized on 23rd January 2024. The startups presented their progress that they had done after 1st RIC. The committee members examined their progress and based on that they shortlisted 13 startups for CIC. The progress review meeting of 4 startups of previous COHORTs was also organized.',
     },
     {
       IMGUrl: IMG1,
       Details:
-        'Workshop to guide graduate from product MVP to business soft launch.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip lorem ipsum nisi ut.',
+        'It is a great pleasure to inform that RKVY-RAFTAAR Agribusiness Incubator, IIT BHU, Varanasi is launching the virtual Agripreneurship Orientation Program (AOP) from Monday, 4th December, 2023 to Friday, 12th January, 2024 for the shortlisted startups of COHORT-6. ',
     },
   ];
 

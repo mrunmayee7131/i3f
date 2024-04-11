@@ -246,7 +246,7 @@ function Rabi(){
   </h3>
           <div class="relative flex justify-center">
             <div class="flex">
-              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">299.2 L</span>
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">396.8 L</span>
             </div>
           </div>
         </div>
@@ -272,7 +272,7 @@ function Rabi(){
   </h3>
           <div class="relative flex justify-center">
             <div class="flex">
-              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">43</span>
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">32</span>
             </div>
           </div>
         </div>
@@ -285,7 +285,7 @@ function Rabi(){
   </h3>
           <div class="relative flex justify-center">
             <div class="flex">
-              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">6</span>
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">8</span>
             </div>
           </div>
         </div>
@@ -298,7 +298,7 @@ function Rabi(){
   </h3>
           <div class="relative flex justify-center">
             <div class="flex">
-              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">14</span>
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">17</span>
             </div>
           </div>
         </div>
@@ -325,7 +325,7 @@ function Rabi(){
   </h3>
           <div class="relative flex justify-center">
             <div class="flex">
-              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">285 L</span>
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">1917 L</span>
             </div>
           </div>
         </div>
@@ -351,7 +351,7 @@ function Rabi(){
   </h3>
           <div class="relative flex justify-center">
             <div class="flex">
-              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">12</span>
+              <span class="leading-0 text-7xl font-bold text-gray-800 dark:text-gray">14</span>
             </div>
           </div>
         </div>
